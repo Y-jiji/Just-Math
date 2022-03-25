@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "5839d1894b863ee1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6de549cb64d304d0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "-LaTeX宏-.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81e4f3b30f3b2c4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9608d5c86d0a6b52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6b1f7aae095e097",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb3fffbdc482e729",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b50c83e6cafecf4",
+    "type": "split",
+    "children": [
+      {
+        "id": "04f83bd491bbe1b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fda3bccd8471a1f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "-LaTeX宏-.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6de549cb64d304d0",
+  "lastOpenFiles": [
+    "-LaTeX宏-.md"
+  ]
+}
