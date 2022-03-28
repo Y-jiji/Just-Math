@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "-LaTeX宏-.md",
-            "mode": "source"
+            "file": "+分析-结构-拓扑空间.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "-LaTeX宏-.md",
+                "file": "+分析-结构-拓扑空间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,9 @@
   },
   "active": "6de549cb64d304d0",
   "lastOpenFiles": [
+    "+分析-结构-拓扑空间.md",
+    "-目录-.md",
+    "-书写规范-.md",
     "-LaTeX宏-.md"
   ]
 }
