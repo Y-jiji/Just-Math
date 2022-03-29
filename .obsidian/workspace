@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "6de549cb64d304d0",
+        "id": "a53aba7f8b52e882",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "+分析-结构-拓扑空间.md",
-            "mode": "preview"
+            "file": "代数-关系-序数和基数.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298,
+    "collapsed": true
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -68,13 +69,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "+分析-结构-拓扑空间.md",
+                "file": "代数-关系-序数和基数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -86,11 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6de549cb64d304d0",
+  "active": "a53aba7f8b52e882",
   "lastOpenFiles": [
-    "+分析-结构-拓扑空间.md",
-    "-目录-.md",
+    "代数-关系-序数和基数.md",
+    "分析-结构-抽象测度.md",
+    "-空白模板-.md",
+    "分析-结构-度量空间.md",
     "-书写规范-.md",
-    "-LaTeX宏-.md"
+    "-写作计划-.md",
+    "代数-关系-等价关系和商映射.md",
+    "分析-结构-实数集.md",
+    "分析-结构-拓扑空间.md",
+    "模型-ZFC公理系统.md"
   ]
 }

@@ -1,0 +1,1 @@
+start obsidian://open?vault=Math
