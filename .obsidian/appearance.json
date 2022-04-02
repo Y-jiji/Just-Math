@@ -1,3 +1,11 @@
 {
-  "baseFontSize": 16
+  "baseFontSize": 18,
+  "translucency": false,
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "obsidian",
+    "morandi-greenlish"
+  ],
+  "cssTheme": "",
+  "baseFontSizeAction": true
 }

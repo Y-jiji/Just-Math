@@ -1,0 +1,11 @@
+{
+  "files": [
+    "-YAML-.md",
+    "-Math-Block-.md",
+    "-Line-Break-.md"
+  ],
+  "templaterFiles": [],
+  "newFileTemplates": [],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": false
+}

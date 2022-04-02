@@ -1,9 +1,9 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "写作中",
   "showTags": false,
-  "showAttachments": true,
-  "hideUnresolved": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
@@ -11,48 +11,48 @@
       "query": "file:/\\-*.\\-\\.md/",
       "color": {
         "a": 1,
-        "rgb": 5408992
-      }
-    },
-    {
-      "query": "tag:#空文件",
-      "color": {
-        "a": 1,
-        "rgb": 9074452
+        "rgb": 10978404
       }
     },
     {
       "query": "tag:#写作中",
       "color": {
         "a": 1,
-        "rgb": 16767519
+        "rgb": 12472390
+      }
+    },
+    {
+      "query": "tag:#未完成-正文",
+      "color": {
+        "a": 1,
+        "rgb": 13425847
       }
     },
     {
       "query": "tag:#下游未修改",
       "color": {
         "a": 1,
-        "rgb": 16726072
+        "rgb": 16628920
       }
     },
     {
       "query": "tag:#已完成-正文",
       "color": {
         "a": 1,
-        "rgb": 9362017
+        "rgb": 10400640
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": 0.3,
-  "nodeSizeMultiplier": 1.25868945868946,
-  "lineSizeMultiplier": 3.7994301994302,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 0.937606837606838,
+  "lineSizeMultiplier": 1.97065527065527,
   "collapse-forces": true,
-  "centerStrength": 0.515669515669516,
-  "repelStrength": 10.6552706552707,
-  "linkStrength": 1,
-  "linkDistance": 160,
-  "scale": 0.9999999999999994,
+  "centerStrength": 0.786324786324786,
+  "repelStrength": 1.5954415954416,
+  "linkStrength": 0.923076923076923,
+  "linkDistance": 30,
+  "scale": 2.90309895440968,
   "close": false
 }
