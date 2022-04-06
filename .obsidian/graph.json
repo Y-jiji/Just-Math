@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "写作中",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -53,6 +53,6 @@
   "repelStrength": 1.5954415954416,
   "linkStrength": 0.923076923076923,
   "linkDistance": 30,
-  "scale": 2.90309895440968,
+  "scale": 1.7488306879214839,
   "close": false
 }

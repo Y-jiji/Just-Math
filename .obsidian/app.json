@@ -1,10 +1,20 @@
 {
   "useMarkdownLinks": true,
-  "alwaysUpdateLinks": true,
+  "alwaysUpdateLinks": false,
   "attachmentFolderPath": "Images",
   "showUnsupportedFiles": true,
   "readableLineLength": false,
   "legacyEditor": false,
   "showFrontmatter": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "livePreview": false,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": false,
+  "showIndentGuide": false,
+  "lineWrap": true,
+  "foldIndent": false,
+  "foldHeading": false,
+  "rightToLeft": false,
+  "vimMode": false,
+  "useTab": false
 }

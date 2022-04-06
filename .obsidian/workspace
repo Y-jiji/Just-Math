@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "419d65d0bab624cd",
+        "id": "d20f4321ed322861",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "代数-范畴-函子和自然变换.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#未完成-正文",
+                "query": "\\$",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,8 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348,
-    "collapsed": true
+    "width": 379
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -77,6 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "代数-范畴-函子和自然变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -88,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "代数-范畴-函子和自然变换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,27 +108,30 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "代数-范畴-函子和自然变换.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 284.3333435058594,
     "collapsed": true
   },
-  "active": "419d65d0bab624cd",
+  "active": "d20f4321ed322861",
   "lastOpenFiles": [
-    "-书写规范-.md",
-    "分析-结构-拓扑空间.md",
+    "代数-范畴-函子和自然变换.md",
     "代数-范畴-范畴与态射.md",
+    "逻辑-量词和谓词.md",
+    "-书写规范-.md",
+    "代数-线性代数-线性空间的定义.md",
+    "代数-线性代数-线性空间范畴与线性映射.md",
     "代数-线性代数-线性对偶.md",
-    "-LaTeX符号表-.md",
-    "-写作计划-.md",
-    "逻辑-Boolean值与运算.md",
-    "Images/LaTeX-SymTab-4.png",
-    "Images/LaTeX-SymTab-3.png",
-    "Images/LaTeX-SymTab-2.png"
+    "代数-线性代数-线性变换的Jordan标准型.md",
+    "代数-线性代数-线性变换的上-下三角分解.md",
+    "模型-ZFC公理系统.md"
   ]
 }
