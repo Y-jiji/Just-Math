@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d20f4321ed322861",
+        "id": "ae939191526487d3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-范畴-函子和自然变换.md",
+            "file": "代数-域-标准算术记号.md",
             "mode": "source",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\$",
+                "query": "\\bullet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379
+    "width": 373
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -80,8 +80,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-范畴-函子和自然变换.md",
-                "linksCollapsed": false,
+                "file": "代数-域-标准算术记号.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-范畴-函子和自然变换.md",
+                "file": "代数-域-标准算术记号.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-范畴-函子和自然变换.md"
+                "file": "代数-域-标准算术记号.md"
               }
             }
           }
@@ -118,20 +118,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.3333435058594,
-    "collapsed": true
+    "width": 304.3333435058594
   },
-  "active": "d20f4321ed322861",
+  "active": "ae939191526487d3",
   "lastOpenFiles": [
-    "代数-范畴-函子和自然变换.md",
-    "代数-范畴-范畴与态射.md",
-    "逻辑-量词和谓词.md",
-    "-书写规范-.md",
+    "代数-域-标准算术记号.md",
+    "代数-域-有序域的定义和有理数集的构造.md",
+    "代数-环-整数集的构造和加减法.md",
+    "代数-域-实数域的定义和实数集的构造.md",
+    "代数-域-一元多项式的定义与Euclidean性.md",
+    "代数-域-复数域的定义和复数集的构造.md",
+    "分析-微分-复变函数的奇异点和留数算术.md",
     "代数-线性代数-线性空间的定义.md",
-    "代数-线性代数-线性空间范畴与线性映射.md",
-    "代数-线性代数-线性对偶.md",
-    "代数-线性代数-线性变换的Jordan标准型.md",
-    "代数-线性代数-线性变换的上-下三角分解.md",
-    "模型-ZFC公理系统.md"
+    "代数-环-环的定义.md",
+    "代数-环-一元多项式.md"
   ]
 }

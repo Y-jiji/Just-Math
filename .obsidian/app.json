@@ -16,5 +16,6 @@
   "foldHeading": false,
   "rightToLeft": false,
   "vimMode": false,
-  "useTab": false
+  "useTab": false,
+  "fileSortOrder": "alphabetical"
 }

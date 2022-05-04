@@ -200,6 +200,14 @@
     }
   ],
   "editor:toggle-comments": [],
+  "editor:rename-heading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
   "obsidian-copy-block-link:copy-link-to-block": [
     {
       "modifiers": [
@@ -207,14 +215,6 @@
         "Shift"
       ],
       "key": "C"
-    }
-  ],
-  "editor:rename-heading": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "H"
     }
   ]
 }

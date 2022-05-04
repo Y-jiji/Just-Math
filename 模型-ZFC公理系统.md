@@ -7,16 +7,17 @@ TimeLine:
 | ------------ | ------------ |
 
 # ZFC公理系统
+> 本章旨在通过各种构造将全部的数学对象都变成集合(除了谓词), 包括映射也是一种集合. 
+
 
 ## ::MACRO
 
-| IMPORT                                   | DESCRIPTION                       |
-| ---------------------------------------- | --------------------------------- |
-| [谓词的定义](逻辑-量词和谓词#谓词的定义) | 谓词的类型签名 $\text{<n-props>}$ |
-| [映射谓词](逻辑-量词和谓词#映射谓词)                                         |      映射谓词的类型签名 $\text{<fn-props>}$                             |
+| IMPORT                                   | DESCRIPTION                            |
+| ---------------------------------------- | -------------------------------------- |
+| [谓词的定义](逻辑-量词和谓词#谓词的定义) | 谓词的类型签名 $\text{<n-props>}$      |
+| [映射谓词](逻辑-量词和谓词#映射谓词)     | 映射谓词的类型签名 $\text{<fn-props>}$ |
 
-
-## 集合的定义
+## 集合, 属于谓词
 
 集合不是一个一阶逻辑的概念, 它描述了一种特殊的数学对象, 这个数学对象收集了任何满足某个谓词的对象. 如此一来, 我们就能够用 $\in$ 记号来重述这个谓词, 并通过研究这些集合来研究谓词. 
 
@@ -34,11 +35,13 @@ $$
 (\notin)::a\notin b\Leftrightarrow \neg (a\in b)
 $$
 
-有时为了描述有限个元素的集合, 记号 $\{:\}$ 就显得有些不便, 此时用所谓的列举法来描述一个集合. 
+有时为了描述有限个元素的集合, 记号 $\{:\}$ 就显得有些不便, 此时用列举法来描述一个集合. 
 
 $$
 \{a(1),a(2),\cdots,a(n)\}:=\left\{x:\bigvee_{t=1}^n (x=a(t))\right\}
 $$
+
+另有约定, 若$\text<\phi\text>$ 是一后缀谓词, 则 $\{x\text<\phi\text>:\cdots\}$ 理解为 $\{x:x\text<\phi\text>\and \cdots\}$
 
 ## 集合的运算
 
@@ -132,7 +135,7 @@ $$
 		& \cdots(\text{ZF}-6) \\
 	\\
 	& \forall A\text{<set>}:
-		\forall \phi\text{<props>}:
+		\forall \phi\text{<1-props>}:
 		\{a:a\in A\and \phi(a)\}\text{<set>}
 		& \cdots(\text{ZF}-7) \\
 	\\
@@ -147,7 +150,7 @@ $$
 		& \CondBegin\\
 		& \forall a\in A:\exist t\in a\\
 		& \CondEnd\\
-		& \exist \phi:
+		& \exist \phi\text{<2-props>}:
 			\forall a\in A: \exist! b\in a: \phi(a,b)
 	}
 	& \cdots(\text{C}) \\
@@ -156,9 +159,17 @@ $$
 \end{matrix}
 $$
 
+RMK: 
+
+容易发现一些常规运算在ZFC框架下都是可以运行的, 例如集合的并 $A\cup B$ , 可以略微迂回地描述为 $\{A, B\}$ 中全部元素的交集. ( 使用 ${\rm ZF - 2}$ 和 ${\rm ZF - 4}$ )
+
+至于交集与差集则可描述为 $A$ 被一命题框定的某个子集, 因此也能运行在这个框架下. ( 使用 ${\rm ZF - 7}$ )
+
+多个集合的交也可用 ${\rm ZF-7}$ 来描述. 
+
 ## 元组, 直积
 
-在ZFC公理系统的框架下元组是通过第二条公理构造的. (类似Haskell语言中的列表构造)
+在ZFC公理系统的框架下元组是通过第二条公理构造的. (类似Haskell语言中的列表构造方法)
 
 $$
 \begin{matrix}
@@ -167,7 +178,16 @@ $$
 \end{matrix}
 $$
 
-直积则是指元素的元组的集合, 注意严格来讲直积并不满足交换律. 
+易知元组构造不满足交换律或结合律, 引入下面的运算表示多元元组.  
+
+$$
+\begin{matrix}
+(A, B, \cdots) := \{A, \{A, \{B, \{B, \cdots\}\}\}\}\\
+:::A,B,\cdots\text{<set>}
+\end{matrix}
+$$
+
+直积则是指元素的元组的集合, 注意严格来讲直积并不满足交换律, 默认直积是右结合的. 
 
 $$
 \begin{matrix}
@@ -176,14 +196,140 @@ A\times B := \{(a,b):a\in A\and b\in B\}\\
 \end{matrix}
 $$
 
-## 映射
-
-映射谓词为每个某种对象指定另一种对象, 由于此时我们不深入研究模型论, 因此只给出映射的类型签名的形式和文字描述, 而不形式化地定义它. 
+直积运算的合法性可以通过如下构造来验证
 
 $$
-f: X\to Y
+\FieldEndl{
+    & \forall A, B\text{<set>}:(\Rightarrow)
+}{\;\;}{
+    & \CondEnd\\
+    & C:=\{\{a, b\}: a\in A \and b\in B\}\\
+    \\
+    & C \sube {\frak P}(A \cup B)\\
+    & C\text{<set>}\\
+    \\
+    & (A\times B) \sube {\frak P}(A \cup C)\\
+    & (A\times B)\text{<set>}
+}
 $$
 
+## 映射的定义
 
-- 上式中标识符 $X$ 和 $Y$ 分别被称为 $f$ 的来源和目标, 它们都是集合. 
-- $f$ 对应了一个映射谓词( $\text{fn-props}$, 暂且称其为 $\phi$ ), 它使得当且仅当 $x$ 是 $X$ 中的元素才可能满足 $\phi(x, y)$, 对 $Y$ 同理. 
+另有一说映射可以看作两个集合直积的子集. 映射使得对任意 $X$ 中元素 $x$ , 总有唯一 $Y$ 中元素 $y$ , 使得 $(x, y) \in E$. 
+规定下述的 $\rightarrow$ 运算是右结合的. 
+
+$$
+\begin{matrix}
+(f:X \to Y) := \Field{(\and)}{\;\;}{
+    & X,Y\text{<set>}\\
+    & f\in {\frak P}(X\times Y): \forall x\in X:\exist! y\in Y: (x, y)\in f\\
+}\\
+\end{matrix}
+$$
+
+特规定映射的赋值运算为
+
+$$
+\begin{matrix}
+f(x) :: (x,f(x))\in f\\
+:::\exist X,Y\text{<set>}:(f : X\to Y)\and(x\in X)
+\end{matrix}
+$$
+
+特别地, 如果一个映射的定义域是两个集合的直积, 称这个映射为这两个集合中元素间的二元运算, 赋值时写作中缀形式. 
+
+映射的限制是指减小映射定义域的运算. 
+
+$$
+\begin{matrix}
+f \big|_{Z} := \{(z, f(z)): z\in Z\}\\
+:::\exist X,Y\text{<set>}:(f:X \to Y)\and(Z\in {\frak P}(X))
+\end{matrix}
+$$
+
+集映射是指对一个映射做变换使得它变为其定义域的幂集上的映射. 
+
+$$
+\begin{matrix}
+\hat f::\Field{(\and)}{\;\;}{
+    & (X, Y):: f:X\to Y\\
+    & \hat f:{\frak P}(X)\to {\frak P}(Y)\\
+    & \hat f(E) = \{f(x): x\in E\}\\
+}\\
+::: \exist X,Y\text{<set>}:f:X\to Y
+\end{matrix}
+$$
+
+## 单射, 逆映射
+
+单射是使得不同元素映射到不同值的映射. 
+
+$$
+\begin{matrix}
+f\text{<inj>} :: \Field{(\and)}{\;\;}{
+    & X :: \exist Y: f: X\to Y\\
+    & f(x) = f(y) \Rightarrow x = y
+}\\
+:: \exist X, Y\text{<set>}: f: X\to Y 
+\end{matrix}
+$$
+
+逆映射是定义在值域上的映射, 这里用一种取巧的方法来定义, 可能在有些情况下很难解释其含义, 需要慎用. 
+
+$$
+\begin{matrix}
+f^{\diamond -} :: \Field{(\and)}{\;\;}{
+    & X :: \exist Y: f: X\to Y\\
+    & f^{\diamond -}: \hat f (X) \to X\\
+    & f^{\diamond -}(y) = \bigcup_{x\in X\and f(x) = y} x
+}\\
+:: \exist X, Y\text{<set>}: f: X\to Y
+\end{matrix}
+$$
+
+## 映射的复合
+
+映射复合的符号用菱形算符表示. 
+
+$$
+\begin{matrix}
+f\diamond g :: \Field{(\and)}{\;\;}{
+    & X,Y:: f:X\to Y\\
+    & Z,W:: g:Z\to W\\
+    & (f \diamond g) : X \to W\\
+    & \forall x\in X: f(x) \in Z \Rightarrow f \diamond g (x) = f (g(x))
+}\\
+::: \exist X, Y\text{<set>}: f: X \to Y\\
+::: \exist Z, W\text{<set>}: g: Z\to W\\
+\end{matrix}
+$$
+
+## 单位映射
+
+$$
+\begin{matrix}
+\text{id}(E) := \{(e, e): e\in E\}\\
+::: E \text{<set>}
+\end{matrix}
+$$
+
+## Grothendieck 宇宙
+
+最后要讲述一下Grothendieck宇宙的概念, 它是一个被假设存在的概念, 使得在代数研究当中能够描述足够大的范畴. 
+
+$$
+\text{<u-set>}:=\forall\, {\cal U}\text{<u-set>}:
+\Field{(\and)}{\;\;}{
+    & \forall u\in {\cal U}: u \sube {\cal U}\\
+    & \forall u, v\in {\cal U}: \{u, v\} \in {\cal U}\\
+    & \forall u\in {\cal U}: {\frak P}(u)\in {\cal U}\\
+    & \forall U\in {\frak P}({\cal U}): \bigcup_{u\in U} u \in {\cal U}\\
+    & \varnothing\in {\cal U}\\
+}
+$$
+
+另外, 我们假设
+
+$$
+\forall S\text{<set>}: \exist\, {\cal U}\text{<u-set>}: S\in {\cal U}
+$$

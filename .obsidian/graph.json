@@ -11,35 +11,42 @@
       "query": "file:/\\-*.\\-\\.md/",
       "color": {
         "a": 1,
-        "rgb": 10978404
+        "rgb": 3355443
+      }
+    },
+    {
+      "query": "path:Log",
+      "color": {
+        "a": 1,
+        "rgb": 3355443
+      }
+    },
+    {
+      "query": "path:Draft",
+      "color": {
+        "a": 1,
+        "rgb": 3617591
       }
     },
     {
       "query": "tag:#写作中",
       "color": {
         "a": 1,
-        "rgb": 12472390
+        "rgb": 7123132
       }
     },
     {
       "query": "tag:#未完成-正文",
       "color": {
         "a": 1,
-        "rgb": 13425847
-      }
-    },
-    {
-      "query": "tag:#下游未修改",
-      "color": {
-        "a": 1,
-        "rgb": 16628920
+        "rgb": 5591643
       }
     },
     {
       "query": "tag:#已完成-正文",
       "color": {
         "a": 1,
-        "rgb": 10400640
+        "rgb": 8882679
       }
     }
   ],
@@ -49,10 +56,10 @@
   "nodeSizeMultiplier": 0.937606837606838,
   "lineSizeMultiplier": 1.97065527065527,
   "collapse-forces": true,
-  "centerStrength": 0.786324786324786,
-  "repelStrength": 1.5954415954416,
-  "linkStrength": 0.923076923076923,
-  "linkDistance": 30,
-  "scale": 1.7488306879214839,
+  "centerStrength": 0.461538461538462,
+  "repelStrength": 7.17948717948718,
+  "linkStrength": 1,
+  "linkDistance": 89,
+  "scale": 1.7488306879214903,
   "close": false
 }

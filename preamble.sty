@@ -1,34 +1,82 @@
 %% Some macros defined in Typora but not in Obsidian %%
-\newcommand{\N}{\mathbb N}
-\newcommand{\infin}{\infty}
-\newcommand{\exist}{\exists}
-\newcommand{\sube}{\subseteq}
-\newcommand{\sub}{\subset}
-\newcommand{\supe}{\supseteq}
-\newcommand{\and}{\wedge}
-\newcommand{\or}{\vee}
+\newcommand{\N}{{\mathbb N}}
 \newcommand{\R}{{\mathbb R}}
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\Q}{{\mathbb Q}}
+\newcommand{\infin}{\infty }
+\newcommand{\exist}{\exists }
+\newcommand{\sube}{\subseteq }
+\newcommand{\sub}{\subset }
+\newcommand{\supe}{\supseteq }
+\newcommand{\and}{\wedge }
+\newcommand{\or}{\vee }
 
-%% Some marcos to write block notation  %%
-\newcommand{\Field}[3]{
-    #1\left|\underline{\overline{#2\begin{aligned}
-       #3
-    \end{aligned}#2}}\right|
-}
-\newcommand{\FieldEndl}[3]{
-\left.\begin{aligned}
-    & \left.\begin{aligned}#1\end{aligned}\right.\\
-    & \left|\underline{\overline{#2\begin{aligned}
-       #3
-    \end{aligned}#2}}\right|
-\end{aligned}\right.
-}
-\newcommand{\Guard}[1]{
-\left[~\begin{aligned}
-    #1
-\end{aligned}\right.
-}
+%% 块记号  %%
+\newcommand{\Field}[3]{#1\left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|}
+
+\newcommand{\FieldEndl}[3]{\left.\begin{aligned}& \left.\begin{aligned}#1\end{aligned}\right.\\& \left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|\end{aligned}\right.}
+
+\newcommand{\Guard}[1]{\left[~\begin{aligned}#1\end{aligned}\right.}
+
+% 条件命题记号 %
 \newcommand{\CondBegin}{{\lhd}\,{\lhd}\,{\lhd}}
 \newcommand{\CondEnd}{{\rhd}\,{\rhd}\,{\rhd}}
-\newcommand{\SimIn}{\overset{\sim}{\in}}
-\newcommand{\SimNi}{\overset{\backsim}{\ni}}
+
+% 蕴含命题 %
+\newcommand{\Larrow}{\Leftarrow}
+\newcommand{\Rarrow}{\Rightarrow}
+\newcommand{\LRarrow}{\Leftrightarrow}
+
+% 序数 %
+\newcommand{\MonoTo}{\overset{\rm Mono}\to}
+
+% 环 % 
+\newcommand{\RingSub}{\overset{\rm Ring}\sub }
+\newcommand{\OrdRingSub}{\overset{\rm OrdRing}\sub }
+\newcommand{\RingTo}{\overset{\rm Ring}\to }
+\newcommand{\OrdRingTo}{\overset{\rm OrdRing}\to }
+
+% 域 %
+\newcommand{\FieldSub}{\overset{\rm Field}\sub }
+\newcommand{\OrdFieldSub}{\overset{\rm OrdField}\sub }
+\newcommand{\FieldTo}{\overset{\rm Field}\to}
+\newcommand{\OrdFieldTo}{\overset{\rm OrdField}\to}
+
+% 线性空间 %
+\newcommand{\LinTo}{\overset{\text{Lin}}{\to}}
+\newcommand{\LinCap}{\overset{\text{Lin}}{\cap}}
+\newcommand{\LinOplus}{\overset{\text{Lin}}{\oplus}}
+\newcommand{\LinSub}{\overset{\text{Lin}}{\sub}}
+\newcommand{\LinSup}{\overset{\text{Lin}}{\supset}}
+
+% 拓扑空间 %
+\newcommand{\Interior}[1]{\underset{#1}{\text{Interior}}}
+\newcommand{\Limit}[1]{\underset{#1}{\text{Limit}}}
+\newcommand{\Closure}[1]{\underset{#1}{\text{Closure}}}
+
+% 代数通用 %
+\newcommand{\img}{{\text{img }}}
+
+% 序数和基数 %
+\newcommand{\card}{{\text{card }}}
+
+% 范畴论 %
+\newcommand{\category}{{\rm category}}
+\newcommand{\Ob}{{\rm Ob}}
+\newcommand{\Mor}{{\rm Mor}}
+\newcommand{\Hom}{{\rm Hom}}
+\newcommand{\id}{{\rm id}}
+
+\newcommand{\Isom}{{\rm Isom}}
+\newcommand{\End}{{\rm End}}
+\newcommand{\Aut}{{\rm Aut}}
+
+\newcommand{\CatSub}{\overset{\rm Cat}\sub }
+\newcommand{\FullCatSub}{\overset{\text{Full-Cat}}\sub }
+
+\newcommand{\FunctorTo}{\rightrightarrows }
+\newcommand{\Fct}{{\rm Fct}}
+
+% 集合论 %
+\newcommand{\Pow}{{\frak P}}
