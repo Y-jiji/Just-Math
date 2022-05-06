@@ -19,7 +19,7 @@ TimeLine:
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | [集合的定义](模型-ZFC公理系统#集合%20属于谓词)           | 属于关系 $\in$ <br /> 集合的描述法 $\{:\}$ <br /> 集合的列举法 $\{\}$                                                                  |
 | [集合的运算](模型-ZFC公理系统#集合的运算)           | 包含 $\sube$ <br /> 交集 $\cup$ <br /> 并集 $\cap$ <br /> 差集 $\diagdown$ <br /> 多个集合的并 $\bigcup$ <br /> 多个集合的交 $\bigcap$ |
-| [幂集的定义](模型-ZFC公理系统#幂集的定义)           | 幂集 ${\frak P}$                                                                                                                       |
+| [幂集的定义](模型-ZFC公理系统#幂集的定义)           | 幂集 $\Pow$                                                                                                                       |
 | [ZFC集合模型](模型-ZFC公理系统#ZFC集合模型)         | 集合的类型签名 $\text{<set>}$                                                                                                          |
 | [拓扑空间的定义](分析-结构-拓扑空间#拓扑空间的定义) | 拓扑空间的类型签名 $\text{top-space}$ <br />                                                                                           |
 
@@ -41,7 +41,7 @@ $$
     \\
     & \text{DISTINCT}({\cal A}):=\forall E,E'\in {\cal A}:E\cap E'=\varnothing \or E=E'\\\\
     & \forall E\in {\cal S}: 
-        \exist {\cal A} \in {\frak P}({\cal S}):
+        \exist {\cal A} \in \Pow({\cal S}):
         \Field{(\and)}{\;\;}{
             & \card  {\cal A} \prec \aleph(0)\\
             & E = \bigcup_{F\in {\cal A}}F\\
@@ -80,7 +80,7 @@ $$
     & {\cal S}\supe \bigg\{\Omega\diagdown E : E\in {\cal S}\bigg\}\\
     & {\cal S}\supe \left\{
         \bigcup_{E\in {\cal A}} E: 
-        {\cal A} \in {\frak P}({\cal S})
+        {\cal A} \in \Pow({\cal S})
         \and \card  {\cal A} = \aleph(0)
     \right\}\\\\
 }
@@ -234,14 +234,14 @@ $$
 \begin{matrix}
 \text{Carath}(X,\mu_*)
     :=\bigg\{
-        E\in {\frak P}(X):
-            \forall A\in {\frak P}(X):
+        E\in \Pow(X):
+            \forall A\in \Pow(X):
             \mu_*(A\cap E)+\mu_*(A \diagdown E)
             =\mu_*(A)
     \bigg\}\\
 \left.\begin{aligned}
     & :::X\text{<set>}\\
-    & :::\mu_*:{\frak P}(X)\to [0,\infin]\\
+    & :::\mu_*:\Pow(X)\to [0,\infin]\\
     & :::\mu_*\text{<ex-measure>}
 \end{aligned}\right.
 \end{matrix}
@@ -252,7 +252,7 @@ RMK: 注意是用给定的集合分划其他集合, 而不是反过来.
 $$
 \FieldEndl{
     & \forall X\text{<set>}\\
-    & \forall \mu:{\frak P}(X)\to [0,\infin]
+    & \forall \mu:\Pow(X)\to [0,\infin]
 }{\;\;}{
     & \CondBegin\\
     & \mu\text{<ex-measure>}\\
@@ -268,19 +268,19 @@ $$
 $$
 \FieldEndl{
     & \forall X\text{<set>}:\\
-    & \forall \mu:{\frak P}(X)\to [0,\infin]:(\Rightarrow)
+    & \forall \mu:\Pow(X)\to [0,\infin]:(\Rightarrow)
 }{\;\;}{
     & \CondBegin\\
     & \mu\text{<ex-measure>}\\
     & \CondEnd\\
     & {\cal M}:=\text{Carath}(X,\mu)\\
     \\
-    & \forall A\in {\frak P}(X): \mu(A\cap \varnothing)+\mu(A\diagdown \varnothing)=\mu(A)\\
+    & \forall A\in \Pow(X): \mu(A\cap \varnothing)+\mu(A\diagdown \varnothing)=\mu(A)\\
     & {\cal M}\supe \Big\{X,\varnothing\Big\}\\
     \\
     & \FieldEndl{
         & \forall E\in {\cal M}:
-            \forall A\in {\frak P}(X):
+            \forall A\in \Pow(X):
         (\and)}
     {\;\;}{
         & \mu(A\diagdown E)=\mu(A\cap (X\diagdown E))\\
@@ -294,7 +294,7 @@ $$
     & E^{\complement}:=X\diagdown E\\
     \\
     & \FieldEndl{
-        & \forall E,F\in {\cal M}:\forall A\in {\frak P}(X):(\Rightarrow)
+        & \forall E,F\in {\cal M}:\forall A\in \Pow(X):(\Rightarrow)
     }{\;\;}{
         & \CondBegin\\
         & \mu(A\cap E\cap F)+\mu(A\cap (E\cap F)^\complement)\\
@@ -319,7 +319,7 @@ $$
 $$
 \FieldEndl{
     & \forall X\text{<set>}\\
-    & \forall \mu:{\frak P}(X)\to [0,\infin]
+    & \forall \mu:\Pow(X)\to [0,\infin]
 }{\;\;}{
     & \CondBegin\\
     & \mu\text{<ex-measure>}\\
@@ -335,7 +335,7 @@ $$
         & G(N) :=  \bigcup_{n=1}^N E(n) ::: N \ne \infin\\
         & G(N) := \bigcup_{n=1}^\infin E(n) ::: N = \infin\\
         & \FieldEndl{
-            \forall A\in {\frak P}(X):(\Rightarrow)
+            \forall A\in \Pow(X):(\Rightarrow)
         }{\;\;}{
             & \CondEnd\\
             & \forall N\in \N^*:\mu(A \diagdown G(\infin)) \le \mu(A \diagdown G(N))\\

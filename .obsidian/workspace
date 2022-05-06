@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-域-标准算术记号.md",
-            "mode": "source",
+            "file": "代数-域-有序域的定义和有理数集的构造.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-域-标准算术记号.md",
+                "file": "代数-域-有序域的定义和有理数集的构造.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-域-标准算术记号.md",
+                "file": "代数-域-有序域的定义和有理数集的构造.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-域-标准算术记号.md"
+                "file": "代数-域-有序域的定义和有理数集的构造.md"
               }
             }
           }
@@ -118,12 +118,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594
+    "width": 304.3333435058594,
+    "collapsed": true
   },
   "active": "ae939191526487d3",
   "lastOpenFiles": [
-    "代数-域-标准算术记号.md",
     "代数-域-有序域的定义和有理数集的构造.md",
+    "代数-域-标准算术记号.md",
     "代数-环-整数集的构造和加减法.md",
     "代数-域-实数域的定义和实数集的构造.md",
     "代数-域-一元多项式的定义与Euclidean性.md",

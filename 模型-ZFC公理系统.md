@@ -72,7 +72,7 @@ $$
 幂集是指一个集合的全部子集的集合. 之所以称为幂集, 是因为在有限维情况下, 它的元素的个数恰为 $2$ 的原集合元素个数次幂. 
 
 $$
-	{\frak P}(X):=\{A:A\sube X\}
+	\Pow(X):=\{A:A\sube X\}
 $$
 
 ## Russell悖论
@@ -131,7 +131,7 @@ $$
 		\{y:\exist x\in A:\phi(x,y)\}\text{<set>}
 		& \cdots(\text{ZF}-5) \\
 	\\
-	& \forall A\text{<set>}: {\frak P}(A)\text{<set>}
+	& \forall A\text{<set>}: \Pow(A)\text{<set>}
 		& \cdots(\text{ZF}-6) \\
 	\\
 	& \forall A\text{<set>}:
@@ -205,10 +205,10 @@ $$
     & \CondEnd\\
     & C:=\{\{a, b\}: a\in A \and b\in B\}\\
     \\
-    & C \sube {\frak P}(A \cup B)\\
+    & C \sube \Pow(A \cup B)\\
     & C\text{<set>}\\
     \\
-    & (A\times B) \sube {\frak P}(A \cup C)\\
+    & (A\times B) \sube \Pow(A \cup C)\\
     & (A\times B)\text{<set>}
 }
 $$
@@ -222,7 +222,7 @@ $$
 \begin{matrix}
 (f:X \to Y) := \Field{(\and)}{\;\;}{
     & X,Y\text{<set>}\\
-    & f\in {\frak P}(X\times Y): \forall x\in X:\exist! y\in Y: (x, y)\in f\\
+    & f\in \Pow(X\times Y): \forall x\in X:\exist! y\in Y: (x, y)\in f\\
 }\\
 \end{matrix}
 $$
@@ -243,7 +243,7 @@ $$
 $$
 \begin{matrix}
 f \big|_{Z} := \{(z, f(z)): z\in Z\}\\
-:::\exist X,Y\text{<set>}:(f:X \to Y)\and(Z\in {\frak P}(X))
+:::\exist X,Y\text{<set>}:(f:X \to Y)\and(Z\in \Pow(X))
 \end{matrix}
 $$
 
@@ -253,7 +253,7 @@ $$
 \begin{matrix}
 \hat f::\Field{(\and)}{\;\;}{
     & (X, Y):: f:X\to Y\\
-    & \hat f:{\frak P}(X)\to {\frak P}(Y)\\
+    & \hat f:\Pow(X)\to \Pow(Y)\\
     & \hat f(E) = \{f(x): x\in E\}\\
 }\\
 ::: \exist X,Y\text{<set>}:f:X\to Y
@@ -322,8 +322,8 @@ $$
 \Field{(\and)}{\;\;}{
     & \forall u\in {\cal U}: u \sube {\cal U}\\
     & \forall u, v\in {\cal U}: \{u, v\} \in {\cal U}\\
-    & \forall u\in {\cal U}: {\frak P}(u)\in {\cal U}\\
-    & \forall U\in {\frak P}({\cal U}): \bigcup_{u\in U} u \in {\cal U}\\
+    & \forall u\in {\cal U}: \Pow(u)\in {\cal U}\\
+    & \forall U\in \Pow({\cal U}): \bigcup_{u\in U} u \in {\cal U}\\
     & \varnothing\in {\cal U}\\
 }
 $$
