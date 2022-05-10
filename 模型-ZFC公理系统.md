@@ -43,6 +43,12 @@ $$
 
 另有约定, 若$\text<\phi\text>$ 是一后缀谓词, 则 $\{x\text<\phi\text>:\cdots\}$ 理解为 $\{x:x\text<\phi\text>\and \cdots\}$
 
+另有一个集合表示没有元素处于其中. 
+
+$$
+\varnothing := \{\}
+$$
+
 ## 集合的运算
 
 集合之间有几类基本的运算

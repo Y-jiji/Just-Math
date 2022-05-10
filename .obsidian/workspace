@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ae939191526487d3",
+        "id": "53a2c8026bed8cbf",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-域-有序域的定义和有理数集的构造.md",
+            "file": "分析-结构-度量空间.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\bullet",
+                "query": "序数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 375.0083885192871
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -80,9 +80,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-域-有序域的定义和有理数集的构造.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
+                "file": "分析-结构-度量空间.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-域-有序域的定义和有理数集的构造.md",
+                "file": "分析-结构-度量空间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,29 +109,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-域-有序域的定义和有理数集的构造.md"
+                "file": "分析-结构-度量空间.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594,
-    "collapsed": true
+    "width": 304.3333435058594
   },
-  "active": "ae939191526487d3",
+  "active": "53a2c8026bed8cbf",
   "lastOpenFiles": [
-    "代数-域-有序域的定义和有理数集的构造.md",
-    "代数-域-标准算术记号.md",
-    "代数-环-整数集的构造和加减法.md",
-    "代数-域-实数域的定义和实数集的构造.md",
-    "代数-域-一元多项式的定义与Euclidean性.md",
-    "代数-域-复数域的定义和复数集的构造.md",
-    "分析-微分-复变函数的奇异点和留数算术.md",
-    "代数-线性代数-线性空间的定义.md",
+    "分析-结构-度量空间.md",
+    "代数-关系-序关系.md",
+    "代数-关系-基数.md",
+    "代数-环-整数环的定义和整数集的构造.md",
+    "代数-环-整环.md",
+    "代数-环-交换环的定义.md",
     "代数-环-环的定义.md",
-    "代数-环-一元多项式.md"
+    "代数-环-交换环初探.md",
+    "代数-环-Euclid环.md",
+    "代数-环-孙子定理.md"
   ]
 }
