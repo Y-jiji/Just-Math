@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "分析-结构-度量空间.md",
+            "file": "代数-群-群的定义.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "序数",
+                "query": "\\to \\infin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分析-结构-度量空间.md",
+                "file": "代数-群-群的定义.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分析-结构-度量空间.md",
+                "file": "代数-群-群的定义.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分析-结构-度量空间.md"
+                "file": "代数-群-群的定义.md"
               }
             }
           }
@@ -118,19 +118,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594
+    "width": 304.3333435058594,
+    "collapsed": true
   },
   "active": "53a2c8026bed8cbf",
   "lastOpenFiles": [
-    "分析-结构-度量空间.md",
-    "代数-关系-序关系.md",
-    "代数-关系-基数.md",
-    "代数-环-整数环的定义和整数集的构造.md",
-    "代数-环-整环.md",
-    "代数-环-交换环的定义.md",
-    "代数-环-环的定义.md",
-    "代数-环-交换环初探.md",
-    "代数-环-Euclid环.md",
-    "代数-环-孙子定理.md"
+    "代数-群-群的定义.md",
+    "代数-群-群同态和正规子群.md",
+    "代数-范畴-范畴与态射.md",
+    "代数-群-群范畴.md",
+    "代数-群-自由群和生成子群.md",
+    "组合-自动机-字符串.md",
+    "-LaTeX符号表-.md",
+    "代数-群-直积和半直积.md",
+    "代数-线性代数-线性空间的定义.md",
+    "代数-线性代数-内积空间的定义.md"
   ]
 }
