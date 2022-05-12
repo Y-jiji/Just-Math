@@ -23,7 +23,7 @@
 \newcommand{\CondBegin}{{\lhd}\,{\lhd}\,{\lhd}}
 \newcommand{\CondEnd}{{\rhd}\,{\rhd}\,{\rhd}}
 
-% 蕴含命题 %
+% 蕴含与等价命题 %
 \newcommand{\Larrow}{\Leftarrow}
 \newcommand{\Rarrow}{\Rightarrow}
 \newcommand{\LRarrow}{\Leftrightarrow}
@@ -31,14 +31,12 @@
 % 序数 %
 \newcommand{\MonoTo}{\overset{\rm Mono}\to}
 
-% 半群 %
+% 幺半群 %
 \newcommand{\monoid}{{\rm monoid}}
 
 % 群 %
 \newcommand{\group}{{\rm group}}
 \newcommand{\gker}{\operatorname{\rm gker}}
-\newcommand{\abker}{\operatorname{\rm abker}}
-\newcommand{\AbGroupSub}{\overset{\rm AbGroup}\sub }
 \newcommand{\Grp}{{\mathtt{Grp}}}
 \newcommand{\GroupTo}{\overset{\rm Group}\to }
 \newcommand{\GroupTimes}{\overset{\rm Group}\times }
@@ -48,63 +46,92 @@
 \newcommand{\GroupSub}{\overset{\rm Group}{\sub}}
 \newcommand{\FreeGrp}{\mathsf{FreeGrp}}
 
+% 交换群 %
+\newcommand{\abgroup}{{\rm abgroup}}
+\newcommand{\AbGroupSub}{\overset{\rm AbGroup}\sub }
+\newcommand{\abker}{\operatorname{\rm abker}}
+
 % 环 % 
-\newcommand{\ring}{{\rm ring}}
-\newcommand{\rker}{\operatorname{\rm rker}}
-\newcommand{\RingSub}{\overset{\rm Ring}\sub }
-\newcommand{\OrdRingSub}{\overset{\rm OrdRing}\sub }
-\newcommand{\RingTo}{\overset{\rm Ring}\to }
-\newcommand{\OrdRingTo}{\overset{\rm OrdRing}\to }
-\newcommand{\Frac}{\text{Frac}}
-\newcommand{\RingCap}{\overset{\rm Ring}\cap }
-\newcommand{\RingBigCap}{\overset{\rm Ring}\bigcap}
+\newcommand{\ring}{{\rm ring}}                    % 环的定义
+\newcommand{\RingTo}{\overset{\rm Ring}\to }      % 环同态
+\newcommand{\riker}{\operatorname{\rm riker}}     % 环同态的核
+\newcommand{\Frac}{\text{Frac}}                   % 局部化
+\newcommand{\RingSub}{\overset{\rm Ring}\sub }    % 子环
+
+\newcommand{\RingCap}{\overset{\rm Ring}\cap }      % 环的交
+\newcommand{\RingBigCap}{\overset{\rm Ring}\bigcap} % 多个环的交
+
+\newcommand{\Ring}{\mathtt{Ring}}
+
+% 有序环 % 
+\newcommand{\OrdRingSub}{\overset{\rm OrdRing}\sub} % 有序环的定义
+\newcommand{\OrdRingTo}{\overset{\rm OrdRing}\to}   % 有序环同态
+
+
+% 无幺环 %
+\newcommand{\rng}{{\rm rng}}                     % 无幺环的定义
+\newcommand{\RngTo}{\overset{\rm Rng}\to }       % 无幺环同态
+\newcommand{\rker}{\operatorname{\rm rker}}      % 无幺环同态的核
+\newcommand{\Ring}{\mathtt{Rng}}
+
+% 交换环 %
+\newcommand{\comring}{{\rm comring}}               % 交换环的定义
+
+% 整环 %
+\newcommand{\entring}{{\rm entring}}               % 整环的定义
 
 % 域 %
-\newcommand{\fker}{\operatorname{\rm fker}}
-\newcommand{\FieldSub}{\overset{\rm Field}\sub }
-\newcommand{\OrdFieldSub}{\overset{\rm OrdField}\sub }
-\newcommand{\FieldTo}{\overset{\rm Field}\to}
-\newcommand{\OrdFieldTo}{\overset{\rm OrdField}\to}
+\newcommand{\FieldTo}{\overset{\rm Field}\to}      % 域同态
+\newcommand{\fker}{\operatorname{\rm fker}}        % 域同态的核     
+\newcommand{\FieldSub}{\overset{\rm Field}\sub}    % 子域
+
+% 有序域 %
+\newcommand{\OrdFieldTo}{\overset{\rm OrdField}\to}    % 有序域同态
+\newcommand{\OrdFieldSub}{\overset{\rm OrdField}\sub}  % 子有序域
 
 % 线性空间 %
-\newcommand{\LinTo}{\overset{\text{Lin}}{\to}}
-\newcommand{\LinCap}{\overset{\text{Lin}}{\cap}}
-\newcommand{\LinOplus}{\overset{\text{Lin}}{\oplus}}
-\newcommand{\LinSub}{\overset{\text{Lin}}{\sub}}
-\newcommand{\LinSup}{\overset{\text{Lin}}{\supset}}
+\newcommand{\LinTo}{\overset{\text{Lin}}{\to}}       % 线性同态
+\newcommand{\LinCap}{\overset{\text{Lin}}{\cap}}     % 线性空间的交
+\newcommand{\LinOplus}{\overset{\text{Lin}}{\oplus}} % 线性空间的直和
+\newcommand{\LinSub}{\overset{\text{Lin}}{\sub}}     % 线性子空间
+\newcommand{\LinSup}{\overset{\text{Lin}}{\supset}}  % 线性子空间(方向相反)
 
 % 拓扑空间 %
-\newcommand{\Interior}[1]{\underset{#1}{\text{Interior}}}
-\newcommand{\Limit}[1]{\underset{#1}{\text{Limit}}}
-\newcommand{\Closure}[1]{\underset{#1}{\text{Closure}}}
+\newcommand{\Interior}[1]{\text{Interior}}  % 内点集
+\newcommand{\Limit}[1]{\text{Limit}}        % 极限点集
+\newcommand{\Closure}[1]{\text{Closure}}    % 闭包
 
-% 代数通用 %
-\newcommand{\img}{\mathop{\rm img}}
-
-% 序数和基数 %
-\newcommand{\card}{{\mathop{\rm card}}}
+% 基数 %
+\newcommand{\card}{{\mathop{\rm card}}} % 集合的基数
 
 % 范畴论 %
-\newcommand{\category}{{\rm category}}
-\newcommand{\Ob}{{\rm Ob}}
-\newcommand{\Mor}{{\rm Mor}}
-\newcommand{\Hom}{{\rm Hom}}
-\newcommand{\id}{{\rm id}}
+\newcommand{\category}{{\rm category}}  % 范畴的类型签名
 
-\newcommand{\Isom}{{\rm Isom}}
-\newcommand{\End}{{\rm End}}
-\newcommand{\Aut}{{\rm Aut}}
+\newcommand{\Ob}{{\rm Ob}}              % 对象
+\newcommand{\Mor}{{\rm Mor}}            % 态射
+\newcommand{\Hom}{{\rm Hom}}            % 对象间的同态
+\newcommand{\id}{{\rm id}}              % 恒等态射
 
-\newcommand{\CatSub}{\overset{\rm Cat}\sub }
-\newcommand{\FullCatSub}{\overset{\text{Full-Cat}}\sub }
+\newcommand{\Isom}{{\rm Isom}}   % 同构
+\newcommand{\End}{{\rm End}}     % 自同态
+\newcommand{\Aut}{{\rm Aut}}     % 自同构
 
-\newcommand{\FunctorTo}{\rightrightarrows }
-\newcommand{\Fct}{{\rm Fct}}
+\newcommand{\CatSub}{\overset{\rm Cat}\sub }             % 子范畴
+\newcommand{\FullCatSub}{\overset{\text{Full-Cat}}\sub } % 全子范畴
+
+\newcommand{\FunctorTo}{\rightrightarrows } % 函子
+\newcommand{\Fct}{{\rm Fct}}                % 函子范畴
 
 % 集合论 %
-\newcommand{\Pow}{{\frak P}}
-\newcommand{\Set}{\mathtt{Set}}
+\newcommand{\Pow}{{\frak P}}        % 幂集
+\newcommand{\Set}{\mathtt{Set}}     % 集合范畴
+\newcommand{\Universe}{{\cal U}}    % Gronthendieck宇宙
+
+% 映射 %
+\newcommand{\img}{\mathop{\rm img}}     % 函数的像
 
 % 分析 %
-\newcommand{\Dif}{{\frak D}}
-\newcommand{\dif}{{\rm d}}
+\newcommand{\Dif}{{\frak D}}                     % 微分算子
+\newcommand{\dif}{{\rm d}}                       % 微分算子
+\newcommand{\Ind}{\mathbb{I}}                    % 示性函数
+\newcommand{\MeasurableTo}{\overset{\frak M}\to} % 可测函数

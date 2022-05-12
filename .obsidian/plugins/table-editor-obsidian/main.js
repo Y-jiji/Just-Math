@@ -115,32 +115,32 @@ var addIcons = function () {
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
 function createCommonjsModule(fn, basedir, module) {
-	return module = {
-		path: basedir,
-		exports: {},
-		require: function (path, base) {
-			return commonjsRequire(path, (base === undefined || base === null) ? module.path : base);
-		}
-	}, fn(module, module.exports), module.exports;
+    return module = {
+        path: basedir,
+        exports: {},
+        require: function (path, base) {
+            return commonjsRequire(path, (base === undefined || base === null) ? module.path : base);
+        }
+    }, fn(module, module.exports), module.exports;
 }
 
 function getAugmentedNamespace(n) {
-	if (n.__esModule) return n;
-	var a = Object.defineProperty({}, '__esModule', {value: true});
-	Object.keys(n).forEach(function (k) {
-		var d = Object.getOwnPropertyDescriptor(n, k);
-		Object.defineProperty(a, k, d.get ? d : {
-			enumerable: true,
-			get: function () {
-				return n[k];
-			}
-		});
-	});
-	return a;
+    if (n.__esModule) return n;
+    var a = Object.defineProperty({}, '__esModule', {value: true});
+    Object.keys(n).forEach(function (k) {
+        var d = Object.getOwnPropertyDescriptor(n, k);
+        Object.defineProperty(a, k, d.get ? d : {
+            enumerable: true,
+            get: function () {
+                return n[k];
+            }
+        });
+    });
+    return a;
 }
 
 function commonjsRequire () {
-	throw new Error('Dynamic requires are not currently supported by @rollup/plugin-commonjs');
+    throw new Error('Dynamic requires are not currently supported by @rollup/plugin-commonjs');
 }
 
 var point = createCommonjsModule(function (module, exports) {
@@ -19411,22 +19411,22 @@ var W3CEBNF = createCommonjsModule(function (module, exports) {
 // https://www.w3.org/TR/REC-xml/#NT-Name
 // http://www.bottlecaps.de/rr/ui
 Object.defineProperty(exports, "__esModule", { value: true });
-// Grammar	::=	Production*
-// Production	::=	NCName '::=' Choice
-// NCName	::=	[http://www.w3.org/TR/xml-names/#NT-NCName]
-// Choice	::=	SequenceOrDifference ( '|' SequenceOrDifference )*
-// SequenceOrDifference	::=	(Item ( '-' Item | Item* ))?
-// Item	::=	Primary ( '?' | '*' | '+' )?
-// Primary	::=	NCName | StringLiteral | CharCode | CharClass | '(' Choice ')'
-// StringLiteral	::=	'"' [^"]* '"' | "'" [^']* "'"
-// CharCode	::=	'#x' [0-9a-fA-F]+
-// CharClass	::=	'[' '^'? ( RULE_Char | CharCode | CharRange | CharCodeRange )+ ']'
-// RULE_Char	::=	[http://www.w3.org/TR/xml#NT-RULE_Char]
-// CharRange	::=	RULE_Char '-' ( RULE_Char - ']' )
-// CharCodeRange	::=	CharCode '-' CharCode
-// RULE_WHITESPACE	::=	RULE_S | Comment
-// RULE_S	::=	#x9 | #xA | #xD | #x20
-// Comment	::=	'/*' ( [^*] | '*'+ [^*/] )* '*'* '*/'
+// Grammar    ::=    Production*
+// Production    ::=    NCName '::=' Choice
+// NCName    ::=    [http://www.w3.org/TR/xml-names/#NT-NCName]
+// Choice    ::=    SequenceOrDifference ( '|' SequenceOrDifference )*
+// SequenceOrDifference    ::=    (Item ( '-' Item | Item* ))?
+// Item    ::=    Primary ( '?' | '*' | '+' )?
+// Primary    ::=    NCName | StringLiteral | CharCode | CharClass | '(' Choice ')'
+// StringLiteral    ::=    '"' [^"]* '"' | "'" [^']* "'"
+// CharCode    ::=    '#x' [0-9a-fA-F]+
+// CharClass    ::=    '[' '^'? ( RULE_Char | CharCode | CharRange | CharCodeRange )+ ']'
+// RULE_Char    ::=    [http://www.w3.org/TR/xml#NT-RULE_Char]
+// CharRange    ::=    RULE_Char '-' ( RULE_Char - ']' )
+// CharCodeRange    ::=    CharCode '-' CharCode
+// RULE_WHITESPACE    ::=    RULE_S | Comment
+// RULE_S    ::=    #x9 | #xA | #xD | #x20
+// Comment    ::=    '/*' ( [^*] | '*'+ [^*/] )* '*'* '*/'
 
 var BNF;
 (function (BNF) {
@@ -19726,22 +19726,22 @@ var Custom = createCommonjsModule(function (module, exports) {
 // https://www.w3.org/TR/REC-xml/#NT-Name
 // http://www.bottlecaps.de/rr/ui
 Object.defineProperty(exports, "__esModule", { value: true });
-// Grammar	::=	Production*
-// Production	::=	NCName '::=' Choice
-// NCName	::=	[http://www.w3.org/TR/xml-names/#NT-NCName]
-// Choice	::=	SequenceOrDifference ( '|' SequenceOrDifference )*
-// SequenceOrDifference	::=	(Item ( '-' Item | Item* ))?
-// Item	::=	Primary ( '?' | '*' | '+' )?
-// Primary	::=	NCName | StringLiteral | CharCode | CharClass | '(' Choice ')'
-// StringLiteral	::=	'"' [^"]* '"' | "'" [^']* "'"
-// CharCode	::=	'#x' [0-9a-fA-F]+
-// CharClass	::=	'[' '^'? ( RULE_Char | CharCode | CharRange | CharCodeRange )+ ']'
-// RULE_Char	::=	[http://www.w3.org/TR/xml#NT-RULE_Char]
-// CharRange	::=	RULE_Char '-' ( RULE_Char - ']' )
-// CharCodeRange	::=	CharCode '-' CharCode
-// RULE_WHITESPACE	::=	RULE_S | Comment
-// RULE_S	::=	#x9 | #xA | #xD | #x20
-// Comment	::=	'/*' ( [^*] | '*'+ [^*/] )* '*'* '*/'
+// Grammar    ::=    Production*
+// Production    ::=    NCName '::=' Choice
+// NCName    ::=    [http://www.w3.org/TR/xml-names/#NT-NCName]
+// Choice    ::=    SequenceOrDifference ( '|' SequenceOrDifference )*
+// SequenceOrDifference    ::=    (Item ( '-' Item | Item* ))?
+// Item    ::=    Primary ( '?' | '*' | '+' )?
+// Primary    ::=    NCName | StringLiteral | CharCode | CharClass | '(' Choice ')'
+// StringLiteral    ::=    '"' [^"]* '"' | "'" [^']* "'"
+// CharCode    ::=    '#x' [0-9a-fA-F]+
+// CharClass    ::=    '[' '^'? ( RULE_Char | CharCode | CharRange | CharCodeRange )+ ']'
+// RULE_Char    ::=    [http://www.w3.org/TR/xml#NT-RULE_Char]
+// CharRange    ::=    RULE_Char '-' ( RULE_Char - ']' )
+// CharCodeRange    ::=    CharCode '-' CharCode
+// RULE_WHITESPACE    ::=    RULE_S | Comment
+// RULE_S    ::=    #x9 | #xA | #xD | #x20
+// Comment    ::=    '/*' ( [^*] | '*'+ [^*/] )* '*'* '*/'
 
 
 var BNF;

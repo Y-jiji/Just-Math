@@ -1,0 +1,5 @@
+{
+  "ribbonIcon": false,
+  "useURL": false,
+  "executeTemplate": "code \"{{vaultpath}}\""
+}

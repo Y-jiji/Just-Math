@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-范畴-伴随函子.md",
-            "mode": "preview",
+            "file": "代数-群-群范畴.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\\entring",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.0083885192871
+    "width": 375.0083885192871,
+    "collapsed": true
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -80,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-范畴-伴随函子.md",
+                "file": "代数-群-群范畴.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-范畴-伴随函子.md",
+                "file": "代数-群-群范畴.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-范畴-伴随函子.md"
+                "file": "代数-群-群范畴.md"
               }
             }
           }
@@ -123,15 +124,15 @@
   },
   "active": "53a2c8026bed8cbf",
   "lastOpenFiles": [
-    "代数-范畴-伴随函子.md",
-    "代数-线性代数-赋范线性空间的定义.md",
-    "分析-结构-赋范线性空间.md",
-    "分析-结构-度量空间.md",
-    "分析-结构-测度空间上的可测函数.md",
-    "分析-结构-测度的延拓.md",
-    "分析-结构-有限维实线性空间上的Lesbegue可测函数.md",
-    "分析-结构-有限维实线性空间上的Lesbegue测度.md",
-    "分析-积分-有限维实线性空间上的Lesbegue积分.md",
-    "分析-积分-实数域上的Riemann积分.md"
+    "代数-群-群范畴.md",
+    "代数-环-交换环的定义.md",
+    "代数-环-无幺环的定义.md",
+    "代数-环-整环的定义.md",
+    "代数-环-环的定义.md",
+    "分析-结构-可测函数.md",
+    "代数-域-标准算术记号.md",
+    "模型-ZFC公理系统.md",
+    "代数-域-有序域的定义和有理数集的构造.md",
+    "代数-线性代数-线性映射的表示.md"
   ]
 }

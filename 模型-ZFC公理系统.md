@@ -25,8 +25,8 @@ TimeLine:
 
 $$
 (\in),\{:\}::
-	\forall \phi\text{<1-props>}:\forall x:x\in \{t:\phi(t)\}
-	\Leftrightarrow \phi(x)
+    \forall \phi\text{<1-props>}:\forall x:x\in \{t:\phi(t)\}
+    \Leftrightarrow \phi(x)
 $$
 
 另外再定义一个谓词来表示不属于关系. 
@@ -54,11 +54,11 @@ $$
 集合之间有几类基本的运算
 $$
 \begin{aligned}
-	& A \sube B:= \forall x\in A:x\in B\\\\
-	& A \cup B := \{x:x\in A\or x\in B\}\\
-	& A \cap B := \{x:x\in A\and x\in B\}\\\\
-	& A \diagdown B := \{x:x\in A\and x \notin B\}\\
-	& A \triangle B:= \{x:x\in A \oplus x\in B\}\\
+    & A \sube B:= \forall x\in A:x\in B\\\\
+    & A \cup B := \{x:x\in A\or x\in B\}\\
+    & A \cap B := \{x:x\in A\and x\in B\}\\\\
+    & A \diagdown B := \{x:x\in A\and x \notin B\}\\
+    & A \triangle B:= \{x:x\in A \oplus x\in B\}\\
 \end{aligned}
 $$
 
@@ -78,7 +78,7 @@ $$
 幂集是指一个集合的全部子集的集合. 之所以称为幂集, 是因为在有限维情况下, 它的元素的个数恰为 $2$ 的原集合元素个数次幂. 
 
 $$
-	\Pow(X):=\{A:A\sube X\}
+    \Pow(X):=\{A:A\sube X\}
 $$
 
 ## Russell悖论
@@ -87,11 +87,11 @@ $$
 
 $$
 \Field{\;\;}{\;\;}{
-	& K:=\{T:T\notin T\}\\
-	& \Field{(\and)}{\;\;}{
-		& K\in K\Rightarrow K\notin K\\
-		& K\notin K\Rightarrow K\in K\\
-	}
+    & K:=\{T:T\notin T\}\\
+    & \Field{(\and)}{\;\;}{
+        & K\in K\Rightarrow K\notin K\\
+        & K\notin K\Rightarrow K\in K\\
+    }
 }
 $$
 
@@ -112,55 +112,55 @@ $$
 \text{<set>}
 ::
 \Field{(\and)}{\;\;}{
-	\\
-	& \forall A,B\text{<set>}:
-		\Field{(\Leftrightarrow)}{\;\;}{
-			 & A=B\\
-			 & \forall x:(x\in A)\Leftrightarrow (x\in B)\\
-		}
-		& \cdots(\text{ZF}-1) \\
-	\\
-	& \forall A,B\text{<set>}:\{A,B\}\text{<set>}
-		& \cdots(\text{ZF}-2) \\
-	\\
-	& \exist X\text{<set>}: 
-		\forall x \in X:
-			x\cup\{x\}\in X
-		& \cdots(\text{ZF}-3) \\
-	\\
-	& \forall A\text{<set>}:
-		\{a:\exist {\mathscr A}\in A:a\in {\mathscr A}\}\text{<set>}
-		& \cdots(\text{ZF}-4) \\
-	\\
-	& \forall A\text{<set>}:
-		\forall \phi\text{<fn-props>}:
-		\{y:\exist x\in A:\phi(x,y)\}\text{<set>}
-		& \cdots(\text{ZF}-5) \\
-	\\
-	& \forall A\text{<set>}: \Pow(A)\text{<set>}
-		& \cdots(\text{ZF}-6) \\
-	\\
-	& \forall A\text{<set>}:
-		\forall \phi\text{<1-props>}:
-		\{a:a\in A\and \phi(a)\}\text{<set>}
-		& \cdots(\text{ZF}-7) \\
-	\\
-	& \forall A\text{<set>}:
-		\exist m \in A: 
-		\nexists a\in A:
-		a\in m
-		& \cdots(\text{ZF}-8) \\
-	\\
-	& \forall A\text{<set>}:
-	\Field{(\Rightarrow)}{\;\;}{
-		& \CondBegin\\
-		& \forall a\in A:\exist t\in a\\
-		& \CondEnd\\
-		& \exist \phi\text{<2-props>}:
-			\forall a\in A: \exist! b\in a: \phi(a,b)
-	}
-	& \cdots(\text{C}) \\
-	\\
+    \\
+    & \forall A,B\text{<set>}:
+        \Field{(\Leftrightarrow)}{\;\;}{
+             & A=B\\
+             & \forall x:(x\in A)\Leftrightarrow (x\in B)\\
+        }
+        & \cdots(\text{ZF}-1) \\
+    \\
+    & \forall A,B\text{<set>}:\{A,B\}\text{<set>}
+        & \cdots(\text{ZF}-2) \\
+    \\
+    & \exist X\text{<set>}: 
+        \forall x \in X:
+            x\cup\{x\}\in X
+        & \cdots(\text{ZF}-3) \\
+    \\
+    & \forall A\text{<set>}:
+        \{a:\exist {\mathscr A}\in A:a\in {\mathscr A}\}\text{<set>}
+        & \cdots(\text{ZF}-4) \\
+    \\
+    & \forall A\text{<set>}:
+        \forall \phi\text{<fn-props>}:
+        \{y:\exist x\in A:\phi(x,y)\}\text{<set>}
+        & \cdots(\text{ZF}-5) \\
+    \\
+    & \forall A\text{<set>}: \Pow(A)\text{<set>}
+        & \cdots(\text{ZF}-6) \\
+    \\
+    & \forall A\text{<set>}:
+        \forall \phi\text{<1-props>}:
+        \{a:a\in A\and \phi(a)\}\text{<set>}
+        & \cdots(\text{ZF}-7) \\
+    \\
+    & \forall A\text{<set>}:
+        \exist m \in A: 
+        \nexists a\in A:
+        a\in m
+        & \cdots(\text{ZF}-8) \\
+    \\
+    & \forall A\text{<set>}:
+    \Field{(\Rightarrow)}{\;\;}{
+        & \CondBegin\\
+        & \forall a\in A:\exist t\in a\\
+        & \CondEnd\\
+        & \exist \phi\text{<2-props>}:
+            \forall a\in A: \exist! b\in a: \phi(a,b)
+    }
+    & \cdots(\text{C}) \\
+    \\
 }
 \end{matrix}
 $$
