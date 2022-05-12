@@ -28,8 +28,8 @@ $$
     \\
     & \bigcup\limits_{A\in \cal S} A, \varnothing \in {\cal S}\\
     \\
-    & \FieldEndl{
-        & \forall A, B\in {\cal S}: (\and)
+    & \Field{
+        \forall A, B\in {\cal S}: (\and)
     }{\;\;}{
         & A \cap B \in {\cal S}\\
         & \exist {\cal X}\sube {\cal S}: \partition(B \diagdown A, {\cal X})
@@ -101,7 +101,7 @@ $$
 
 $$
 \FieldEndl{
-    & \forall \setalg({\cal S}):(\Leftrightarrow)
+    & \forall \setalg({\cal S}):(\LRarrow)
 }{\;\;}{
     & \sigmaalg({\cal S})\\\\
     & \FieldEndl{
@@ -127,7 +127,7 @@ $$
 
 $$
 \FieldEndl{
-    & \forall \setalg({\cal S}):(\Leftrightarrow)
+    & \forall \setalg({\cal S}):(\LRarrow)
 }{\;\;}{
     & \sigmaalg({\cal S})\\\\
     & \FieldEndl{
@@ -163,7 +163,7 @@ $$
     \Field{(\and)}{\;\;}{
         \\
         & \FieldEndl{
-            \forall {\cal S}:(\Rightarrow)
+            \forall {\cal S}:(\Rarrow)
         }{\;\;}{
             & \CondBegin\\
             & {\cal S} \supe {\cal A}\\
@@ -194,29 +194,24 @@ $$
 
 ## 外测度的定义
 
+\<文字定义\>
+
 外测度(exterior msr)是指具有下可加性的集函数. 
+
+\<形式定义\>
+ :
 $$
 \begin{matrix}
-\mu\text{<ex-msr>}:=
+\exmsr(\mu):=
 \Field{(\and)}{\;\;}{
-    & \\
-    & \mu:S\to [0,\infin]\\
-    & \mu(\varnothing)=0\\
-    & \\
-    & \FieldEndl{\forall E,F\in S:(\Rightarrow)}{\;\;}{
-        & \CondBegin\\
-        & E\sube F\\
-        & \CondEnd\\
-        & \mu(E)\le \mu(F)
-    }\\
-    & \\
-    & \forall E:\N\to {\cal S}:
-        \mu\left(\bigcup_{n \in \N} E(n)\right)\le \sum_{n \in \N} \mu(E(n))\\
-    & \\
-}\\
-\left.\begin{aligned}
-    & :::S\text<\sigma\text{-algebra>}
-\end{aligned}\right.
+    & \exist {\cal S}: \mu: {\cal S} \to [[0, \infin]]\\
+    & {\cal S} := \mu: {\cal S} \to [[0, \infin]]\\
+    & \sigmaalg({\cal S})\\
+    & \forall {\cal A} \sube {\cal S}: 
+        \card {\cal A} \prec \aleph(\varnothing) 
+        \Rarrow
+        
+}
 \end{matrix}
 $$
 
@@ -230,16 +225,16 @@ $$
     & \mu:S\to [0,\infin]\\
     & \mu(\varnothing)=0\\
     & \\
-        & \FieldEndl{\forall E,F\in S:(\Rightarrow)}{\;\;}{
+        & \FieldEndl{\forall E,F\in S:(\Rarrow)}{\;\;}{
         & \CondBegin\\
         & E\sube F\\
         & \CondEnd\\
         & \mu(E)\le \mu(F)
     }\\
     & \\
-    & \FieldEndl{\forall E: \N \to S:(\Rightarrow)}{\;\;}{
+    & \FieldEndl{\forall E: \N \to S:(\Rarrow)}{\;\;}{
         & \CondBegin\\
-        & E(n)\cap E(m)\ne \varnothing \Rightarrow n = m\\
+        & E(n)\cap E(m)\ne \varnothing \Rarrow n = m\\
         & \CondEnd\\
         & \mu\left(\bigcup_{n \in \N} E(n)\right)=\sum_{n \in \N} \mu(E(n))
     } \\
@@ -307,7 +302,7 @@ $$
 $$
 \FieldEndl{
     & \forall X\text{<set>}:\\
-    & \forall \mu:\Pow(X)\to [0,\infin]:(\Rightarrow)
+    & \forall \mu:\Pow(X)\to [0,\infin]:(\Rarrow)
 }{\;\;}{
     & \CondBegin\\
     & \mu\text{<ex-msr>}\\
@@ -333,7 +328,7 @@ $$
     & E^{\complement}:=X\diagdown E\\
     \\
     & \FieldEndl{
-        & \forall E,F\in {\cal M}:\forall A\in \Pow(X):(\Rightarrow)
+        & \forall E,F\in {\cal M}:\forall A\in \Pow(X):(\Rarrow)
     }{\;\;}{
         & \CondBegin\\
         & \mu(A\cap E\cap F)+\mu(A\cap (E\cap F)^\complement)\\
@@ -367,14 +362,14 @@ $$
     & {\cal M}\text{<set-algebra>}\\
     \\
     & \FieldEndl{
-        & \forall E: \N^*\to {\cal M}:(\Rightarrow)\\
+        & \forall E: \N^*\to {\cal M}:(\Rarrow)\\
     }{\;\;}{
         & \\
         & G(N) := \varnothing ::: N = 0\\
         & G(N) :=  \bigcup_{n=1}^N E(n) ::: N \ne \infin\\
         & G(N) := \bigcup_{n=1}^\infin E(n) ::: N = \infin\\
         & \FieldEndl{
-            \forall A\in \Pow(X):(\Rightarrow)
+            \forall A\in \Pow(X):(\Rarrow)
         }{\;\;}{
             & \CondEnd\\
             & \forall N\in \N^*:\mu(A \diagdown G(\infin)) \le \mu(A \diagdown G(N))\\

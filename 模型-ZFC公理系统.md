@@ -27,13 +27,13 @@ TimeLine:
 $$
 (\in),\{:\}::
     \forall \phi\text{<1-props>}:\forall x:x\in \{t:\phi(t)\}
-    \Leftrightarrow \phi(x)
+    \LRarrow \phi(x)
 $$
 
 另外再定义一个谓词来表示不属于关系. 
 
 $$
-(\notin)::a\notin b\Leftrightarrow \neg (a\in b)
+(\notin)::a\notin b\LRarrow \neg (a\in b)
 $$
 
 有时为了描述有限个元素的集合, 记号 $\{:\}$ 就显得有些不便, 此时用列举法来描述一个集合. 
@@ -90,8 +90,8 @@ $$
 \Field{\;\;}{\;\;}{
     & K:=\{T:T\notin T\}\\
     & \Field{(\and)}{\;\;}{
-        & K\in K\Rightarrow K\notin K\\
-        & K\notin K\Rightarrow K\in K\\
+        & K\in K\Rarrow K\notin K\\
+        & K\notin K\Rarrow K\in K\\
     }
 }
 $$
@@ -115,9 +115,9 @@ $$
 \Field{(\and)}{\;\;}{
     \\
     & \forall A,B\text{<set>}:
-        \Field{(\Leftrightarrow)}{\;\;}{
+        \Field{(\LRarrow)}{\;\;}{
              & A=B\\
-             & \forall x:(x\in A)\Leftrightarrow (x\in B)\\
+             & \forall x:(x\in A)\LRarrow (x\in B)\\
         }
         & \cdots(\text{ZF}-1) \\
     \\
@@ -153,7 +153,7 @@ $$
         & \cdots(\text{ZF}-8) \\
     \\
     & \forall A\text{<set>}:
-    \Field{(\Rightarrow)}{\;\;}{
+    \Field{(\Rarrow)}{\;\;}{
         & \CondBegin\\
         & \forall a\in A:\exist t\in a\\
         & \CondEnd\\
@@ -207,7 +207,7 @@ $$
 
 $$
 \FieldEndl{
-    & \forall A, B\text{<set>}:(\Rightarrow)
+    & \forall A, B\text{<set>}:(\Rarrow)
 }{\;\;}{
     & \CondEnd\\
     & C:=\{\{a, b\}: a\in A \and b\in B\}\\
@@ -275,7 +275,7 @@ $$
 \begin{matrix}
 f\text{<inj>} :: \Field{(\and)}{\;\;}{
     & X :: \exist Y: f: X\to Y\\
-    & f(x) = f(y) \Rightarrow x = y
+    & f(x) = f(y) \Rarrow x = y
 }\\
 :: \exist X, Y\text{<set>}: f: X\to Y 
 \end{matrix}
@@ -304,7 +304,7 @@ f\diamond g :: \Field{(\and)}{\;\;}{
     & X,Y:: f:X\to Y\\
     & Z,W:: g:Z\to W\\
     & (f \diamond g) : X \to W\\
-    & \forall x\in X: f(x) \in Z \Rightarrow f \diamond g (x) = f (g(x))
+    & \forall x\in X: f(x) \in Z \Rarrow f \diamond g (x) = f (g(x))
 }\\
 ::: \exist X, Y\text{<set>}: f: X \to Y\\
 ::: \exist Z, W\text{<set>}: g: Z\to W\\
