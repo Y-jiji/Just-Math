@@ -4,7 +4,7 @@ TimeLine:
 => 20220331--20220331 : 添加了Borel代数的定义. 
 ---
 
-| #未完成-正文 | #未完成-习题 | #写作中 | 
+| #未完成-正文 | #未完成-习题 | #UNFIXED | 
 | ------------ | ------------ | ------- |
 
 # 抽象测度
@@ -13,109 +13,150 @@ TimeLine:
 >
 > 在之后的章节中将会讨论更多测度相关的对象, 例如积测度, 概率论中独立性的构造等等, 这些是比较困难的部分. 
 
-## ::MACRO
+## 半代数
 
-| IMPORT                                              | DESCRIPTION                                                                                                                            |
-| --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| [集合的定义](模型-ZFC公理系统#集合%20属于谓词)           | 属于关系 $\in$ <br /> 集合的描述法 $\{:\}$ <br /> 集合的列举法 $\{\}$                                                                  |
-| [集合的运算](模型-ZFC公理系统#集合的运算)           | 包含 $\sube$ <br /> 交集 $\cup$ <br /> 并集 $\cap$ <br /> 差集 $\diagdown$ <br /> 多个集合的并 $\bigcup$ <br /> 多个集合的交 $\bigcap$ |
-| [幂集的定义](模型-ZFC公理系统#幂集的定义)           | 幂集 $\Pow$                                                                                                                       |
-| [ZFC集合模型](模型-ZFC公理系统#ZFC集合模型)         | 集合的类型签名 $\text{<set>}$                                                                                                          |
-| [拓扑空间的定义](分析-结构-拓扑空间#拓扑空间的定义) | 拓扑空间的类型签名 $\text{top-space}$ <br />                                                                                           |
+\<文字定义\>
 
-## 半代数, 集代数和$\sigma$代数
+半代数是指对交封闭, 而对差集满足一定性质的代数结构. 
 
-半代数是指对交封闭, 而对全集取补则能写成有限个集合的无交并的集族. 
+\<形式定义\>
 
 $$
-{\cal S}\text{<semi-algebra>}:=
+\semialg({\cal S}):=
 \Field{(\and)}{\;\;}{
-    & \\
     & {\cal S}\text{<set>}\\
-    & \forall E\in {\cal S}:E\text{<set>}\\
     \\
-    & \Omega := \bigcup_{E\in {\cal S}}E\\
-    & \Omega,\varnothing \in {\cal S}\\
+    & \bigcup\limits_{A\in \cal S} A, \varnothing \in {\cal S}\\
     \\
-    & {\cal S}\supe \bigg\{E\cap F: E,F\in {\cal S} \bigg\}\\
-    \\
-    & \text{DISTINCT}({\cal A}):=\forall E,E'\in {\cal A}:E\cap E'=\varnothing \or E=E'\\\\
-    & \forall E\in {\cal S}: 
-        \exist {\cal A} \in \Pow({\cal S}):
-        \Field{(\and)}{\;\;}{
-            & \card  {\cal A} \prec \aleph(0)\\
-            & E = \bigcup_{F\in {\cal A}}F\\
-            &  \text{DISTINCT}({\cal A})\\
-        }\\\\
+    & \FieldEndl{
+        & \forall A, B\in {\cal S}: (\and)
+    }{\;\;}{
+        & A \cap B \in {\cal S}\\
+        & \exist {\cal X}\sube {\cal S}: \partition(B \diagdown A, {\cal X})
+    }\\
 }
 $$
 
-集代数是指对并和对全集取补封闭的集族. (下式中 $\Omega$ 被称为这个集代数的全集) 
+## 集代数
+
+\<文字定义\>
+
+集代数是指对并和对全集取补封闭的集族. 
+
+\<形式定义\>
+
 $$
-{\cal S}\text{<set-algebra>}:=
+\setalg({\cal S}):=
 \Field{(\and)}{\;\;}{
-    & \\
     & {\cal S}\text{<set>}\\
-    & \forall E\in {\cal S}:E\text{<set>}\\
-    \\
-    & \Omega := \bigcup_{E\in {\cal S}}E\\
-    & \Omega,\varnothing \in {\cal S}\\
-    \\
-    & {\cal S}\supe \bigg\{\Omega\diagdown E : E\in {\cal S}\bigg\}\\
-    & {\cal S}\supe \bigg\{E\cup F: E,F\in {\cal S} \bigg\}\\\\
+    & \bigcup\limits_{A\in \cal S} A, \varnothing \in {\cal S}\\
+    & \forall A, B\in {\cal S}: B \diagdown A, A \cup B \in {\cal S}
 }
 $$
+
+\<RMK\>
+
+关于交, 并运算, 实际上集合代数成环, 因此也有些文本当中叫做Boolean环. 
+
+下面我们来进行验证. 
+
+集合代数关于运算 $\cup$ 成一交换群. 
+
+1. 以 $\varnothing$ 为零元
+2. 满足交换律和结合律
+3. $A$ 的逆取作 $\bigcup\limits_{A\in \cal S} A \diagdown A$
+
+而交运算成一幺半群. 
+
+1. 以 $\Omega$ 为幺元
+2. 满足结合律
+
+众所周知地, 集合的交, 并运算满足分配律, 至此验证了集合代数成环. 
+
+## $\sigma$代数
+
+\<文字定义\>
 
 $\sigma$代数则是指对可列并和对全集取补运算封闭的集族. 
+
+\<形式定义\>
+
 $$
-{\cal S}\text{<}\sigma\text{-algebra>}:=
+\sigmaalg({\cal S}):=
 \Field{(\and)}{\;\;}{
-    & \\
     & {\cal S}\text{<set>}\\
-    & \forall E\in {\cal S}:E\text{<set>}\\
-    \\
-    & \Omega := \bigcup_{E\in {\cal S}}E\\
-    & \Omega,\varnothing \in {\cal S}\\
-    \\
-    & {\cal S}\supe \bigg\{\Omega\diagdown E : E\in {\cal S}\bigg\}\\
-    & {\cal S}\supe \left\{
-        \bigcup_{E\in {\cal A}} E: 
-        {\cal A} \in \Pow({\cal S})
-        \and \card  {\cal A} = \aleph(0)
-    \right\}\\\\
+    & \bigcup\limits_{A\in \cal S} A, \varnothing \in {\cal S}\\
+    & \forall A, B\in {\cal S}: B \diagdown A \in {\cal S}\\
+    & \forall {\cal A} \sube {\cal S}: 
+        \Bigg(\card {\cal A} \prec \aleph(\varnothing)\Bigg)
+        \Rarrow
+        \Bigg(\bigcup_{A \in {\cal A}} \in {\cal S}\Bigg)
+        \\
 }
 $$
 
 ## $\sigma$代数的等价条件
 
+\<形式描述\>
+
 $$
-\forall {\cal S}\text{<set-algebra>}:
-\Field{(\Leftrightarrow)}{\;\;}{
-    & {\cal S}\text<\sigma\text{-algebra>}\\\\
+\FieldEndl{
+    & \forall \setalg({\cal S}):(\Leftrightarrow)
+}{\;\;}{
+    & \sigmaalg({\cal S})\\\\
     & \FieldEndl{
-        & \forall E:\N\to {\cal S}:(\Rightarrow)
+        & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
         & \CondBegin\\
-        & \forall n\in \N:E(n)\sube E(n+1)\\
+        & E(n) \sube E(n\ddagger)\\
         & \CondEnd\\
-        & \bigcup_{n\in \N} E(n)\in {\cal S}
+        & \bigcup_{n \prec \aleph(\varnothing)} E \in {\cal S}
     }\\\\
     & \FieldEndl{
-        & \forall E:\N\to {\cal S}:(\Rightarrow)
+        & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
         & \CondBegin\\
-        & \forall n\in \N:E(n)\supe E(n+1)\\
+        & E(n) \supe E(n\ddagger)\\
         & \CondEnd\\
-        & \bigcap_{n\in \N} E(n)\in {\cal S}
-    }\\\\
+        & \bigcap_{n \prec \aleph(\varnothing)} A \in {\cal S}
+    }
 }
 $$
 
-证明: 由$\sigma$代数得到两类单调性是颇为容易的, 这是因为对单调增列, 可列并就相当于 $\lim\limits_{n\to\infin}$; 对单调减列, 可列交就相当于 $\lim\limits_{n\to \infin}$; 而对任意 ${\cal S}$ 中的集合列, 任取前 $N$ 项的有限并, 有限交, 即可构造得到单调列, 进而得出可列并, 可列交也属于 $\cal S$ 的结论. 
+证明: 
+
+$$
+\FieldEndl{
+    & \forall \setalg({\cal S}):(\Leftrightarrow)
+}{\;\;}{
+    & \sigmaalg({\cal S})\\\\
+    & \FieldEndl{
+        & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
+    }{\;\;}{
+        & \CondBegin\\
+        & E(n) \sube E(n\ddagger)\\
+        & \CondEnd\\
+        & \bigcup_{n \prec \aleph(\varnothing)} E \in {\cal S}
+    }\\\\
+    & \FieldEndl{
+        & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
+    }{\;\;}{
+        & \CondBegin\\
+        & E(n) \supe E(n\ddagger)\\
+        & \CondEnd\\
+        & \bigcap_{n \prec \aleph(\varnothing)} A \in {\cal S}
+    }
+}
+$$
 
 ## $\sigma$扩张的定义
 
+\<文字定义\>
+
 一个集合的 $\sigma$ 扩张是指包含这个集合的最小 $\sigma$ 代数. 
+
+\<形式定义\>
+
 $$
 \begin{matrix}
 \sigma({\cal A})::
@@ -153,10 +194,10 @@ $$
 
 ## 外测度的定义
 
-外测度(exterior measure)是指具有下可加性的集函数. 
+外测度(exterior msr)是指具有下可加性的集函数. 
 $$
 \begin{matrix}
-\mu\text{<ex-measure>}:=
+\mu\text{<ex-msr>}:=
 \Field{(\and)}{\;\;}{
     & \\
     & \mu:S\to [0,\infin]\\
@@ -183,7 +224,7 @@ $$
 
 $$
 \begin{matrix}
-\mu\text{<measure>}:=
+\mu\text{<msr>}:=
 \Field{(\and)}{\;\;}{
     & \\
     & \mu:S\to [0,\infin]\\
@@ -218,12 +259,10 @@ $$
 - 可测集是指以这个集合为全集的$\sigma$代数, 测度的定义域是这个集合. 
 
 $$
-\text{measure-space}(X, {\frak M}, \mu):=
+\text{msr-space}(X):=
 \Field{(\and)}{\;\;}{
-    & {\frak M}\text<\sigma\text{-algebra>}\\
-    & \bigcup_{E \in {\frak M}} E = X\\
-    & \mu : {\frak M} \to [0, \infin]\\
-    & \mu\text{<measure>}
+    & \sigaljbr(X[{\frak M}])\\
+    & 
 }
 $$
 
@@ -242,7 +281,7 @@ $$
 \left.\begin{aligned}
     & :::X\text{<set>}\\
     & :::\mu_*:\Pow(X)\to [0,\infin]\\
-    & :::\mu_*\text{<ex-measure>}
+    & :::\mu_*\text{<ex-msr>}
 \end{aligned}\right.
 \end{matrix}
 $$
@@ -255,11 +294,11 @@ $$
     & \forall \mu:\Pow(X)\to [0,\infin]
 }{\;\;}{
     & \CondBegin\\
-    & \mu\text{<ex-measure>}\\
+    & \mu\text{<ex-msr>}\\
     & \CondEnd\\
     & {\cal M}:=\text{Carath}(X,\mu)\\
     & {\cal M}\text<\sigma\text{-algebra>}\\
-    & \mu|_{\cal M}\text{<measure>}
+    & \mu|_{\cal M}\text{<msr>}
 }
 $$
 
@@ -271,7 +310,7 @@ $$
     & \forall \mu:\Pow(X)\to [0,\infin]:(\Rightarrow)
 }{\;\;}{
     & \CondBegin\\
-    & \mu\text{<ex-measure>}\\
+    & \mu\text{<ex-msr>}\\
     & \CondEnd\\
     & {\cal M}:=\text{Carath}(X,\mu)\\
     \\
@@ -322,7 +361,7 @@ $$
     & \forall \mu:\Pow(X)\to [0,\infin]
 }{\;\;}{
     & \CondBegin\\
-    & \mu\text{<ex-measure>}\\
+    & \mu\text{<ex-msr>}\\
     & \CondEnd\\
     & {\cal M}:=\text{Carath}(X,\mu)\\
     & {\cal M}\text{<set-algebra>}\\
@@ -362,7 +401,7 @@ $$
     }\\
     \\
     & {\cal M}\text<\sigma\text{-algebra>}\\
-    & \mu|_{\cal M}\text{<measure>}
+    & \mu|_{\cal M}\text{<msr>}
 }
 $$
 

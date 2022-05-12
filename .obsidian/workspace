@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-群-群范畴.md",
+            "file": "分析-结构-可测函数.md",
             "mode": "source",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\entring",
+                "query": "measure",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-群-群范畴.md",
+                "file": "分析-结构-可测函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-群-群范畴.md",
+                "file": "分析-结构-可测函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-群-群范畴.md"
+                "file": "分析-结构-可测函数.md"
               }
             }
           }
@@ -124,15 +124,15 @@
   },
   "active": "53a2c8026bed8cbf",
   "lastOpenFiles": [
+    "分析-结构-可测函数.md",
+    "模型-ZFC公理系统.md",
+    "模型-ZFC公理系统中的映射.md",
+    "分析-结构-sigma代数和测度.md",
+    "-LaTeX符号表-.md",
     "代数-群-群范畴.md",
     "代数-环-交换环的定义.md",
     "代数-环-无幺环的定义.md",
     "代数-环-整环的定义.md",
-    "代数-环-环的定义.md",
-    "分析-结构-可测函数.md",
-    "代数-域-标准算术记号.md",
-    "模型-ZFC公理系统.md",
-    "代数-域-有序域的定义和有理数集的构造.md",
-    "代数-线性代数-线性映射的表示.md"
+    "代数-环-环的定义.md"
   ]
 }

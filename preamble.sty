@@ -1,3 +1,6 @@
+%--------------------------------------------------------------------------------------------------------------%
+
+
 %% Some macros defined in Typora but not in Obsidian %%
 \newcommand{\N}{{\mathbb N}}
 \newcommand{\R}{{\mathbb R}}
@@ -12,27 +15,57 @@
 \newcommand{\and}{\wedge }
 \newcommand{\or}{\vee }
 
-%% 块记号  %%
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
+%% 块记号 %%
 \newcommand{\Field}[3]{#1\left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|}
 
 \newcommand{\FieldEndl}[3]{\left.\begin{aligned}& \left.\begin{aligned}#1\end{aligned}\right.\\& \left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|\end{aligned}\right.}
 
 \newcommand{\Guard}[1]{\left[~\begin{aligned}#1\end{aligned}\right.}
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 条件命题记号 %
 \newcommand{\CondBegin}{{\lhd}\,{\lhd}\,{\lhd}}
 \newcommand{\CondEnd}{{\rhd}\,{\rhd}\,{\rhd}}
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
 
 % 蕴含与等价命题 %
 \newcommand{\Larrow}{\Leftarrow}
 \newcommand{\Rarrow}{\Rightarrow}
 \newcommand{\LRarrow}{\Leftrightarrow}
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 序数 %
 \newcommand{\MonoTo}{\overset{\rm Mono}\to}
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 幺半群 %
 \newcommand{\monoid}{{\rm monoid}}
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
 
 % 群 %
 \newcommand{\group}{{\rm group}}
@@ -46,10 +79,20 @@
 \newcommand{\GroupSub}{\overset{\rm Group}{\sub}}
 \newcommand{\FreeGrp}{\mathsf{FreeGrp}}
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 交换群 %
 \newcommand{\abgroup}{{\rm abgroup}}
 \newcommand{\AbGroupSub}{\overset{\rm AbGroup}\sub }
 \newcommand{\abker}{\operatorname{\rm abker}}
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
 
 % 环 % 
 \newcommand{\ring}{{\rm ring}}                    % 环的定义
@@ -63,9 +106,19 @@
 
 \newcommand{\Ring}{\mathtt{Ring}}
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 有序环 % 
 \newcommand{\OrdRingSub}{\overset{\rm OrdRing}\sub} % 有序环的定义
 \newcommand{\OrdRingTo}{\overset{\rm OrdRing}\to}   % 有序环同态
+
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
 
 
 % 无幺环 %
@@ -74,20 +127,45 @@
 \newcommand{\rker}{\operatorname{\rm rker}}      % 无幺环同态的核
 \newcommand{\Ring}{\mathtt{Rng}}
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 交换环 %
 \newcommand{\comring}{{\rm comring}}               % 交换环的定义
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 整环 %
 \newcommand{\entring}{{\rm entring}}               % 整环的定义
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
 
 % 域 %
 \newcommand{\FieldTo}{\overset{\rm Field}\to}      % 域同态
 \newcommand{\fker}{\operatorname{\rm fker}}        % 域同态的核     
 \newcommand{\FieldSub}{\overset{\rm Field}\sub}    % 子域
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 有序域 %
 \newcommand{\OrdFieldTo}{\overset{\rm OrdField}\to}    % 有序域同态
 \newcommand{\OrdFieldSub}{\overset{\rm OrdField}\sub}  % 子有序域
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
 
 % 线性空间 %
 \newcommand{\LinTo}{\overset{\text{Lin}}{\to}}       % 线性同态
@@ -96,13 +174,28 @@
 \newcommand{\LinSub}{\overset{\text{Lin}}{\sub}}     % 线性子空间
 \newcommand{\LinSup}{\overset{\text{Lin}}{\supset}}  % 线性子空间(方向相反)
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 拓扑空间 %
 \newcommand{\Interior}[1]{\text{Interior}}  % 内点集
 \newcommand{\Limit}[1]{\text{Limit}}        % 极限点集
 \newcommand{\Closure}[1]{\text{Closure}}    % 闭包
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 基数 %
-\newcommand{\card}{{\mathop{\rm card}}} % 集合的基数
+\newcommand{\card}{\mathop{\rm card}} % 集合的基数
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
 
 % 范畴论 %
 \newcommand{\category}{{\rm category}}  % 范畴的类型签名
@@ -122,16 +215,43 @@
 \newcommand{\FunctorTo}{\rightrightarrows } % 函子
 \newcommand{\Fct}{{\rm Fct}}                % 函子范畴
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 集合论 %
 \newcommand{\Pow}{{\frak P}}        % 幂集
 \newcommand{\Set}{\mathtt{Set}}     % 集合范畴
 \newcommand{\Universe}{{\cal U}}    % Gronthendieck宇宙
 
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
 % 映射 %
-\newcommand{\img}{\mathop{\rm img}}     % 函数的像
+\newcommand{\img}{\mathop{\rm img}}       % 函数的像
+\newcommand{\partition}{{\rm partition}}  % 集合的分划
+
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
 
 % 分析 %
 \newcommand{\Dif}{{\frak D}}                     % 微分算子
 \newcommand{\dif}{{\rm d}}                       % 微分算子
 \newcommand{\Ind}{\mathbb{I}}                    % 示性函数
-\newcommand{\MeasurableTo}{\overset{\frak M}\to} % 可测函数
+
+\newcommand{\sigmaalg}{{\sigma\text{-alg}}}     % sigma代数
+\newcommand{\pialg}{{\pi\text{-alg}}}           % pi代数
+\newcommand{\lambdaalg}{{\lambda\text{-alg}}}   % lambda代数
+\newcommand{\semialg}{{\text{semi-alg}}}        % 半代数
+\newcommand{\setalg}{{\text{set-alg}}}          % 集合代数
+
+\newcommand{\msr}{\text{msr}}                  % 测度
+\newcommand{\exmsr}{\text{exmsr}}              % 外测度
+\newcommand{\msrspace}{\text{msr-space}}       % 测度空间
+
+\newcommand{\MeasurableTo}{\overset{\frak M}\to}       % 可测函数
