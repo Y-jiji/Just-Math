@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-群-群的定义.md",
+            "file": "代数-范畴-伴随函子.md",
             "mode": "preview",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\to \\infin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-群-群的定义.md",
+                "file": "代数-范畴-伴随函子.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-群-群的定义.md",
+                "file": "代数-范畴-伴随函子.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-群-群的定义.md"
+                "file": "代数-范畴-伴随函子.md"
               }
             }
           }
@@ -123,15 +123,15 @@
   },
   "active": "53a2c8026bed8cbf",
   "lastOpenFiles": [
-    "代数-群-群的定义.md",
-    "代数-群-群同态和正规子群.md",
-    "代数-范畴-范畴与态射.md",
-    "代数-群-群范畴.md",
-    "代数-群-自由群和生成子群.md",
-    "组合-自动机-字符串.md",
-    "-LaTeX符号表-.md",
-    "代数-群-直积和半直积.md",
-    "代数-线性代数-线性空间的定义.md",
-    "代数-线性代数-内积空间的定义.md"
+    "代数-范畴-伴随函子.md",
+    "代数-线性代数-赋范线性空间的定义.md",
+    "分析-结构-赋范线性空间.md",
+    "分析-结构-度量空间.md",
+    "分析-结构-测度空间上的可测函数.md",
+    "分析-结构-测度的延拓.md",
+    "分析-结构-有限维实线性空间上的Lesbegue可测函数.md",
+    "分析-结构-有限维实线性空间上的Lesbegue测度.md",
+    "分析-积分-有限维实线性空间上的Lesbegue积分.md",
+    "分析-积分-实数域上的Riemann积分.md"
   ]
 }
