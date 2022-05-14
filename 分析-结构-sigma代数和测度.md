@@ -264,7 +264,6 @@ $$
 
 ## 测度的定义
 
-
 \<形式定义\>
 
 $$
@@ -322,8 +321,8 @@ $$
 \Field{(\and)}{\;\;}{
     & \sigmaalg(X[{\frak M}])\\
     \\
-    & \mu: X[{\frak M}] \to [[0, \infin]]\\
-    & \msr(\mu)\\
+    & X[\mu]: X[{\frak M}] \to [[0, \infin]]\\
+    & \msr(X[\mu])\\
     \\
     & X[\S] \in X[{\frak M}]\\
     & X[\S] = \bigcup_{A \in X[{\frak M}]} A\\
@@ -335,6 +334,23 @@ $$
 这个集合 $X[\S]$ 被称为这个测度空间的基底, 基底集合中的元素称为测度空间中的点. 
 
 可测集是指以这个集合为全集的$\sigma$代数, 测度的定义域是这个集合. 
+
+
+## 测度对应的空间
+
+\<形式定义\>
+
+$$
+\begin{matrix}
+\text{MsrSpace}(\mu) :: \Field{(\and)}{\;\;}{
+    & M := \text{MsrSpace}(\mu)\\
+    & M[\mu] = \mu\\
+    & M[{\frak M}] = \dom \mu\\
+    & M[\S] = \bigcup_{S\in \dom \mu} S\\
+}\\
+::: \msr(\mu)
+\end{matrix}
+$$
 
 ## Caratheodory 条件的定义
 

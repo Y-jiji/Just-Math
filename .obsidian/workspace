@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "分析-积分-遍历定理.md",
+            "file": "分析-结构-Hilbert空间.md",
             "mode": "source",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "measure",
+                "query": "tag:#未完成-习题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.0083885192871
+    "width": 375.0083885192871,
+    "collapsed": true
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -80,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分析-积分-遍历定理.md",
+                "file": "分析-结构-Hilbert空间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分析-积分-遍历定理.md",
+                "file": "分析-结构-Hilbert空间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分析-积分-遍历定理.md"
+                "file": "分析-结构-Hilbert空间.md"
               }
             }
           }
@@ -123,15 +124,15 @@
   },
   "active": "53a2c8026bed8cbf",
   "lastOpenFiles": [
-    "分析-积分-遍历定理.md",
-    "分析-概率-概率空间与随机变量.md",
-    "分析-概率-分布函数.md",
-    "分析-概率-独立性.md",
-    "代数-域-域的定义.md",
+    "分析-结构-Hilbert空间.md",
+    "分析-结构-拓扑空间.md",
+    "代数-范畴-伴随函子.md",
+    "代数-范畴-逗号范畴.md",
+    "分析-测度-有限维实线性空间上的Lesbegue测度.md",
     "分析-积分-抽象测度上的Lesbegue积分.md",
     "分析-积分-有限维实线性空间上的Lesbegue积分.md",
-    "分析-积分-Fubini定理.md",
-    "分析-结构-积测度.md",
-    "分析-结构-可测函数.md"
+    "分析-结构-复值,实值函数的代数.md",
+    "分析-结构-sigma代数和测度.md",
+    "分析-积分-有限维实线性空间上的Riemman积分.md"
   ]
 }
