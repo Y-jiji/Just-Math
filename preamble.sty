@@ -149,9 +149,10 @@
 
 
 %-- 域 --%
-\newcommand{\FieldTo}{\overset{\rm Field}\to}      % 域同态
-\newcommand{\fker}{\operatorname{\rm fker}}        % 域同态的核     
-\newcommand{\FieldSub}{\overset{\rm Field}\sub}    % 子域
+\newcommand{\FieldTo}{\overset{\rm Field}\to}              % 域同态
+\newcommand{\fker}{\operatorname{\rm fker}}                % 域同态的核     
+\newcommand{\FieldSimTo}{\overset{\rm Field}{\simto}}      % 域同构
+\newcommand{\FieldSub}{\overset{\rm Field}\sub}            % 子域
 
 
 
@@ -168,13 +169,15 @@
 
 
 %-- 线性空间 --%
-\newcommand{\linspace}{\text{linspace}}
+\newcommand{\linspace}{\text{lin-space}}             % 线性空间的类型签名
 \newcommand{\LinTo}{\overset{\text{Lin}}{\to}}       % 线性同态
 \newcommand{\LinCap}{\overset{\text{Lin}}{\cap}}     % 线性空间的交
 \newcommand{\LinOplus}{\overset{\text{Lin}}{\oplus}} % 线性空间的直和
 \newcommand{\LinSub}{\overset{\text{Lin}}{\sub}}     % 线性子空间
 \newcommand{\LinSup}{\overset{\text{Lin}}{\supset}}  % 线性子空间(方向相反)
-
+\newcommand{\LinOn}{{\rm LinOn}}                     % 域上构造的线性空间
+\newcommand{\Lin}{\mathtt{Lin}}                      % 线性空间范畴
+\newcommand{\L}{\mathbb{L}}                          % 线性映射形成的线性空间
 
 
 %--------------------------------------------------------------------------------------------------------------%
@@ -205,9 +208,10 @@
 \newcommand{\Hom}{{\rm Hom}}            % 对象间的同态
 \newcommand{\id}{{\rm id}}              % 恒等态射
 
-\newcommand{\Isom}{{\rm Isom}}   % 同构
-\newcommand{\End}{{\rm End}}     % 自同态
-\newcommand{\Aut}{{\rm Aut}}     % 自同构
+\newcommand{\simto}{\rlap{\overset{\sim}{\phantom{\,\cdot\cdot\cdot}}}\to}    % 同构箭头
+\newcommand{\Isom}{{\rm Isom}}                                                % 同构
+\newcommand{\End}{{\rm End}}                                                  % 自同态
+\newcommand{\Aut}{{\rm Aut}}                                                  % 自同构
 
 \newcommand{\CatSub}{\overset{\rm Cat}\sub }             % 子范畴
 \newcommand{\FullCatSub}{\overset{\text{Full-Cat}}\sub } % 全子范畴
@@ -254,10 +258,18 @@
 \newcommand{\msr}{\text{msr}}                  % 测度
 \newcommand{\exmsr}{\text{exmsr}}              % 外测度
 \newcommand{\msrspace}{\text{msr-space}}       % 测度空间
+\newcommand{\ae}{\operatorname{ae}}                % 几乎处处
+
+\newcommand{\metr}{\text{metr}}                  % 度量
+\newcommand{\metrspace}{\text{metr-space}}       % 度量空间
 
 \newcommand{\rieint}{\rlap{\small \mathscr R}\int}       % riemann积分
+
+\newcommand{\m}{\mathbb{m}}                              % \R^d 上的lesbegue测度
 
 \newcommand{\MeasurableTo}{\overset{\frak M}\to}         % 可测函数
 \newcommand{\lesint}{\rlap{\small \mathscr L}\int}       % lesbegue积分
 
-\newcommand{\supp}{\mathop{\rm supp}} % 支集
+\newcommand{\supp}{\mathop{\rm supp}}                    % 支集
+
+\newcommand{\E}{\mathbb{E}}                              % 期望

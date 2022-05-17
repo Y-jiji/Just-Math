@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "分析-结构-Hilbert空间.md",
+            "file": "代数-线性代数-赋范线性空间的定义.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -35,21 +35,6 @@
             }
           },
           {
-            "id": "bb3fffbdc482e729",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#未完成-习题",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "dbbce80780e73c0c",
             "type": "leaf",
             "state": {
@@ -57,6 +42,21 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bb3fffbdc482e729",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分析-结构-Hilbert空间.md",
+                "file": "代数-线性代数-赋范线性空间的定义.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分析-结构-Hilbert空间.md",
+                "file": "代数-线性代数-赋范线性空间的定义.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,29 +110,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分析-结构-Hilbert空间.md"
+                "file": "代数-线性代数-赋范线性空间的定义.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594,
-    "collapsed": true
+    "width": 304.3333435058594
   },
   "active": "53a2c8026bed8cbf",
   "lastOpenFiles": [
-    "分析-结构-Hilbert空间.md",
-    "分析-结构-拓扑空间.md",
-    "代数-范畴-伴随函子.md",
-    "代数-范畴-逗号范畴.md",
+    "代数-线性代数-赋范线性空间的定义.md",
+    "-LaTeX符号表-.md",
     "分析-测度-有限维实线性空间上的Lesbegue测度.md",
+    "分析-结构-赋范线性空间上的几何.md",
+    "分析-微分-赋范线性空间中的微分.md",
+    "分析-测度-有限维实线性空间上的Lesbegue可测函数.md",
+    "分析-测度-有限维实线性空间上可测集的几何性质.md",
     "分析-积分-抽象测度上的Lesbegue积分.md",
-    "分析-积分-有限维实线性空间上的Lesbegue积分.md",
-    "分析-结构-复值,实值函数的代数.md",
     "分析-结构-sigma代数和测度.md",
-    "分析-积分-有限维实线性空间上的Riemman积分.md"
+    "分析-结构-可测函数.md"
   ]
 }

@@ -222,14 +222,6 @@ $$
 \end{matrix}
 $$
 
-## Borel 代数
-
-Borel 代数是指对拓扑的 $\sigma$ 扩张. 
-
-$$
-{\frak B}(X,\tau):=\sigma(\tau):::\text{top-space}(X,\tau)
-$$
-
 ## 外测度的定义
 
 \<文字定义\>
@@ -260,7 +252,6 @@ $$
 }
 \end{matrix}
 $$
-
 
 ## 测度的定义
 
@@ -294,18 +285,26 @@ $$
 \end{matrix}
 $$
 
-## 测度的等价条件
+## 外测度空间的定义
 
-\<文字描述\>
+\<文字定义\>
 
-如果一个外测度满足单调列收敛而且对有限个集合的无交并满足可加性, 则它一定是测度. 
+一个集合与其上的$\sigma$代数和外测度合称外测度空间: 
 
-\<形式描述\>
+\<形式定义\>
 
-#TODO
-
-\<形式证明\>
-
+$$
+\text{ex}\msrspace(X):=
+\Field{(\and)}{\;\;}{
+    & \sigmaalg(X[{\frak M}])\\
+    \\
+    & X[\mu]: X[{\frak M}] \to [[0, \infin]]\\
+    & \text{ex}\msr(X[\mu])\\
+    \\
+    & X[\S] \in X[{\frak M}]\\
+    & X[\S] = \bigcup_{A \in X[{\frak M}]} A\\
+}
+$$
 
 
 ## 测度空间的定义
@@ -335,6 +334,20 @@ $$
 
 可测集是指以这个集合为全集的$\sigma$代数, 测度的定义域是这个集合. 
 
+## 几乎处处量词
+
+\<文字定义\>
+
+除了某个零测集之外, 每个点都满足某个命题. 
+
+\<形式定义\>
+
+$$
+\begin{matrix}
+(\ae x)_{@ X} := \exist E \in \{E\sube X[{\frak M}] : \mu_{@ X}(E) = 0\}: \forall x \in X[\S] \diagdown E\\
+:::\text{ex}\msrspace(X)
+\end{matrix}
+$$
 
 ## 测度对应的空间
 
@@ -482,7 +495,7 @@ $$
     & \exmsr(\mu)\\
     & \CondEnd\\
     & {\cal M} := \bigg\{E : \text{carath}(X, \mu)(E)\bigg\}\\
-    & E^\complement := X \diagdown E :: E \in \Pow(X)\\
+    & E^\complement := X \diagdown E ::: E \in \Pow(X)\\
     \\
     & \setalg({\cal M})\\
     \\
@@ -505,7 +518,6 @@ $$
                 \mu(A \cap G_{(N)}) = \sum_{n\in [1 .. N]}\mu(A \cap E_{(n)})\\
             & \lim_{N \to \infin} \mu(A \cap G_{(N)}) 
             = \sum_{n\in [1 .. ]}\mu(A \cap E_{(n)})
-            \ge \mu(A \cap G_{(\infin)})
         }\\\\
         & \FieldEndl{
             & \forall A \sube X:
@@ -523,7 +535,7 @@ $$
     }\\\\
     & \forall E: [1 .. ] \to {\cal M}: 
     \bigcup_{n\in [1 ..]} E_{(n)} 
-    = \bigcup_{n \in [1 ..]} (E_{(n+1)} \diagdown E_{(n)}) \cap E_{(1)}
+    = E_{(1)} \cup \bigcup_{n \in [1 ..]} (E_{(n+1)} \diagdown E_{(n)}) 
     \in {\cal M}\\
     & \sigmaalg({\cal M}) \and \msr\left(\mu\big|_{\cal M}\right)\\
 }

@@ -59,7 +59,7 @@ $$
     & A \cup B := \{x:x\in A\or x\in B\}\\
     & A \cap B := \{x:x\in A\and x\in B\}\\\\
     & A \diagdown B := \{x:x\in A\and x \notin B\}\\
-    & A \triangle B:= \{x:x\in A \oplus x\in B\}\\
+    & A \triangle B:= (A \diagdown B) \cup (B \diagdown A)\\
 \end{aligned}
 $$
 
