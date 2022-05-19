@@ -15,10 +15,11 @@ $$
 \begin{matrix}
 L_{(d)} := \LinOn (\R)^{\oplus d}\\
 L_{(d)}[\|\cdot\|] :: \Field{(\and)}{\;\;}{
-    & \|\cdot\|_{@ L_{(d)}}: L_{(d)}[\S]\times L_{(d)}[\S]\to \R[\S]\\
+    & \|\cdot\|_{@ L_{(d)}}: L_{(d)}[\S]\to \R[\S]\\
     & \forall x:[1 .. d]\to \R[\S]:
         \|(x_{(1)},x_{(2)}, \cdots,x_{(d)})\| = (\sum_{n=1}^d x_{(n)}^{\cdot 2})^{\cdot 1/2} 
-}
+}\\
+L_{(d)}[\tau] := \text{NormTop}(L_{(d)})
 \end{matrix}
 $$
 
@@ -59,13 +60,21 @@ $$
 }
 $$
 
-## Lesbegue可测集的定义
+## Lesbegue测度的定义
 
 $$
-\text{measurable}_{(d)}(E):= 
-    \forall \varepsilon\in ((0, \infin)): 
-    \exist O\in \text{NormTop}(L_{(d)}): 
-        O\supe E\and \m_{*(d)}(O\diagdown E)<\varepsilon
+\m_{(d)} :: \Field{(\and)}{\;\;}{
+    & {\cal M} := \left\{
+        E\in \Pow(L_{(d)}[\S]):
+        \forall \varepsilon \in ((0, \infin)):
+        \exist O \in L_{(d)}[\tau]:
+        \Field{(\and)}{\;\;}{
+            & \m_{*(d)}(O \diagdown E) < \varepsilon\\
+            & O \supe E\\
+        }
+    \right\}\\
+    & \m_{(d)} = \m_{*(d)} \bigg|_{\cal M}
+}
 $$
 
 

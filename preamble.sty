@@ -112,7 +112,8 @@
 
 
 %-- 有序环 --% 
-\newcommand{\OrdRingSub}{\overset{\rm OrdRing}\sub} % 有序环的定义
+\newcommand{\ordring}{\text{ordring}}               % 有序环的定义
+\newcommand{\OrdRingSub}{\overset{\rm OrdRing}\sub} % 有序环的子环
 \newcommand{\OrdRingTo}{\overset{\rm OrdRing}\to}   % 有序环同态
 
 
@@ -171,6 +172,7 @@
 %-- 线性空间 --%
 \newcommand{\linspace}{\text{lin-space}}             % 线性空间的类型签名
 \newcommand{\LinTo}{\overset{\text{Lin}}{\to}}       % 线性同态
+\newcommand{\LinSimTo}{\overset{\text{Lin}}{\simto}}    % 线性同构
 \newcommand{\LinCap}{\overset{\text{Lin}}{\cap}}     % 线性空间的交
 \newcommand{\LinOplus}{\overset{\text{Lin}}{\oplus}} % 线性空间的直和
 \newcommand{\LinSub}{\overset{\text{Lin}}{\sub}}     % 线性子空间
@@ -182,15 +184,6 @@
 \newcommand{\normspace}{\text{norm-space}}           % 赋范线性空间
 \newcommand{\SupNorm}{\text{SupNorm}}                % 极值范数
 \newcommand{\NL}{\mathbb{NL}}                        % 线性映射形成的赋范线性空间
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 拓扑空间 --%
-\newcommand{\Interior}[1]{\text{Interior}}  % 内点集
-\newcommand{\Limit}[1]{\text{Limit}}        % 极限点集
-\newcommand{\Closure}[1]{\text{Closure}}    % 闭包
-
 
 
 %--------------------------------------------------------------------------------------------------------------%
@@ -246,33 +239,76 @@
 %--------------------------------------------------------------------------------------------------------------%
 
 
-%-- 分析 --%
-\newcommand{\Ind}{\mathbb{I}}                    % 示性函数
+%-- 拓扑空间 --%
+\newcommand{\topspace}{\text{top-space}}    % 拓扑空间
 
-\newcommand{\Dif}{{\frak D}}                     % 微分算子
-\newcommand{\dif}{{\,\rm d}}                     % 微分算子
+\newcommand{\Interior}{\text{Interior}}  % 内点集
+\newcommand{\Limit}{\text{Limit}}        % 极限点集
+\newcommand{\Closure}{\text{Closure}}    % 闭包
 
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
+%-- 度量空间, 极限 --%
+
+\newcommand{\metr}{\text{metr}}                    % 度量
+\newcommand{\metrspace}{\text{metr-space}}         % 度量空间
+\newcommand{\FnMetrSpace}{{\rm FnMetrSpace}}       % 函数形成的度量空间
+
+\newcommand{\commetrspace}{\text{com-metr-space}}  % 完备度量空间
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+
+%-- 测度论 --%
+
+
+% 各种集代数的概念
 \newcommand{\sigmaalg}{{\sigma\text{-alg}}}     % sigma代数
 \newcommand{\pialg}{{\pi\text{-alg}}}           % pi代数
 \newcommand{\lambdaalg}{{\lambda\text{-alg}}}   % lambda代数
 \newcommand{\semialg}{{\text{semi-alg}}}        % 半代数
 \newcommand{\setalg}{{\text{set-alg}}}          % 集合代数
 
-\newcommand{\msr}{\text{msr}}                  % 测度
-\newcommand{\exmsr}{\text{exmsr}}              % 外测度
-\newcommand{\msrspace}{\text{msr-space}}       % 测度空间
-\newcommand{\ae}{\operatorname{ae}}                % 几乎处处
 
-\newcommand{\metr}{\text{metr}}                  % 度量
-\newcommand{\metrspace}{\text{metr-space}}       % 度量空间
+% 测度空间中的概念
+\newcommand{\msr}{\text{msr}}                   % 测度
+\newcommand{\exmsr}{\text{exmsr}}               % 外测度
+\newcommand{\msrspace}{\text{msr-space}}        % 测度空间
+\newcommand{\MsrSub}{\overset{\frak M}\sub}     % 子测度空间
+\newcommand{\ae}{\operatorname{ae}}             % 几乎处处
+\newcommand{\MsrTimes}{\overset{\rm Msr}\times} % 积测度空间
+
+
+% 特殊测度空间
+\newcommand{\m}{\mathbb{m}}                              % \R^d 上的lesbegue测度
+\newcommand{\borelspace}{\text{borel-space}}             % borel测度空间
+
+
+% 可测函数
+\newcommand{\Ind}{\mathbb{I}}                            % 示性函数
+\newcommand{\MeasurableTo}{\overset{\frak M}\to}         % 可测函数
+\newcommand{\supp}{\mathop{\rm supp}}                    % 支集
+
+
+% 积分
+\newcommand{\lesint}{\rlap{\small \mathscr L}\int}       % lesbegue积分
+\newcommand{\E}{\mathbb{E}}                              % 期望
+
+
+%--------------------------------------------------------------------------------------------------------------%
+
+%-- 初等微积分 --%
 
 \newcommand{\rieint}{\rlap{\small \mathscr R}\int}       % riemann积分
 
-\newcommand{\m}{\mathbb{m}}                              % \R^d 上的lesbegue测度
 
-\newcommand{\MeasurableTo}{\overset{\frak M}\to}         % 可测函数
-\newcommand{\lesint}{\rlap{\small \mathscr L}\int}       % lesbegue积分
+%--------------------------------------------------------------------------------------------------------------%
 
-\newcommand{\supp}{\mathop{\rm supp}}                    % 支集
 
-\newcommand{\E}{\mathbb{E}}                              % 期望
+%-- 微分几何 --%
+
+\newcommand{\Dif}{{\frak D}}                     % 微分算子
+\newcommand{\dif}{{\,\rm d}}                     % 微分算子

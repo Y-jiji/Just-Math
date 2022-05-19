@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "53a2c8026bed8cbf",
+        "id": "ffe4cbc968cc6dc3",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-线性代数-赋范线性空间的定义.md",
+            "file": "分析-线性-赋范线性空间中的微分.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -51,9 +51,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "egrov",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -81,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-线性代数-赋范线性空间的定义.md",
+                "file": "分析-线性-赋范线性空间中的微分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-线性代数-赋范线性空间的定义.md",
+                "file": "分析-线性-赋范线性空间中的微分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-线性代数-赋范线性空间的定义.md"
+                "file": "分析-线性-赋范线性空间中的微分.md"
               }
             }
           }
@@ -119,19 +119,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594
+    "width": 304.3333435058594,
+    "collapsed": true
   },
-  "active": "53a2c8026bed8cbf",
+  "active": "ffe4cbc968cc6dc3",
   "lastOpenFiles": [
-    "代数-线性代数-赋范线性空间的定义.md",
-    "-LaTeX符号表-.md",
-    "分析-测度-有限维实线性空间上的Lesbegue测度.md",
-    "分析-结构-赋范线性空间上的几何.md",
-    "分析-微分-赋范线性空间中的微分.md",
+    "分析-线性-赋范线性空间中的微分.md",
+    "分析-线性-赋范线性空间上的几何.md",
+    "分析-拓扑-拓扑空间中的紧集.md",
+    "分析-拓扑-拓扑空间的定义.md",
+    "分析-拓扑-度量空间中的紧集.md",
+    "分析-拓扑-度量空间上的函数.md",
+    "分析-拓扑-度量空间的定义.md",
+    "分析-测度-可测函数.md",
     "分析-测度-有限维实线性空间上的Lesbegue可测函数.md",
-    "分析-测度-有限维实线性空间上可测集的几何性质.md",
-    "分析-积分-抽象测度上的Lesbegue积分.md",
-    "分析-结构-sigma代数和测度.md",
-    "分析-结构-可测函数.md"
+    "分析-测度-pi集和lambda集.md"
   ]
 }
