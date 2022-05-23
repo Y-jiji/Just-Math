@@ -216,5 +216,13 @@
       ],
       "key": "C"
     }
+  ],
+  "obsidian-hotkeys-for-templates:-Chap-Break-.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
   ]
 }

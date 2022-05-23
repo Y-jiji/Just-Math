@@ -254,20 +254,35 @@ f \big|_{Z} := \{(z, f(z)): z\in Z\}\\
 \end{matrix}
 $$
 
+## 集映射
+
 集映射是指对一个映射做变换使得它变为其定义域的幂集上的映射. 
 
 $$
 \begin{matrix}
-\hat f::\Field{(\and)}{\;\;}{
+f^{\rightarrow}::\Field{(\and)}{\;\;}{
     & (X, Y):: f:X\to Y\\
-    & \hat f:\Pow(X)\to \Pow(Y)\\
-    & \hat f(E) = \{f(x): x\in E\}\\
+    & f^{\rightarrow}:\Pow(X)\to \Pow(Y)\\
+    & f^{\rightarrow}(E) = \{f(x): x\in E\}\\
 }\\
 ::: \exist X,Y\text{<set>}:f:X\to Y
 \end{matrix}
 $$
 
-## 单射, 逆映射
+集映射的伴随
+
+$$
+\begin{matrix}
+f^{\leftarrow}::f^{\leftarrow}(E) = \{x: f(x)\in E\}\\
+::: \exist X,Y\text{<set>}:f:X\to Y
+\end{matrix}
+$$
+
+\<RMK\>
+
+注意这里 $f^\leftarrow$ 不是一个正经的函数, 而是只一个宏, 这么做的原因是 $f$ 的目标域不能由 $f$ 确定. 
+
+## 单射
 
 单射是使得不同元素映射到不同值的映射. 
 
@@ -281,19 +296,6 @@ f\text{<inj>} :: \Field{(\and)}{\;\;}{
 \end{matrix}
 $$
 
-逆映射是定义在值域上的映射, 这里用一种取巧的方法来定义, 可能在有些情况下很难解释其含义, 需要慎用. 
-
-$$
-\begin{matrix}
-f^{\diamond -} :: \Field{(\and)}{\;\;}{
-    & X :: \exist Y: f: X\to Y\\
-    & f^{\diamond -}: \hat f (X) \to X\\
-    & f^{\diamond -}(y) = \bigcup_{x\in X\and f(x) = y} x
-}\\
-:: \exist X, Y\text{<set>}: f: X\to Y
-\end{matrix}
-$$
-
 ## 映射的复合
 
 映射复合的符号用菱形算符表示. 
@@ -304,7 +306,7 @@ f\diamond g :: \Field{(\and)}{\;\;}{
     & X,Y:: f:X\to Y\\
     & Z,W:: g:Z\to W\\
     & (f \diamond g) : X \to W\\
-    & \forall x\in X: f(x) \in Z \Rarrow f \diamond g (x) = f (g(x))
+    & \forall x\in X: f(x) \in Z \Rarrow (f \diamond g) (x) = f (g(x))
 }\\
 ::: \exist X, Y\text{<set>}: f: X \to Y\\
 ::: \exist Z, W\text{<set>}: g: Z\to W\\
