@@ -4,19 +4,12 @@ TimeLine:
 => 20220512--20220000 : 分拆映射的部分
 ---
 
-| #已完成-正文 | #未完成-习题 | #TODO | #UNFIXED | 
+| #未完成-正文 | #未完成-习题 | #TODO | #UNFIXED | 
 | ------------ | ------------ | ----- | -------- |
 
 # ZFC公理系统
 > 本章旨在通过各种构造将全部的数学对象都变成集合(除了谓词), 包括映射也是一种集合. 
 
-
-## ::MACRO
-
-| IMPORT                                   | DESCRIPTION                            |
-| ---------------------------------------- | -------------------------------------- |
-| [谓词的定义](逻辑-量词和谓词#谓词的定义) | 谓词的类型签名 $\text{<n-props>}$      |
-| [映射谓词](逻辑-量词和谓词#映射谓词)     | 映射谓词的类型签名 $\text{<fn-props>}$ |
 
 ## 集合, 属于谓词
 
@@ -87,9 +80,9 @@ $$
 上述关于集合的记号并非是良定义的, Russell就提出过一个反例. 
 
 $$
-\Field{\;\;}{\;\;}{
+\Prop{\;\;}{\;\;}{
     & K:=\{T:T\notin T\}\\
-    & \Field{(\and)}{\;\;}{
+    & \Prop{(\and)}{\;\;}{
         & K\in K\Rarrow K\notin K\\
         & K\notin K\Rarrow K\in K\\
     }
@@ -112,10 +105,10 @@ $$
 \begin{matrix}
 \text{<set>}
 ::
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     \\
     & \forall A,B\text{<set>}:
-        \Field{(\LRarrow)}{\;\;}{
+        \Prop{(\LRarrow)}{\;\;}{
              & A=B\\
              & \forall x:(x\in A)\LRarrow (x\in B)\\
         }
@@ -153,7 +146,7 @@ $$
         & \cdots(\text{ZF}-8) \\
     \\
     & \forall A\text{<set>}:
-    \Field{(\Rarrow)}{\;\;}{
+    \Prop{(\Rarrow)}{\;\;}{
         & \CondBegin\\
         & \forall a\in A:\exist t\in a\\
         & \CondEnd\\
@@ -206,7 +199,7 @@ $$
 直积运算的合法性可以通过如下构造来验证
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall A, B\text{<set>}:(\Rarrow)
 }{\;\;}{
     & \CondEnd\\
@@ -227,7 +220,7 @@ $$
 
 $$
 \begin{matrix}
-(f:X \to Y) := \Field{(\and)}{\;\;}{
+(f:X \to Y) := \Prop{(\and)}{\;\;}{
     & X,Y\text{<set>}\\
     & f\in \Pow(X\times Y): \forall x\in X:\exist! y\in Y: (x, y)\in f\\
 }\\
@@ -260,7 +253,7 @@ $$
 
 $$
 \begin{matrix}
-f^{\rightarrow}::\Field{(\and)}{\;\;}{
+f^{\rightarrow}::\Prop{(\and)}{\;\;}{
     & (X, Y):: f:X\to Y\\
     & f^{\rightarrow}:\Pow(X)\to \Pow(Y)\\
     & f^{\rightarrow}(E) = \{f(x): x\in E\}\\
@@ -278,7 +271,7 @@ f^{\leftarrow}::f^{\leftarrow}(E) = \{x: f(x)\in E\}\\
 \end{matrix}
 $$
 
-\<RMK\>
+\<REMARK\>
 
 注意这里 $f^\leftarrow$ 不是一个正经的函数, 而是只一个宏, 这么做的原因是 $f$ 的目标域不能由 $f$ 确定. 
 
@@ -288,7 +281,7 @@ $$
 
 $$
 \begin{matrix}
-f\text{<inj>} :: \Field{(\and)}{\;\;}{
+f\text{<inj>} :: \Prop{(\and)}{\;\;}{
     & X :: \exist Y: f: X\to Y\\
     & f(x) = f(y) \Rarrow x = y
 }\\
@@ -302,7 +295,7 @@ $$
 
 $$
 \begin{matrix}
-f\diamond g :: \Field{(\and)}{\;\;}{
+f\diamond g :: \Prop{(\and)}{\;\;}{
     & X,Y:: f:X\to Y\\
     & Z,W:: g:Z\to W\\
     & (f \diamond g) : X \to W\\
@@ -328,7 +321,7 @@ $$
 
 $$
 \text{<u-set>}:=\forall\, {\cal U}\text{<u-set>}:
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \forall u\in {\cal U}: u \sube {\cal U}\\
     & \forall u, v\in {\cal U}: \{u, v\} \in {\cal U}\\
     & \forall u\in {\cal U}: \Pow(u)\in {\cal U}\\

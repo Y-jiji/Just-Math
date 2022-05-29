@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c490e784ae82eb68",
+        "id": "60b27ebdc119cc94",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "分析-拓扑-拓扑基与拓扑的生成.md",
+            "file": "代数-关系-序关系.md",
             "mode": "source",
             "source": false
           }
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "内",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分析-拓扑-拓扑基与拓扑的生成.md",
+                "file": "代数-关系-序关系.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分析-拓扑-拓扑基与拓扑的生成.md",
+                "file": "代数-关系-序关系.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分析-拓扑-拓扑基与拓扑的生成.md"
+                "file": "代数-关系-序关系.md"
               }
             }
           }
@@ -119,19 +119,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594
+    "width": 304.3333435058594,
+    "collapsed": true
   },
-  "active": "c490e784ae82eb68",
+  "active": "60b27ebdc119cc94",
   "lastOpenFiles": [
-    "分析-拓扑-拓扑基与拓扑的生成.md",
-    "分析-拓扑-拓扑空间中的紧集.md",
-    "分析-拓扑-拓扑空间的定义.md",
-    "分析-拓扑-拓扑空间中的连通性.md",
-    "分析-拓扑-度量空间的定义.md",
-    "分析-拓扑-度量空间中的紧集.md",
-    "分析-拓扑-度量空间上的函数.md",
-    "分析-拓扑-拓扑空间中的稠密集和完全集.md",
-    "分析-极限-度量空间中的极限.md",
-    "代数-范畴-范畴中的指标与极限.md"
+    "代数-关系-序关系.md",
+    "代数-关系-序数.md",
+    "代数-关系-基数.md",
+    "代数-关系-等价关系和商映射.md",
+    "Images/LaTeX-SymTab-4.png",
+    "Images/LaTeX-SymTab-3.png",
+    "Images/LaTeX-SymTab-2.png",
+    "Images/LaTeX-SymTab-1.png",
+    "代数-线性代数-内积空间的定义.md",
+    "分析-连续-实值的连续函数.md"
   ]
 }

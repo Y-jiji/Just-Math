@@ -14,7 +14,7 @@ TimeLine:
 $$
 \begin{matrix}
 L_{(d)} := \LinOn (\R)^{\oplus d}\\
-L_{(d)}[\|\cdot\|] :: \Field{(\and)}{\;\;}{
+L_{(d)}[\|\cdot\|] :: \Prop{(\and)}{\;\;}{
     & \|\cdot\|_{@ L_{(d)}}: L_{(d)}[\S]\to \R[\S]\\
     & \forall x:[1 .. d]\to \R[\S]:
         \|(x_{(1)},x_{(2)}, \cdots,x_{(d)})\| = (\sum_{n=1}^d x_{(n)}^{\cdot 2})^{\cdot 1/2} 
@@ -40,7 +40,7 @@ $$
 \forall f, g : L_{(d)} \MeasurableTo \R: (f + g),\, (f \cdot g): L_{(d)} \MeasurableTo \R 
 $$
 
-\<RMK\>
+\<REMARK\>
 
 本章中我们说 $f$ 可测是说 $f: L_{(d)} \to \R$ 是可测的, 注意 $\R$ 上的搭的是Borel测度而不是Lebesgue测度. 
 
@@ -56,7 +56,7 @@ $$
 
 $$
 \forall f: [1 .. ] \to L_{(d)} \MeasurableTo \R: 
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \sup_{@{\mathscr A}}\{f_{(n)} : n \in [1 .. ]\}: L_{(d)} \MeasurableTo \R\\
     & \inf_{@{\mathscr A}}\{f_{(n)} : n \in [1 .. ]\}: L_{(d)} \MeasurableTo \R\\
     & \varlimsup_{@{\mathscr A}; n \to \infin} f_{(n)}: L_{(d)} \MeasurableTo \R\\ 
@@ -77,7 +77,7 @@ $$
 \<形式描述\>
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall D \MsrSube L_{(d)}\\
     & \forall f: [1 .. n] \to D \MeasurableTo \R\\
 }{\;\;}{

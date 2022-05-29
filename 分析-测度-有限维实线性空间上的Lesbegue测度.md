@@ -14,7 +14,7 @@ TimeLine:
 $$
 \begin{matrix}
 L_{(d)} := \LinOn (\R)^{\oplus d}\\
-L_{(d)}[\|\cdot\|] :: \Field{(\and)}{\;\;}{
+L_{(d)}[\|\cdot\|] :: \Prop{(\and)}{\;\;}{
     & \|\cdot\|_{@ L_{(d)}}: L_{(d)}[\S]\to \R[\S]\\
     & \forall x:[1 .. d]\to \R[\S]:
         \|(x_{(1)},x_{(2)}, \cdots,x_{(d)})\| = (\sum_{n=1}^d x_{(n)}^{\cdot 2})^{\cdot 1/2} 
@@ -27,14 +27,14 @@ $$
 
 $$
 \begin{matrix}
-\text{cube}_{@ L}(E) := \Field{(\and)}{\;\;}{
+\text{cube}_{@ L}(E) := \Prop{(\and)}{\;\;}{
     & d :: L = L_{(d)}\\
     & \exist a: [1 .. d] \to \R[\S]: \exist h \in \R[\S]: 
         E = \bigtimes_{k = 1}^d [[a_{(k)}, a_{(k)}+h]]
 }\\
 :::\exist d\in [1 .. ]: L = L_{(d)}\\
 \\
-\text{CubeSize}_{@L}(E)::\Field{(\and)}{\;\;}{
+\text{CubeSize}_{@L}(E)::\Prop{(\and)}{\;\;}{
     & h::\exist a: [1 .. d] \to \R[\S]: h \in \R[\S]\and 
         E = \bigtimes_{k = 1}^d [[a_{(k)}, a_{(k)}+h]]\\
     & \text{CubeSize}_{@L}(E) = h^{\cdot 3}
@@ -47,11 +47,11 @@ $$
 ## Lebesgue外测度的定义
 
 $$
-\m_{*(d)}::\Field{(\and)}{\;\;}{
+\m_{*(d)}::\Prop{(\and)}{\;\;}{
     & \m_{*(d)}: \Pow(L_{(d)}[\S])\to [[0, \infin]]\\
     & \m_{*(d)}(E) = \inf \left\{
     \sum_{n\in [1 ..]} \text{CubeSize}(Q_{(n)}):
-    \Field{(\and)}{\;\;}{
+    \Prop{(\and)}{\;\;}{
         & Q:[1 ..]\to \Pow(E)\\
         & \bigcup_{n\in [1 ..]} Q_{(n)} \supe E\\
         & \text{cube}_{@ L_{(d)}}(Q_{(n)})
@@ -63,12 +63,12 @@ $$
 ## Lebesgue测度的定义
 
 $$
-\m_{(d)} :: \Field{(\and)}{\;\;}{
+\m_{(d)} :: \Prop{(\and)}{\;\;}{
     & {\cal M} := \left\{
         E\in \Pow(L_{(d)}[\S]):
         \forall \varepsilon \in ((0, \infin)):
         \exist O \in L_{(d)}[\tau]:
-        \Field{(\and)}{\;\;}{
+        \Prop{(\and)}{\;\;}{
             & \m_{*(d)}(O \diagdown E) < \varepsilon\\
             & O \supe E\\
         }
@@ -170,7 +170,7 @@ $$
 \end{aligned}
 $$
 
-\<RMK\>
+\<REMARK\>
 
 看Stein给的提示的时候蒙了半天, 一直在想 $f$ 应该是会有不连续的(总觉得它应该长得和分布函数一样), 不得已翻了答案, 结果发现它就是按提示的方法做的...到反应过来$\R^d$上的测度没有跳跃点花了半分钟, 这波属于是复习综合症典型症状了. 
 

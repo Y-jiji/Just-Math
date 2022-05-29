@@ -21,12 +21,13 @@
 
 
 %%-- 块记号 --%%
-\newcommand{\Field}[3]{#1\left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|}
+\newcommand{\Prop}[3]{#1\left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|}
 
-\newcommand{\FieldEndl}[3]{\left.\begin{aligned}& \left.\begin{aligned}#1\end{aligned}\right.\\& \left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|\end{aligned}\right.}
+\newcommand{\PropEndl}[3]{\left.\begin{aligned}& \left.\begin{aligned}#1\end{aligned}\right.\\& \left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|\end{aligned}\right.}
 
-\newcommand{\Guard}[1]{\left[~\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\Guard}[1]{\left\{~\begin{aligned}#1\end{aligned}\right.}
 
+\newcommand{\suffix}[1]{{\text{<}#1\text{>}}}
 
 
 %--------------------------------------------------------------------------------------------------------------%
@@ -53,7 +54,8 @@
 
 %-- 序数 --%
 \newcommand{\MonoTo}{\overset{\rm Mono}\to}
-
+\newcommand{\reachable}{\text{reachable}}
+\newcommand{\unreachable}{\text{unreachable}}
 
 
 %--------------------------------------------------------------------------------------------------------------%
@@ -61,7 +63,6 @@
 
 %-- 幺半群 --%
 \newcommand{\monoid}{{\rm monoid}}
-
 
 
 %--------------------------------------------------------------------------------------------------------------%
@@ -190,7 +191,8 @@
 
 
 %-- 基数 --%
-\newcommand{\card}{\mathop{\rm card}} % 集合的基数
+\newcommand{\card}{\mathop{\rm card}}         % 集合的基数
+\newcommand{\ordinal}{\text{ordinal}}         % 序数的类型签名
 
 
 %--------------------------------------------------------------------------------------------------------------%
@@ -226,15 +228,17 @@
 \newcommand{\Universe}{{\cal U}}    % Gronthendieck宇宙
 
 
-
 %--------------------------------------------------------------------------------------------------------------%
 
 
 %-- 映射 --%
-\newcommand{\img}{\mathop{\rm img}}       % 函数的像
-\newcommand{\dom}{\mathop{\rm dom}}       % 函数的原像
-\newcommand{\partition}{{\rm partition}}  % 集合的分划
+\newcommand{\img}{\mathop{\rm img}}       % 映射的像
+\newcommand{\dom}{\mathop{\rm dom}}       % 映射的原像
 
+\newcommand{\partition}{{\rm partition}}              % 集合的分划
+\newcommand{\InjectionTo}{\overset{\text{Inj}}\to}    % 单射
+\newcommand{\BijectionTo}{\overset{\text{Bij}}\to}    % 双射
+\newcommand{\SurjectionTo}{\overset{\text{Surj}}\to}  % 满射
 
 %--------------------------------------------------------------------------------------------------------------%
 

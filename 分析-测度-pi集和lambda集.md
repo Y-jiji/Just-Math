@@ -13,7 +13,7 @@ TimeLine:
 \<形式定义\>
 
 $$
-\pialg(X) := \Field{(\and)}{\;\;}{
+\pialg(X) := \Prop{(\and)}{\;\;}{
     & X\text{<set>} \\
     & \forall A,B \in X: A \cap B \in X
 }
@@ -25,7 +25,7 @@ $$
 \<形式定义\>
 
 $$
-\lambdaalg(X) := \Field{(\and)}{\;\;}{
+\lambdaalg(X) := \Prop{(\and)}{\;\;}{
     & X\text{<set>}\\
     & \exist \Omega \in X: X \sube \Pow(\Omega)\\
     & \forall A, B\in X: A \sube B \Rightarrow B \diagdown A \in X\\

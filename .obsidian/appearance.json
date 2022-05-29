@@ -1,7 +1,7 @@
 {
   "baseFontSize": 15,
-  "translucency": false,
-  "theme": "moonstone",
+  "translucency": true,
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "obsidian",
     "morandi-greenlish"

@@ -23,12 +23,12 @@ TimeLine:
 
 $$
 \semialg({\cal S}):=
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & {\cal S}\text{<set>}\\
     \\
     & \bigcup\limits_{A\in \cal S} A, \varnothing \in {\cal S}\\
     \\
-    & \Field{
+    & \Prop{
         \forall A, B\in {\cal S}: (\and)
     }{\;\;}{
         & A \cap B \in {\cal S}\\
@@ -47,14 +47,14 @@ $$
 
 $$
 \setalg({\cal S}):=
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & {\cal S}\text{<set>}\\
     & \bigcup\limits_{A\in \cal S} A, \varnothing \in {\cal S}\\
     & \forall A, B\in {\cal S}: B \diagdown A, A \cup B \in {\cal S}
 }
 $$
 
-\<RMK\>
+\<REMARK\>
 
 关于交, 并运算, 实际上集合代数成环, 因此也有些文本当中叫做Boolean环. 
 
@@ -83,7 +83,7 @@ $\sigma$代数则是指对可列并和对全集取补运算封闭的集族.
 
 $$
 \sigmaalg({\cal S}):=
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & {\cal S}\text{<set>}\\
     & \bigcup\limits_{A\in \cal S} A, \varnothing \in {\cal S}\\
     & \forall A, B\in {\cal S}: B \diagdown A \in {\cal S}\\
@@ -100,11 +100,11 @@ $$
 \<形式描述\>
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall \setalg({\cal S}):(\LRarrow)
 }{\;\;}{
     & \sigmaalg({\cal S})\\\\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
         & \CondBegin\\
@@ -112,7 +112,7 @@ $$
         & \CondEnd\\
         & \bigcup_{n \prec \aleph(\varnothing)} E(n) \in {\cal S}
     }\\\\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
         & \CondBegin\\
@@ -134,11 +134,11 @@ $$
 \<形式证明\>
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall \setalg({\cal S}):
 }{\;\;}{
     & \CondBegin\\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
         & \CondBegin\\
@@ -147,10 +147,10 @@ $$
         & \bigcup_{n \prec \aleph(\varnothing)} E(n) \in {\cal S}
     }\\
     & \CondEnd\\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
-        & F :: \Field{(\and)}{\;\;}{
+        & F :: \Prop{(\and)}{\;\;}{
             & F: \{n \prec \aleph(\varnothing)\}\to {\cal S}\\
             & F(n) = \bigcup_{m \preceq n} E(m)
         }\\
@@ -164,11 +164,11 @@ $$
 \<形式证明\>
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall \setalg({\cal S}):
 }{\;\;}{
     & \CondBegin\\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
         & \CondBegin\\
@@ -181,10 +181,10 @@ $$
     & \Omega := \bigcup_{E \in {\cal S}} E\\
     & \complement(E) := \Omega \diagdown E\\
     \\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E:\{n \prec \aleph(\varnothing)\}\to {\cal S}:
     }{\;\;}{
-        & F :: \Field{(\and)}{\;\;}{
+        & F :: \Prop{(\and)}{\;\;}{
             & F: \{n \prec \aleph(\varnothing)\}\to {\cal S}\\
             & F(n) = \bigcap_{m \preceq n} \complement(E(m))
         }\\
@@ -206,10 +206,10 @@ $$
 $$
 \begin{matrix}
 \sigma({\cal A})::
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \Omega := \bigcup_{A \in {\cal A}} A\\
     & {\cal SS} := \left\{{\cal S}: 
-    \Field{(\and)}{\;\;}{
+    \Prop{(\and)}{\;\;}{
         & {\cal A} \sube {\cal S} \sube \Pow(\Omega)\\
         & \sigmaalg({\cal S})\\
     }\right\}\\
@@ -233,14 +233,14 @@ $$
 $$
 \begin{matrix}
 \exmsr(\mu):=
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \exist {\cal S}: \mu: {\cal S} \to [[0, \infin]]\\
     \\
     & {\cal S} :: \mu: {\cal S} \to [[0, \infin]]\\
     \\
     & \sigmaalg({\cal S})\\
     \\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall {\cal A} \sube {\cal S}: 
     }{\;\;}{
         & \CondBegin\\
@@ -260,20 +260,20 @@ $$
 $$
 \begin{matrix}
 \msr(\mu):=
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \exist {\cal S}: \mu: {\cal S} \to [[0, \infin]]\\
     \\
     & {\cal S} :: \mu: {\cal S} \to [[0, \infin]]\\
     \\
     & \sigmaalg({\cal S})\\
     \\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall {\cal A} \sube {\cal S}: 
     }{\;\;}{
         & \CondBegin\\
         & \card {\cal S} \prec \aleph(\varnothing)\\
         & \forall A, B\in {\cal A}: 
-        \Field{(\or)}{\;\;}{
+        \Prop{(\or)}{\;\;}{
             & A \cap B = \varnothing\\ 
             & A = B
         }\\
@@ -295,7 +295,7 @@ $$
 
 $$
 \text{ex}\msrspace(X):=
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \sigmaalg(X[{\frak M}])\\
     \\
     & X[\mu]: X[{\frak M}] \to [[0, \infin]]\\
@@ -316,7 +316,7 @@ $$
 
 $$
 \borelspace(X) := 
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \topspace(X)\\
     & \msrspace(X)\\
     & X[{\frak M}] = \sigma(X[\tau])\\
@@ -333,7 +333,7 @@ $$
 
 $$
 \msrspace(X):=
-\Field{(\and)}{\;\;}{
+\Prop{(\and)}{\;\;}{
     & \sigmaalg(X[{\frak M}])\\
     \\
     & X[\mu]: X[{\frak M}] \to [[0, \infin]]\\
@@ -344,7 +344,7 @@ $$
 }
 $$
 
-\<RMK\>
+\<REMARK\>
 
 这个集合 $X[\S]$ 被称为这个测度空间的基底, 基底集合中的元素称为测度空间中的点. 
 
@@ -360,7 +360,7 @@ $$
 \<形式定义\>
 
 $$
-X \MsrSub Y := \Field{(\and)}{\;\;}{
+X \MsrSub Y := \Prop{(\and)}{\;\;}{
     & \msrspace(X) \and \msrspace(Y)\\
     & X[\S] \sube Y[\S]\\
     & X[{\frak M}] \sube Y[{\frak M}]\\
@@ -390,7 +390,7 @@ $$
 
 $$
 \begin{matrix}
-\text{MsrSpace}(\mu) :: \Field{(\and)}{\;\;}{
+\text{MsrSpace}(\mu) :: \Prop{(\and)}{\;\;}{
     & M := \text{MsrSpace}(\mu)\\
     & M[\mu] = \mu\\
     & M[{\frak M}] = \dom \mu\\
@@ -411,7 +411,7 @@ Caratheodory 条件, 是指由一个集合产生的二分划使得给定外测�
 $$
 \begin{matrix}
 \text{carath}(X,\mu)(E)
-:= \Field{(\and)}{\;\;}{
+:= \Prop{(\and)}{\;\;}{
     & E\in \Pow(X) \\
     & \mu(A\cap E)+\mu(A \diagdown E) = \mu(A)
 }\\
@@ -422,7 +422,7 @@ $$
 \end{matrix}
 $$
 
-\<RMK\>
+\<REMARK\>
 
 注意是用给定的集合分划其他集合, 而不是反过来. 
 
@@ -435,7 +435,7 @@ $$
 \<形式描述\>
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall X\text{<set>}\\
     & \forall \mu:\Pow(X)\to [[0,\infin]]
 }{\;\;}{
@@ -477,7 +477,7 @@ $$
 \<形式证明:第一部分\>
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall X\text{<set>}\\
     & \forall \mu:\Pow(X)\to [[0,\infin]]
 }{\;\;}{
@@ -489,7 +489,7 @@ $$
     \\
     & E^\complement := X \diagdown E :: E \in \Pow(X)\\
     \\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E\in {\cal M}: \forall A\in \Pow(X): 
     }{\;\;}{
         & \mu(E) = \mu(A \cap E^\complement) +  \mu(A \cap E) \\
@@ -498,7 +498,7 @@ $$
     \\
     & \forall E\in {\cal M}: E^\complement\in {\cal M}\\
     \\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E, F\in {\cal M}:\forall A\in \Pow(X): 
     }{\;\;}{
         & \CondEnd\\
@@ -522,7 +522,7 @@ $$
 \<形式证明:第二部分\>
 
 $$
-\FieldEndl{
+\PropEndl{
     & \forall X\text{<set>}\\
     & \forall \mu:\Pow(X)\to [[0,\infin]]
 }{\;\;}{
@@ -534,7 +534,7 @@ $$
     \\
     & \setalg({\cal M})\\
     \\
-    & \FieldEndl{
+    & \PropEndl{
         & \forall E: [1 .. ] \to {\cal M}:
     }{\;\;}{
         & \CondBegin\\
@@ -542,7 +542,7 @@ $$
         & \CondEnd\\
         & G(N) := \bigcup_{n \in [1 .. N]} E_{(n)}\\
         & G(\infin) := \bigcup_{n \in [1 ..]} E_{(n)}\\\\
-        & \FieldEndl{
+        & \PropEndl{
             & \forall A \sube X: 
         }{\;\;}{
             & \CondEnd\\
@@ -554,7 +554,7 @@ $$
             & \lim_{N \to \infin} \mu(A \cap G_{(N)}) 
             = \sum_{n\in [1 .. ]}\mu(A \cap E_{(n)})
         }\\\\
-        & \FieldEndl{
+        & \PropEndl{
             & \forall A \sube X:
         }{\;\;}{
             & \CondEnd\\
@@ -576,7 +576,7 @@ $$
 }
 $$
 
-\<RMK\> 
+\<REMARK\> 
 
 Caratheodory条件给我们提供了一个构造可测集的充分条件, 即只要一个 $\sigma$ 代数能够被 $\text{Carath}(X,\mu)$ 包含, 那么它一定能使得 $\mu$ 成为测度. 
 

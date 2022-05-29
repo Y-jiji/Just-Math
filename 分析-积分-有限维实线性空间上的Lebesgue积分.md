@@ -5,6 +5,13 @@ TimeLine:
 | #未完成-正文 | #未完成-习题 |
 | ------------ | ------------ |
 
-# 有限维实线性空间上的Lebesgue积分
+# § 有限维实线性空间上的Lebesgue积分
 
-## 
+## ::IMPORT
+
+| ENTRY | SYMBOL |
+| ------ | ----------- |
+| [Lebesgue积分的定义](分析-积分-抽象测度上的Lebesgue积分.md#Lebesgue积分的定义%20DEF) | $\lebint$ |
+|        |             |
+
+## ::
