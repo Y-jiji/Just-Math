@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "代数-关系-序关系.md",
+            "file": "组合-计算-Von机器上算法的描述.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Slice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "代数-关系-序关系.md",
+                "file": "组合-计算-Von机器上算法的描述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "代数-关系-序关系.md",
+                "file": "组合-计算-Von机器上算法的描述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代数-关系-序关系.md"
+                "file": "组合-计算-Von机器上算法的描述.md"
               }
             }
           }
@@ -124,15 +124,15 @@
   },
   "active": "60b27ebdc119cc94",
   "lastOpenFiles": [
-    "代数-关系-序关系.md",
-    "代数-关系-序数.md",
-    "代数-关系-基数.md",
-    "代数-关系-等价关系和商映射.md",
-    "Images/LaTeX-SymTab-4.png",
-    "Images/LaTeX-SymTab-3.png",
-    "Images/LaTeX-SymTab-2.png",
+    "组合-计算-Von机器上算法的描述.md",
+    "代数-环-孙子定理.md",
+    "分析-概率-Bayes估计.md",
     "Images/LaTeX-SymTab-1.png",
-    "代数-线性代数-内积空间的定义.md",
-    "分析-连续-实值的连续函数.md"
+    "Images/LaTeX-SymTab-2.png",
+    "组合-计算-字符串.md",
+    "代数-群-自由群和生成子群.md",
+    "代数-范畴-伴随函子.md",
+    "代数-关系-基数.md",
+    "组合-计算-函数组合子.md"
   ]
 }
