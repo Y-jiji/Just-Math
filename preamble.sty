@@ -231,8 +231,10 @@
 %-- 集合论 --%
 \newcommand{\Pow}{{\frak P}}        % 幂集
 \newcommand{\Set}{\mathtt{Set}}     % 集合范畴
-\newcommand{\Universe}{{\cal U}}    % Gronthendieck宇宙
+\newcommand{\Universe}{{\cal U}}    % Grothendieck宇宙
 \newcommand{\set}{{\rm set}}        % ZFC集合
+\newcommand{\uset}{{\rm uset}}      % Grothendieck宇宙中的u-集
+
 
 %--------------------------------------------------------------------------------------------------------------%
 
@@ -290,10 +292,19 @@
 % 测度空间中的概念
 \newcommand{\msr}{\text{msr}}                   % 测度
 \newcommand{\exmsr}{\text{exmsr}}               % 外测度
+\newcommand{\sgnmsr}{\text{sgnmsr}}             % 有符号测度
 \newcommand{\msrspace}{\text{msr-space}}        % 测度空间
 \newcommand{\MsrSub}{\overset{\frak M}\sub}     % 子测度空间
 \newcommand{\ae}{\operatorname{ae}}             % 几乎处处
 \newcommand{\MsrTimes}{\overset{\rm Msr}\times} % 积测度空间
+\newcommand{\abscont}{\overset{\frak M}\lll}    % 绝对连续
+
+% 几乎处处的函数比较
+\newcommand{\aeeq}{\mathop{\dot=}}            % 几乎处处等于
+\newcommand{\aele}{\mathop{\dot\le}}          % 几乎处处小于等于
+\newcommand{\aege}{\mathop{\dot\ge}}          % 几乎处处大于等于
+\newcommand{\aelss}{\mathop{\dot<}}           % 几乎处处小于
+\newcommand{\aegtr}{\mathop{\dot>}}           % 几乎处处大于
 
 
 % 特殊测度空间
@@ -314,10 +325,18 @@
 
 %--------------------------------------------------------------------------------------------------------------%
 
+%-- 概率论 --%
+
+
+\newcommand{\statint}{\rlap{\small \mathscr S}\int}      % 统计积分(离散时取和的积分)
+\newcommand{\probspace}{\text{prob-space}}               % 概率空间
+\newcommand{\Pr}{{\rm Pr}}                               % 概率测度
+
+%--------------------------------------------------------------------------------------------------------------%
+
 %-- 初等微积分 --%
 
 \newcommand{\rieint}{\rlap{\small \mathscr R}\int}       % riemann积分
-\newcommand{\statint}{\rlap{\small \mathscr S}\int}      % 统计积分(离散时取和的积分)
 
 %--------------------------------------------------------------------------------------------------------------%
 

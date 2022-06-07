@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "组合-计算-Von机器上算法的描述.md",
+            "file": "分析-测度-符号测度.md",
             "mode": "source",
             "source": true
           }
@@ -51,8 +51,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Slice",
-                "matchingCase": false,
+                "query": "\\sgnmsr",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -60,7 +60,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -81,7 +82,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "组合-计算-Von机器上算法的描述.md",
+                "file": "分析-测度-符号测度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组合-计算-Von机器上算法的描述.md",
+                "file": "分析-测度-符号测度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组合-计算-Von机器上算法的描述.md"
+                "file": "分析-测度-符号测度.md"
               }
             }
           }
@@ -124,15 +125,15 @@
   },
   "active": "60b27ebdc119cc94",
   "lastOpenFiles": [
-    "组合-计算-Von机器上算法的描述.md",
+    "分析-测度-符号测度.md",
+    "分析-测度-sigma代数和测度.md",
+    "分析-测度-绝对连续与Radon-Nikodym导数.md",
+    "代数-环-有序环的定义.md",
+    "代数-环-整环的定义.md",
+    "代数-环-一元多项式.md",
     "代数-环-孙子定理.md",
-    "分析-概率-Bayes估计.md",
-    "Images/LaTeX-SymTab-1.png",
-    "Images/LaTeX-SymTab-2.png",
-    "组合-计算-字符串.md",
-    "代数-群-自由群和生成子群.md",
-    "代数-范畴-伴随函子.md",
-    "代数-关系-基数.md",
-    "组合-计算-函数组合子.md"
+    "代数-环-局部化.md",
+    "代数-环-交换环的定义.md",
+    "代数-环-环的特征数.md"
   ]
 }
