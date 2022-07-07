@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "60b27ebdc119cc94",
+        "id": "c3b93588c16f5b01",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "分析-测度-符号测度.md",
-            "mode": "source",
+            "file": "集合-朴素集合与其运算.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -51,17 +51,16 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\sgnmsr",
-                "matchingCase": true,
-                "explainSearch": false,
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分析-测度-符号测度.md",
+                "file": "集合-朴素集合与其运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分析-测度-符号测度.md",
+                "file": "集合-朴素集合与其运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分析-测度-符号测度.md"
+                "file": "集合-朴素集合与其运算.md"
               }
             }
           }
@@ -123,17 +122,17 @@
     "width": 304.3333435058594,
     "collapsed": true
   },
-  "active": "60b27ebdc119cc94",
+  "active": "c3b93588c16f5b01",
   "lastOpenFiles": [
-    "分析-测度-符号测度.md",
-    "分析-测度-sigma代数和测度.md",
-    "分析-测度-绝对连续与Radon-Nikodym导数.md",
-    "代数-环-有序环的定义.md",
-    "代数-环-整环的定义.md",
-    "代数-环-一元多项式.md",
-    "代数-环-孙子定理.md",
-    "代数-环-局部化.md",
-    "代数-环-交换环的定义.md",
-    "代数-环-环的特征数.md"
+    "集合-朴素集合与其运算.md",
+    "-模式匹配-.md",
+    "-展开规则-.md",
+    "-lambda算子-.md",
+    "-模式类型-.md",
+    "逻辑-量词和谓词.md",
+    "逻辑-真值演算的块记法.md",
+    "计数-有限集的分划.md",
+    "计数-对称性.md",
+    "测度-符号测度和Hahn分解.md"
   ]
 }

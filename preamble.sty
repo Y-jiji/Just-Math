@@ -20,15 +20,22 @@
 %--------------------------------------------------------------------------------------------------------------%
 
 
-%%-- 块记号 --%%
-\newcommand{\Prop}[3]{#1\left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|}
+%%-- 基本记号 --%%
+\newcommand{\Block}[3]{#1\left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|}
 
-\newcommand{\PropEndl}[3]{\left.\begin{aligned}& \left.\begin{aligned}#1\end{aligned}\right.\\& \left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|\end{aligned}\right.}
+\newcommand{\BlockEndl}[3]{\left.\begin{aligned}& \left.\begin{aligned}#1\end{aligned}\right.\\& \left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|\end{aligned}\right.}
 
 \newcommand{\Guard}[1]{\left\{~\begin{aligned}#1\end{aligned}\right.}
 
 \newcommand{\suffix}[1]{{\text{<}#1\text{>}}}
 
+\newcommand{\param}{\sharp}
+
+\newcommand{\about}[1]{{\text{``}#1\text{''}}}
+
+\newcommand{\unique}{{\text{unique}}}
+
+\newcommand{\data}{\text{data}}
 
 %--------------------------------------------------------------------------------------------------------------%
 
@@ -252,15 +259,18 @@
 
 
 %-- 拓扑空间 --%
-\newcommand{\topspace}{\text{top-space}}         % 拓扑空间
-\newcommand{\TopSub}{\overset{\rm Top}{\sub}}    % 拓扑子空间
+\newcommand{\topspace}{\text{top-space}}             % 拓扑空间
+\newcommand{\TopSub}{\overset{\rm Top}{\sub}}        % 拓扑子空间
 
-\newcommand{\Interior}{\text{Interior}}          % 内点集
-\newcommand{\Limit}{\text{Limit}}                % 极限点集
-\newcommand{\Closure}{\text{Closure}}            % 闭包
+\newcommand{\TopTimes}{\overset{\rm Top}{\times}}    % 拓扑空间的积
+\newcommand{\ContTo}{\overset{\rm Cont}\to}          % 连续函数
 
-\newcommand{\topbase}{\text{top-base}}            % 拓扑基
-\newcommand{\topsubbase}{\text{top-subbase}}      % 下拓扑基
+\newcommand{\Interior}{\text{Interior}}              % 内点集
+\newcommand{\Limit}{\text{Limit}}                    % 极限点集
+\newcommand{\Closure}{\text{Closure}}                % 闭包
+
+\newcommand{\topbase}{\text{top-base}}               % 拓扑基
+\newcommand{\topsubbase}{\text{top-subbase}}         % 下拓扑基
 
 %--------------------------------------------------------------------------------------------------------------%
 
@@ -283,21 +293,25 @@
 
 % 各种集代数的概念
 \newcommand{\sigmaalg}{{\sigma\text{-alg}}}     % sigma代数
+\newcommand{\sigmaex}{{\mathbb s}}              % sigma扩张
 \newcommand{\pialg}{{\pi\text{-alg}}}           % pi代数
 \newcommand{\lambdaalg}{{\lambda\text{-alg}}}   % lambda代数
+\newcommand{\lambdaex}{{\mathbb l}}             % lambda扩张
 \newcommand{\semialg}{{\text{semi-alg}}}        % 半代数
 \newcommand{\setalg}{{\text{set-alg}}}          % 集合代数
 
 
 % 测度空间中的概念
-\newcommand{\msr}{\text{msr}}                   % 测度
-\newcommand{\exmsr}{\text{exmsr}}               % 外测度
-\newcommand{\sgnmsr}{\text{sgnmsr}}             % 有符号测度
-\newcommand{\msrspace}{\text{msr-space}}        % 测度空间
-\newcommand{\MsrSub}{\overset{\frak M}\sub}     % 子测度空间
-\newcommand{\ae}{\operatorname{ae}}             % 几乎处处
-\newcommand{\MsrTimes}{\overset{\rm Msr}\times} % 积测度空间
-\newcommand{\abscont}{\overset{\frak M}\lll}    % 绝对连续
+\newcommand{\msr}{\text{msr}}                       % 测度
+\newcommand{\exmsr}{\text{exmsr}}                   % 外测度
+\newcommand{\sgnmsr}{\text{sgnmsr}}                 % 有符号测度
+\newcommand{\msrspace}{\text{msr-space}}            % 测度空间
+\newcommand{\MsrSub}{\overset{\frak M}\sub}         % 子测度空间
+\newcommand{\ae}{\text{\ae}}                 % 几乎处处
+\newcommand{\MsrTimes}{\overset{\rm Msr}\times}     % 积测度空间
+\newcommand{\abscont}{\overset{\frak M}\lll}        % 绝对连续
+\newcommand{\sigmafinite}{{\sigma\text{-finite}}}   % sigma有限的测度
+
 
 % 几乎处处的函数比较
 \newcommand{\aeeq}{\mathop{\dot=}}            % 几乎处处等于

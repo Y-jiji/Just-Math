@@ -1,6 +1,6 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "-path:Legacy",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -60,6 +60,6 @@
   "repelStrength": 7.17948717948718,
   "linkStrength": 1,
   "linkDistance": 89,
-  "scale": 1.053497942386814,
+  "scale": 1.053497942386813,
   "close": false
 }
