@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "集合-朴素集合与其运算.md",
-            "mode": "preview",
+            "file": "集合-Schröder-Bernstein定理.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -64,8 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.0083885192871,
-    "collapsed": true
+    "width": 375.0083885192871
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -81,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "集合-朴素集合与其运算.md",
+                "file": "集合-Schröder-Bernstein定理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "集合-朴素集合与其运算.md",
+                "file": "集合-Schröder-Bernstein定理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "集合-朴素集合与其运算.md"
+                "file": "集合-Schröder-Bernstein定理.md"
               }
             }
           }
@@ -124,6 +123,7 @@
   },
   "active": "c3b93588c16f5b01",
   "lastOpenFiles": [
+    "集合-Schröder-Bernstein定理.md",
     "集合-朴素集合与其运算.md",
     "-模式匹配-.md",
     "-展开规则-.md",
@@ -132,7 +132,6 @@
     "逻辑-量词和谓词.md",
     "逻辑-真值演算的块记法.md",
     "计数-有限集的分划.md",
-    "计数-对称性.md",
-    "测度-符号测度和Hahn分解.md"
+    "计数-对称性.md"
   ]
 }

@@ -8,380 +8,58 @@
 \newcommand{\Z}{{\mathbb Z}}
 \newcommand{\Q}{{\mathbb Q}}
 \newcommand{\infin}{\infty }
-\newcommand{\exist}{\exists }
-\newcommand{\sube}{\subseteq }
-\newcommand{\sub}{\subset }
-\newcommand{\supe}{\supseteq }
-\newcommand{\and}{\wedge }
-\newcommand{\or}{\vee }
 
+%--------------------------------------------------------------------------------%
+%                                 block markers                                  %
+%--------------------------------------------------------------------------------%
 
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%%-- 基本记号 --%%
 \newcommand{\Block}[3]{#1\left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|}
-
 \newcommand{\BlockEndl}[3]{\left.\begin{aligned}& \left.\begin{aligned}#1\end{aligned}\right.\\& \left|\underline{\overline{#2\begin{aligned}#3\end{aligned}#2}}\right|\end{aligned}\right.}
 
-\newcommand{\Guard}[1]{\left\{~\begin{aligned}#1\end{aligned}\right.}
-
-\newcommand{\suffix}[1]{{\text{<}#1\text{>}}}
+%--------------------------------------------------------------------------------%
+%                                    keywords                                    %
+%--------------------------------------------------------------------------------%
 
 \newcommand{\param}{\sharp}
+\newcommand{\data}{{\rm data}}
+\newcommand{\meta}{{\rm meta}}
+\newcommand{\macro}{{\rm macro}}
+\newcommand{\fn}{{\rm fn}}
+\newcommand{\suffix}[1]{\text<{#1}\text>}
 
-\newcommand{\about}[1]{{\text{``}#1\text{''}}}
+%--------------------------------------------------------------------------------%
+%                                     logic                                      %
+%--------------------------------------------------------------------------------%
 
-\newcommand{\unique}{{\text{unique}}}
+%-- boolean type --%
+\newcommand{\Bool}{{\sf Bool}}
 
-\newcommand{\data}{\text{data}}
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 条件命题记号 --%
-\newcommand{\CondBegin}{{\lhd}\,{\lhd}\,{\lhd}}
-\newcommand{\CondEnd}{{\rhd}\,{\rhd}\,{\rhd}}
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 蕴含,等价 --%
+%-- arrow shord hands --%
 \newcommand{\Larrow}{\Leftarrow}
 \newcommand{\Rarrow}{\Rightarrow}
 \newcommand{\LRarrow}{\Leftrightarrow}
 
+%-- condition marks --%
+\newcommand{\CondBegin}{{\lhd}\,{\lhd}\,{\lhd}}
+\newcommand{\CondEnd}{{\rhd}\,{\rhd}\,{\rhd}}
 
+%-- bool ops --%
+\newcommand{\and}{\wedge}
+\newcommand{\or}{\vee}
 
-%--------------------------------------------------------------------------------------------------------------%
+%-- quantifier --%
+\newcommand{\exist}{\exists}
 
 
-%-- 序数 --%
-\newcommand{\reachable}{\text{reachable}}
-\newcommand{\unreachable}{\text{unreachable}}
+%--------------------------------------------------------------------------------%
+%                                      set                                       %
+%--------------------------------------------------------------------------------%
 
+%-- set type --%
+\newcommand{\Set}{{\sf Set}}
 
-%--------------------------------------------------------------------------------------------------------------%
+%-- set ops --%
+\newcommand{\sube}{\subseteq}
+\newcommand{\sub}{\subset}
+\newcommand{\supe}{\supseteq}
 
-%-- 序关系 --%
-\newcommand{\MonoTo}{\overset{\rm Mono}\to}
-\newcommand{\MonoSimTo}{\overset{\rm Mono}{\simto}}
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 幺半群 --%
-\newcommand{\monoid}{{\rm monoid}}
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 群 --%
-\newcommand{\group}{{\rm group}}
-\newcommand{\gker}{\operatorname{\rm gker}}
-\newcommand{\Grp}{{\mathtt{Grp}}}
-\newcommand{\GroupTo}{\overset{\rm Group}\to }
-\newcommand{\GroupTimes}{\overset{\rm Group}\times }
-\newcommand{\AutGrp}{{\rm AutGrp}}
-\newcommand{\GroupBigCap}{\overset{\rm Group}\bigcap\limits}
-\newcommand{\GroupCap}{\overset{\rm Group}{\cap}}
-\newcommand{\GroupSub}{\overset{\rm Group}{\sub}}
-\newcommand{\FreeGrp}{\mathsf{FreeGrp}}
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 交换群 --%
-\newcommand{\abgroup}{{\rm abgroup}}
-\newcommand{\AbGroupSub}{\overset{\rm AbGroup}\sub }
-\newcommand{\abker}{\operatorname{\rm abker}}
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 环 --% 
-\newcommand{\ring}{{\rm ring}}                    % 环的定义
-\newcommand{\RingTo}{\overset{\rm Ring}\to }      % 环同态
-\newcommand{\riker}{\operatorname{\rm riker}}     % 环同态的核
-\newcommand{\Frac}{\text{Frac}}                   % 局部化
-\newcommand{\RingSub}{\overset{\rm Ring}\sub }    % 子环
-
-\newcommand{\RingCap}{\overset{\rm Ring}\cap }      % 环的交
-\newcommand{\RingBigCap}{\overset{\rm Ring}\bigcap} % 多个环的交
-
-\newcommand{\Ring}{\mathtt{Ring}}
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 有序环 --% 
-\newcommand{\ordring}{\text{ordring}}               % 有序环的定义
-\newcommand{\OrdRingSub}{\overset{\rm OrdRing}\sub} % 有序环的子环
-\newcommand{\OrdRingTo}{\overset{\rm OrdRing}\to}   % 有序环同态
-
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 无幺环 --%
-\newcommand{\rng}{{\rm rng}}                     % 无幺环的定义
-\newcommand{\RngTo}{\overset{\rm Rng}\to }       % 无幺环同态
-\newcommand{\rker}{\operatorname{\rm rker}}      % 无幺环同态的核
-\newcommand{\Ring}{\mathtt{Rng}}
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 交换环 --%
-\newcommand{\comring}{{\rm comring}}               % 交换环的定义
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 整环 --%
-\newcommand{\entring}{{\rm entring}}               % 整环的定义
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 域 --%
-\newcommand{\FieldTo}{\overset{\rm Field}\to}              % 域同态
-\newcommand{\fker}{\operatorname{\rm fker}}                % 域同态的核     
-\newcommand{\FieldSimTo}{\overset{\rm Field}{\simto}}      % 域同构
-\newcommand{\FieldSub}{\overset{\rm Field}\sub}            % 子域
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 有序域 --%
-\newcommand{\OrdFieldTo}{\overset{\rm OrdField}\to}    % 有序域同态
-\newcommand{\OrdFieldSub}{\overset{\rm OrdField}\sub}  % 子有序域
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 线性空间 --%
-\newcommand{\linspace}{\text{lin-space}}             % 线性空间的类型签名
-\newcommand{\LinTo}{\overset{\text{Lin}}{\to}}       % 线性同态
-\newcommand{\LinSimTo}{\overset{\text{Lin}}{\simto}}    % 线性同构
-\newcommand{\LinCap}{\overset{\text{Lin}}{\cap}}     % 线性空间的交
-\newcommand{\LinOplus}{\overset{\text{Lin}}{\oplus}} % 线性空间的直和
-\newcommand{\LinSub}{\overset{\text{Lin}}{\sub}}     % 线性子空间
-\newcommand{\LinSup}{\overset{\text{Lin}}{\supset}}  % 线性子空间(方向相反)
-\newcommand{\LinOn}{{\rm LinOn}}                     % 域上构造的线性空间
-\newcommand{\Lin}{\mathtt{Lin}}                      % 线性空间范畴
-\newcommand{\L}{\mathbb{L}}                          % 线性映射形成的线性空间
-
-\newcommand{\normspace}{\text{norm-space}}           % 赋范线性空间
-\newcommand{\SupNorm}{\text{SupNorm}}                % 极值范数
-\newcommand{\NL}{\mathbb{NL}}                        % 线性映射形成的赋范线性空间
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 基数 --%
-\newcommand{\card}{\mathop{\rm card}}         % 集合的基数
-\newcommand{\ordinal}{\text{ordinal}}         % 序数的类型签名
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 范畴论 --%
-\newcommand{\category}{{\rm category}}  % 范畴的类型签名
-
-\newcommand{\Ob}{{\rm Ob}}              % 对象
-\newcommand{\Mor}{{\rm Mor}}            % 态射
-\newcommand{\Hom}{{\rm Hom}}            % 对象间的同态
-\newcommand{\id}{{\rm id}}              % 恒等态射
-
-\newcommand{\simto}{\rlap{\overset{\sim}{\phantom{\,\cdot\cdot\cdot}}}\to}    % 同构箭头
-\newcommand{\Isom}{{\rm Isom}}                                                % 同构
-\newcommand{\End}{{\rm End}}                                                  % 自同态
-\newcommand{\Aut}{{\rm Aut}}                                                  % 自同构
-
-\newcommand{\CatSub}{\overset{\rm Cat}\sub }             % 子范畴
-\newcommand{\FullCatSub}{\overset{\text{Full-Cat}}\sub } % 全子范畴
-
-\newcommand{\FunctorTo}{\rightrightarrows } % 函子
-\newcommand{\Fct}{{\rm Fct}}                % 函子范畴
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 集合论 --%
-\newcommand{\Pow}{{\frak P}}        % 幂集
-\newcommand{\Set}{\mathtt{Set}}     % 集合范畴
-\newcommand{\Universe}{{\cal U}}    % Grothendieck宇宙
-\newcommand{\set}{{\rm set}}        % ZFC集合
-\newcommand{\uset}{{\rm uset}}      % Grothendieck宇宙中的u-集
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 映射 --%
-\newcommand{\img}{\mathop{\rm img}}       % 映射的像
-\newcommand{\dom}{\mathop{\rm dom}}       % 映射的原像
-
-\newcommand{\partition}{{\rm partition}}              % 集合的分划
-\newcommand{\InjectionTo}{\overset{\text{Inj}}\to}    % 单射
-\newcommand{\BijectionTo}{\overset{\text{Bij}}\to}    % 双射
-\newcommand{\SurjectionTo}{\overset{\text{Surj}}\to}  % 满射
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 拓扑空间 --%
-\newcommand{\topspace}{\text{top-space}}             % 拓扑空间
-\newcommand{\TopSub}{\overset{\rm Top}{\sub}}        % 拓扑子空间
-
-\newcommand{\TopTimes}{\overset{\rm Top}{\times}}    % 拓扑空间的积
-\newcommand{\ContTo}{\overset{\rm Cont}\to}          % 连续函数
-
-\newcommand{\Interior}{\text{Interior}}              % 内点集
-\newcommand{\Limit}{\text{Limit}}                    % 极限点集
-\newcommand{\Closure}{\text{Closure}}                % 闭包
-
-\newcommand{\topbase}{\text{top-base}}               % 拓扑基
-\newcommand{\topsubbase}{\text{top-subbase}}         % 下拓扑基
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 度量空间, 极限 --%
-
-\newcommand{\metr}{\text{metr}}                    % 度量
-\newcommand{\metrspace}{\text{metr-space}}         % 度量空间
-\newcommand{\FnMetrSpace}{{\rm FnMetrSpace}}       % 函数形成的度量空间
-\newcommand{\MetrSub}{\overset{\rm Metr}{\sub}}    % 度量子空间
-
-\newcommand{\commetrspace}{\text{com-metr-space}}  % 完备度量空间
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 测度论 --%
-
-
-% 各种集代数的概念
-\newcommand{\sigmaalg}{{\sigma\text{-alg}}}     % sigma代数
-\newcommand{\sigmaex}{{\mathbb s}}              % sigma扩张
-\newcommand{\pialg}{{\pi\text{-alg}}}           % pi代数
-\newcommand{\lambdaalg}{{\lambda\text{-alg}}}   % lambda代数
-\newcommand{\lambdaex}{{\mathbb l}}             % lambda扩张
-\newcommand{\semialg}{{\text{semi-alg}}}        % 半代数
-\newcommand{\setalg}{{\text{set-alg}}}          % 集合代数
-
-
-% 测度空间中的概念
-\newcommand{\msr}{\text{msr}}                       % 测度
-\newcommand{\exmsr}{\text{exmsr}}                   % 外测度
-\newcommand{\sgnmsr}{\text{sgnmsr}}                 % 有符号测度
-\newcommand{\msrspace}{\text{msr-space}}            % 测度空间
-\newcommand{\MsrSub}{\overset{\frak M}\sub}         % 子测度空间
-\newcommand{\ae}{\text{\ae}}                 % 几乎处处
-\newcommand{\MsrTimes}{\overset{\rm Msr}\times}     % 积测度空间
-\newcommand{\abscont}{\overset{\frak M}\lll}        % 绝对连续
-\newcommand{\sigmafinite}{{\sigma\text{-finite}}}   % sigma有限的测度
-
-
-% 几乎处处的函数比较
-\newcommand{\aeeq}{\mathop{\dot=}}            % 几乎处处等于
-\newcommand{\aele}{\mathop{\dot\le}}          % 几乎处处小于等于
-\newcommand{\aege}{\mathop{\dot\ge}}          % 几乎处处大于等于
-\newcommand{\aelss}{\mathop{\dot<}}           % 几乎处处小于
-\newcommand{\aegtr}{\mathop{\dot>}}           % 几乎处处大于
-
-
-% 特殊测度空间
-\newcommand{\m}{\mathbb{m}}                              % \R^d 上的Lebesgue测度
-\newcommand{\borelspace}{\text{borel-space}}             % borel测度空间
-
-
-% 可测函数
-\newcommand{\Ind}{\mathbb{I}}                            % 示性函数
-\newcommand{\MeasurableTo}{\overset{\frak M}\to}         % 可测函数
-\newcommand{\supp}{\mathop{\rm supp}}                    % 支集
-
-
-% 积分
-\newcommand{\lebint}{\rlap{\small \mathscr L}\int}       % Lebesgue积分
-\newcommand{\E}{\mathbb{E}}                              % 期望
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-%-- 概率论 --%
-
-
-\newcommand{\statint}{\rlap{\small \mathscr S}\int}      % 统计积分(离散时取和的积分)
-\newcommand{\probspace}{\text{prob-space}}               % 概率空间
-\newcommand{\Pr}{{\rm Pr}}                               % 概率测度
-
-%--------------------------------------------------------------------------------------------------------------%
-
-%-- 初等微积分 --%
-
-\newcommand{\rieint}{\rlap{\small \mathscr R}\int}       % riemann积分
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 微分几何 --%
-
-\newcommand{\Dif}{{\frak D}}                     % 微分算子
-\newcommand{\dif}{{\,\rm d}}                     % 微分算子
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 拟阵 --%
-
-\newcommand{\matroid}{\text{matroid}}           % 拟阵的定义
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 组合数学 --%
-
-\newcommand{\ncard}{\mathop{\rm ncard}}         % 转成集合基数转成标准整数
-
-
-
-%--------------------------------------------------------------------------------------------------------------%
-
-
-%-- 计算 --%
-
-\newcommand{\state}{{\text{state}}}             % 计算状态集
