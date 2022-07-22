@@ -1,3 +1,7 @@
+:root {
+    --default-font: 'Mplus 1p Light';
+}
+
 .theme-light {
     --background-primary: rgb(253, 253, 253);
     --background-primary-alt: rgb(253, 253, 253);
@@ -43,7 +47,6 @@
     --custom-graph-component-color: rgb(120, 120, 120);
     --custom-graph-component-color-highlight: rgba(111, 86, 148, 0.719);
 }
-
 
 /* graph view config */
 
@@ -109,7 +112,10 @@
 
 .cm-contentContainer,
 .markdown-preview-sizer.markdown-preview-section {
-    padding: calc(25% - 10em) !important;
+    max-width: 1024px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .HyperMD-quote {
@@ -135,85 +141,100 @@
 
 h1,
 .cm-header.cm-header-1 {
-    font-weight: normal;
+    font-weight: normal !important;
     line-height: 4rem;
     font-size: 3rem;
     margin: 0 0 1.75rem;
 }
 
-.cm-formatting-header-1 {
-    position: absolute;
-    left: -1em;
+h1:first-child,
+.cm-header.cm-header-1:first-child {
+    margin-top: 2.75rem;
 }
+/* 
+.cm-formatting-header-1 {
+    position: relative;
+    left: -1em;
+} */
 
 h2,
 .cm-header.cm-header-2 {
-    font-weight: normal;
+    font-weight: normal !important;
     line-height: 3rem;
     margin: 0 0 1.9375rem;
 }
 
-.cm-formatting-header-2 {
-    position: absolute;
-    left: -2em;
+h2:first-child,
+.cm-header.cm-header-2:first-child {
+    margin-top: 1.75rem;
 }
+/* 
+.cm-formatting-header-2 {
+    position: relative;
+    left: -2em;
+} */
 
 h3,
 .cm-header.cm-header-3 {
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
-.cm-formatting-header-3 {
+h3:first-child,
+.cm-header.cm-header-3:first-child {
+    margin-top: 1rem;
+}
+
+/* .cm-formatting-header-3 {
     position: absolute;
     left: -3em;
-}
+} */
 
 h4,
 .cm-header.cm-header-4 {
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
-.cm-formatting-header-4 {
+/* .cm-formatting-header-4 {
     position: absolute;
     left: -4em;
-}
+} */
 
 h5,
 .cm-header.cm-header-5 {
     font-size: 1.125rem;
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
-.cm-formatting-header-5 {
+/* .cm-formatting-header-5 {
     position: absolute;
     left: -5em;
-}
+} */
 
 h6,
 .cm-header.cm-header-6 {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
-.cm-formatting-header-6 {
+/* .cm-formatting-header-6 {
     position: absolute;
     left: -6em;
-}
-
+} */
 
 /* config paragraph block */
 
 .view-content p {
     color: var(--text-normal);
     font-size: 1em;
-    line-height: 1.75rem;
-    margin: 0 0 1.25em;
+    line-height: 1.75rem !important;
+    margin: 0 0 1.25em !important;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
 }
 
 .cm-line {
     line-height: 1.75rem;
 }
-
 
 /* config tag and internal link */
 
@@ -282,7 +303,6 @@ a.internal-link {
 .markdown-reading-view table tr:last-child>td {
     border-bottom: 0;
 }
-
 .markdown-reading-view table>caption+thead>tr:first-child>th,
 .markdown-reading-view table>caption+thead>tr:first-child>td,
 .markdown-reading-view table>colgroup+thead>tr:first-child>th,
@@ -303,32 +323,21 @@ a.internal-link {
     border-top: 1px solid var(--text-muted);
 }
 
-
 /* config list */
 
-.cm-formatting-list-ul>.list-bullet::after {
-    visibility: visible;
-    position: absolute;
-    right: 2em;
-    content: '\2022';
-    pointer-events: none;
+.view-content ul {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 0;
+}
+
+.view-content ul > li {
+    padding-left: 2.125rem;
 }
 
 .HyperMD-list-line.cm-line {
     line-height: 1.25em;
 }
-
-.markdown-preview-view li {
-    color: var(--text-normal);
-    font-size: 1em;
-    line-height: 1.25em;
-    margin: 0 0 1.25em;
-}
-
-.markdown-preview-view li>ul {
-    margin-top: 1.10em;
-}
-
 
 /* config fold indicators: I DON'T NEED THEM */
 

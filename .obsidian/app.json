@@ -17,5 +17,6 @@
   "rightToLeft": false,
   "vimMode": false,
   "useTab": false,
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "strictLineBreaks": false
 }

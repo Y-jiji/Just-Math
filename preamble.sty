@@ -23,9 +23,10 @@
 \newcommand{\param}{\sharp}
 \newcommand{\data}{{\rm data}}
 \newcommand{\meta}{{\rm meta}}
+\newcommand{\cons}{{\rm cons}}
 \newcommand{\macro}{{\rm macro}}
 \newcommand{\fn}{{\rm fn}}
-\newcommand{\suffix}[1]{\text<{#1}\text>}
+\newcommand{\type}[1]{\text<{#1}\text>}
 
 %--------------------------------------------------------------------------------%
 %                                     logic                                      %
@@ -33,6 +34,9 @@
 
 %-- boolean type --%
 \newcommand{\Bool}{{\sf Bool}}
+
+%-- proposition type --%
+\newcommand{\Proposition}{{\sf Proposition}}
 
 %-- arrow shord hands --%
 \newcommand{\Larrow}{\Leftarrow}
@@ -50,6 +54,13 @@
 %-- quantifier --%
 \newcommand{\exist}{\exists}
 
+%--------------------------------------------------------------------------------%
+%                                 object marker                                  %
+%--------------------------------------------------------------------------------%
+
+%-- object type --%
+\newcommand{\Obj}{{\sf Obj}}
+
 
 %--------------------------------------------------------------------------------%
 %                                      set                                       %
@@ -62,4 +73,20 @@
 \newcommand{\sube}{\subseteq}
 \newcommand{\sub}{\subset}
 \newcommand{\supe}{\supseteq}
+\newcommand{\pow}{\wp}
+
+
+%--------------------------------------------------------------------------------%
+%                                      map                                       %
+%--------------------------------------------------------------------------------%
+
+%-- arrows --%
+\newcommand{\rarrow}{\rightarrow}
+\newcommand{\larrow}{\leftarrow}
+\newcommand{\lrarrow}{\leftrightarrow}
+
+%-- injection, surjection --%
+\newcommand{\into}{\mathop{\overset{\scriptsize \sf inj}{\longrightarrow}}}
+\newcommand{\onto}{\mathop{\overset{\scriptsize \sf sur}\longrightarrow}}
+\newcommand{\bito}{\mathop{\overset{\scriptsize \sf bij}{\longrightarrow}}}
 

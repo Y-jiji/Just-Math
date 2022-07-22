@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c3b93588c16f5b01",
+        "id": "d827bcc9f1f64998",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "集合-Schröder-Bernstein定理.md",
+            "file": "-宏和模式-.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/\\\\fn.*\\\\;/",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.0083885192871
+    "width": 375.0083885192871,
+    "collapsed": true
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -80,7 +81,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "集合-Schröder-Bernstein定理.md",
+                "file": "-宏和模式-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "集合-Schröder-Bernstein定理.md",
+                "file": "-宏和模式-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "集合-Schröder-Bernstein定理.md"
+                "file": "-宏和模式-.md"
               }
             }
           }
@@ -121,17 +122,17 @@
     "width": 304.3333435058594,
     "collapsed": true
   },
-  "active": "c3b93588c16f5b01",
+  "active": "d827bcc9f1f64998",
   "lastOpenFiles": [
-    "集合-Schröder-Bernstein定理.md",
-    "集合-朴素集合与其运算.md",
-    "-模式匹配-.md",
     "-展开规则-.md",
-    "-lambda算子-.md",
     "-模式类型-.md",
-    "逻辑-量词和谓词.md",
-    "逻辑-真值演算的块记法.md",
-    "计数-有限集的分划.md",
-    "计数-对称性.md"
+    "-宏和模式-.md",
+    "-lambda算子-.md",
+    "半环-.md",
+    "-LaTeX符号表-.md",
+    "半群-.md",
+    "幺半群-.md",
+    "幺环-.md",
+    "词法-Token和Obj.md"
   ]
 }

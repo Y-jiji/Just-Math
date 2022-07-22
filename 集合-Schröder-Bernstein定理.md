@@ -17,13 +17,13 @@ TimeLine:
 
 $$
 \BlockEndl{
-    & \forall a\suffix{\Set}: \forall b\suffix{\Set}: \\
+    & \forall a\type{\Set\type{\rm T}}: \forall b\type{\Set\type{\rm T}}: \\
 }{\;\;}{
     & \CondBegin\\
-    & \exist f\suffix{\Set}: f\in (a \into b)\\
-    & \exist f\suffix{\Set}: f\in (b \into a)\\
+    & \exist f\type{\Set\type{\rm T}}: f\in (a \into b)\\
+    & \exist f\type{\Set\type{\rm T}}: f\in (b \into a)\\
     & \CondEnd\\
-    & \exist f\suffix{\Set}: f\in (a \into b) \cap (a \onto b)
+    & \exist f\type{\Set\type{\rm T}}: f\in (a \bito b)
 }
 $$
 
@@ -33,7 +33,7 @@ $$
 
 对任意一对 $a$ 到 $b$ 的单射 $f$, $b$ 到 $a$ 的单射 $g$. 
 
-$a$ 到 $b$ 的映射 $h$ 部分定义为: 
+$a$ 到 $b$ 的映射 $h$ 在 $a$ 的一个子集上定义为: 
 
 - 对 $g$ 值域外的 $x$ 有 $h(x)=f(x)$
 - 对 $f$ 值域外的 $y$ 有 $h(g(y))=y$
@@ -53,17 +53,21 @@ $a$ 到 $b$ 的映射 $h$ 部分定义为:
 
 $$
 \BlockEndl{
-    & \forall a\suffix{\Set}: \forall b\suffix{\Set}: \\
-    & \forall f\suffix{\Set}: \forall g \suffix{\Set}:\\
-    & \forall h\suffix{\Set}:
+    & \forall a\type{\Set\type{\rm T}}: \forall b\type{\Set\type{\rm T}}: \\
+    & \forall f\type{\Set\type{\rm T}}: \forall g \type{\Set\type{\rm T}}:\\
 }{\;\;}{
     & \CondBegin\\
     & (f\in (a \into b))\and (g\in (b \into a))\\
-    & {\rm let}: itera := s : g^\rarrow(f^\rarrow(s))\\
-    & {\rm let}: iterb := s : f^\rarrow(g^\rarrow(s))\\
-    & {\rm let}: takef := s : t : s \diagdown g^\rarrow(t)\\
-    & {\rm let}: takeg := s : t : g^\rarrow(t \diagdown f^\rarrow(s))\\
+    & {\rm let}: pairs := \left\{
+        (s, t) : 
+        \Block{(\or)}{\;\;}{
+            & s = a \and t = b\\
+            & \exist (s',t')\in pairs: (s,t)=(g^\rarrow(f^\rarrow(s')), f^\rarrow(g^\rarrow(t')))
+        }
+    \right\}\\
+    & {\rm let}: takef := \Big\{x : \exist (s, t): (s, t)\in pairs \and x \in s \diagdown g^\rarrow(t)\Big\}\\
     & \CondEnd\\
-    & h \in (a \into b) \cap (a \onto b)
+    & \bigg(f\bigg|_{takef}\bigg) \cup \bigg(g^{\diamond -}\bigg|_{a \diagdown takef}\bigg) \in (a \bito b)
 }
 $$
+
