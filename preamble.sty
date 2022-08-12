@@ -9,6 +9,7 @@
 \newcommand{\Q}{{\mathbb Q}}
 \newcommand{\infin}{\infty }
 
+
 %--------------------------------------------------------------------------------%
 %                                 block markers                                  %
 %--------------------------------------------------------------------------------%
@@ -20,13 +21,39 @@
 %                                    keywords                                    %
 %--------------------------------------------------------------------------------%
 
-\newcommand{\param}{\sharp}
 \newcommand{\data}{{\rm data}}
-\newcommand{\meta}{{\rm meta}}
 \newcommand{\cons}{{\rm cons}}
+\newcommand{\atom}{{\rm atom}}
+
 \newcommand{\macro}{{\rm macro}}
+
+\newcommand{\meta}{{\rm meta}}
 \newcommand{\fn}{{\rm fn}}
+\newcommand{\cls}{{\rm cls}}
+
+\newcommand{\param}{\sharp}
 \newcommand{\type}[1]{\text<{#1}\text>}
+
+%--------------------------------------------------------------------------------%
+%                                 literal types                                  %
+%--------------------------------------------------------------------------------%
+
+\newcommand{\Lit}{{\sf \$Lit}}
+\newcommand{\Op}{{\sf \$Op}}
+\newcommand{\BigOp}{{\sf \$BigOp}}
+
+%--------------------------------------------------------------------------------%
+%                                  list syntax                                   %
+%--------------------------------------------------------------------------------%
+
+%-- list type --%
+\newcommand{\List}[1]{{\sf List}\type{#1}}
+\newcommand{\Cons}{{\tt Cons}}
+\newcommand{\Nil}{{\tt Nil}}
+\newcommand{\ls}{{\tt ls}}
+
+%-- token type --%
+\newcommand{\Tok}{{\sf Tok}}
 
 %--------------------------------------------------------------------------------%
 %                                     logic                                      %
@@ -34,6 +61,8 @@
 
 %-- boolean type --%
 \newcommand{\Bool}{{\sf Bool}}
+\newcommand{\True}{{\tt True}}
+\newcommand{\False}{{\tt False}}
 
 %-- proposition type --%
 \newcommand{\Proposition}{{\sf Proposition}}
@@ -55,25 +84,18 @@
 \newcommand{\exist}{\exists}
 
 %--------------------------------------------------------------------------------%
-%                                 object marker                                  %
-%--------------------------------------------------------------------------------%
-
-%-- object type --%
-\newcommand{\Obj}{{\sf Obj}}
-
-
-%--------------------------------------------------------------------------------%
 %                                      set                                       %
 %--------------------------------------------------------------------------------%
 
 %-- set type --%
-\newcommand{\Set}{{\sf Set}}
+\newcommand{\Set}[1]{{\sf Set}\type{#1}}
 
 %-- set ops --%
 \newcommand{\sube}{\subseteq}
 \newcommand{\sub}{\subset}
 \newcommand{\supe}{\supseteq}
 \newcommand{\pow}{\wp}
+\newcommand{\zfc}{{\tt zfc}}
 
 
 %--------------------------------------------------------------------------------%
@@ -89,4 +111,54 @@
 \newcommand{\into}{\mathop{\overset{\scriptsize \sf inj}{\longrightarrow}}}
 \newcommand{\onto}{\mathop{\overset{\scriptsize \sf sur}\longrightarrow}}
 \newcommand{\bito}{\mathop{\overset{\scriptsize \sf bij}{\longrightarrow}}}
+
+%--------------------------------------------------------------------------------%
+%                              binary operation * 1                              %
+%--------------------------------------------------------------------------------%
+
+%-- objects --%
+\newcommand{\monoid}{{\tt monoid}}
+\newcommand{\semigrp}{{\tt semigrp}}
+\newcommand{\group}{{\tt group}}
+\newcommand{\comgrp}{{\tt comgrp}}
+
+%--------------------------------------------------------------------------------%
+%                              binary operation * 2                              %
+%--------------------------------------------------------------------------------%
+
+%-- objects --%
+\newcommand{\rng}{{\tt rng}}
+\newcommand{\ring}{{\tt ring}}
+\newcommand{\comring}{{\tt comring}}
+\newcommand{\field}{{\tt field}}
+
+%--------------------------------------------------------------------------------%
+%                               algebraic actions                                %
+%--------------------------------------------------------------------------------%
+
+%-- objects --%
+\newcommand{\linspace}{{\tt linspace}}
+\newcommand{\modular}{{\tt modular}}
+\newcommand{\lmodular}{{\tt lmodular}}
+\newcommand{\rmodular}{{\tt rmodular}}
+
+\newcommand{\lindep}{{\tt lindep}}
+\newcommand{\linindep}{{\tt linindep}}
+\newcommand{\dotprodspace}{{\tt dotprodspace}}
+
+%--------------------------------------------------------------------------------%
+%                                 tensor algebra                                 %
+%--------------------------------------------------------------------------------%
+
+%-- exterior product --%
+\newcommand{\exprod}{\mathop{\dot\wedge}}
+\newcommand{\bigexprod}{\mathop{\dot\bigwedge}}
+
+%--------------------------------------------------------------------------------%
+%                                   morphisms                                    %
+%--------------------------------------------------------------------------------%
+
+%-- kernel and image --%
+\newcommand{\img}{\mathop{\rm img}}
+\newcommand{\ker}{\mathop{\rm ker}}
 

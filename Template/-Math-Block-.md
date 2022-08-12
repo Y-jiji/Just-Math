@@ -1,5 +1,0 @@
-$$
-\begin{matrix}
-
-\end{matrix}
-$$

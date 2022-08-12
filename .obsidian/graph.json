@@ -1,52 +1,52 @@
 {
   "collapse-filter": true,
-  "search": "-path:Legacy",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "file:/\\-*.\\-\\.md/",
+      "query": "path:/^0.*/",
       "color": {
         "a": 1,
-        "rgb": 1516368
+        "rgb": 13092807
       }
     },
     {
-      "query": "tag:#已完成-正文",
+      "query": "path:/^10.*/",
       "color": {
         "a": 1,
-        "rgb": 11305112
+        "rgb": 12458336
       }
     },
     {
-      "query": "path:Log",
+      "query": "path:/(^11.*)|(^12.*)/",
       "color": {
         "a": 1,
-        "rgb": 4216965
+        "rgb": 13524182
       }
     },
     {
-      "query": "path:Draft",
+      "query": "path:/^20.*/",
       "color": {
         "a": 1,
-        "rgb": 2835036
+        "rgb": 5976271
       }
     },
     {
-      "query": "tag:#写作中",
+      "query": "path:/^21.*/",
       "color": {
         "a": 1,
-        "rgb": 2960488
+        "rgb": 6184150
       }
     },
     {
-      "query": "tag:#未完成-正文",
+      "query": "path:/^3.*/",
       "color": {
         "a": 1,
-        "rgb": 3956056
+        "rgb": 2978119
       }
     }
   ],
@@ -60,6 +60,6 @@
   "repelStrength": 7.17948717948718,
   "linkStrength": 1,
   "linkDistance": 89,
-  "scale": 1.053497942386813,
+  "scale": 0.6346285676930484,
   "close": false
 }

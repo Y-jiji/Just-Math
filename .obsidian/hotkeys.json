@@ -1,23 +1,5 @@
 {
-  "open-with-default-app:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "O"
-    }
-  ],
   "editor:delete-paragraph": [],
-  "workspace:export-pdf": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "P"
-    }
-  ],
   "workspace:undo-close-pane": [],
   "tag-pane:open": [
     {
@@ -63,8 +45,23 @@
       "key": "ArrowUp"
     }
   ],
-  "editor:toggle-checklist-status": [],
-  "global-search:open": [],
+  "editor:toggle-checklist-status": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
   "table-editor-obsidian:move-column-left": [
     {
       "modifiers": [
@@ -107,15 +104,17 @@
     }
   ],
   "outline:open": [],
-  "app:toggle-right-sidebar": [
+  "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
-      "key": "R"
+      "key": "L"
     }
   ],
-  "app:toggle-left-sidebar": [
+  "obsidian-editor-shortcuts:duplicateLine": [],
+  "obsidian-editor-shortcuts:selectLine": [
     {
       "modifiers": [
         "Mod"
@@ -123,8 +122,6 @@
       "key": "L"
     }
   ],
-  "obsidian-editor-shortcuts:duplicateLine": [],
-  "obsidian-editor-shortcuts:selectLine": [],
   "obsidian-editor-shortcuts:joinLines": [],
   "obsidian-editor-shortcuts:insertLineAbove": [],
   "obsidian-editor-shortcuts:insertLineBelow": [],
@@ -163,7 +160,7 @@
         "Mod",
         "Shift"
       ],
-      "key": "L"
+      "key": "G"
     }
   ],
   "url-into-selection:paste-url-into-selection": [
@@ -202,10 +199,8 @@
   "editor:toggle-comments": [],
   "editor:rename-heading": [
     {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "R"
+      "modifiers": [],
+      "key": "F2"
     }
   ],
   "obsidian-copy-block-link:copy-link-to-block": [
@@ -223,6 +218,75 @@
         "Alt"
       ],
       "key": "S"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "open-vscode:open-vscode": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "app:open-vault": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
     }
   ]
 }

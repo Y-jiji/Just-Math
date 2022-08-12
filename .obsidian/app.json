@@ -1,13 +1,13 @@
 {
-  "useMarkdownLinks": true,
-  "alwaysUpdateLinks": false,
-  "attachmentFolderPath": "Images",
-  "showUnsupportedFiles": true,
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "images",
+  "showUnsupportedFiles": false,
   "readableLineLength": false,
   "legacyEditor": false,
-  "showFrontmatter": true,
+  "showFrontmatter": false,
   "defaultViewMode": "source",
-  "livePreview": false,
+  "livePreview": true,
   "autoPairBrackets": true,
   "autoPairMarkdown": false,
   "showIndentGuide": false,
@@ -18,5 +18,14 @@
   "vimMode": false,
   "useTab": false,
   "fileSortOrder": "alphabetical",
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "newFileLocation": "current",
+  "newLinkFormat": "absolute",
+  "promptDelete": false
 }

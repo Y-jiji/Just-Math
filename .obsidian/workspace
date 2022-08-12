@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d827bcc9f1f64998",
+        "id": "088e0faa580ed90d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "-宏和模式-.md",
+            "file": "102.二元运算×2/1.对象/5.有序环/1.正锥与序环.md",
             "mode": "source",
             "source": false
           }
@@ -27,14 +27,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6b1f7aae095e097",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
             "id": "dbbce80780e73c0c",
             "type": "leaf",
             "state": {
@@ -51,16 +43,25 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\\\fn.*\\\\;/",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "4272f3442ed99be7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -81,7 +82,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "-宏和模式-.md",
+                "file": "102.二元运算×2/1.对象/5.有序环/1.正锥与序环.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "-宏和模式-.md",
+                "file": "102.二元运算×2/1.对象/5.有序环/1.正锥与序环.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,29 +111,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "-宏和模式-.md"
+                "file": "102.二元运算×2/1.对象/5.有序环/1.正锥与序环.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 304.3333435058594,
     "collapsed": true
   },
-  "active": "d827bcc9f1f64998",
+  "active": "088e0faa580ed90d",
   "lastOpenFiles": [
-    "-展开规则-.md",
-    "-模式类型-.md",
-    "-宏和模式-.md",
-    "-lambda算子-.md",
-    "半环-.md",
-    "-LaTeX符号表-.md",
-    "半群-.md",
-    "幺半群-.md",
-    "幺环-.md",
-    "词法-Token和Obj.md"
+    "100.二元关系/1.对象/4.全序关系.md",
+    "100.二元关系/1.对象/3.预序关系和偏序关系.md",
+    "100.二元关系/1.对象/1.二元谓词与其性质.md",
+    "100.二元关系/1.对象/2.等价关系.md",
+    "102.二元运算×2/1.对象/2.幺环/1.幺环与其性质.md",
+    "102.二元运算×2/1.对象/5.有序环/1.正锥与序环.md",
+    "102.二元运算×2/1.对象/1.半环/1.半环与其性质.md",
+    "102.二元运算×2/1.对象/2.幺环/2.环的生成元.md",
+    "301.图论/1.对象/1.无向图与其性质.md",
+    "100.二元关系/2.同态/1.商映射.md"
   ]
 }
