@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2826edb36e540492",
+        "id": "6e7a7af3d366d848",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "110.代数作用/3.线性空间/1.对象/3.对偶空间和对偶基.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -74,17 +70,14 @@
       {
         "id": "062fa175788ff391",
         "type": "tabs",
+        "dimension": 48.08429118773947,
         "children": [
           {
-            "id": "a325cd17af288c71",
+            "id": "f4af301fc76b09ea",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "110.代数作用/3.线性空间/1.对象/3.对偶空间和对偶基.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
+              "type": "outline",
+              "state": {}
             }
           },
           {
@@ -93,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "110.代数作用/3.线性空间/1.对象/3.对偶空间和对偶基.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,34 +97,75 @@
             }
           },
           {
-            "id": "f4af301fc76b09ea",
+            "id": "a325cd17af288c71",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
-                "file": "110.代数作用/3.线性空间/1.对象/3.对偶空间和对偶基.md"
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "c42a9a81a3f54c69",
+        "type": "tabs",
+        "dimension": 51.91570881226054,
+        "children": [
+          {
+            "id": "8ec63d63329a5694",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594,
-    "collapsed": true
+    "width": 304.3333435058594
   },
-  "active": "2826edb36e540492",
+  "active": "8ec63d63329a5694",
   "lastOpenFiles": [
-    "110.代数作用/3.线性空间/1.对象/4.内积空间与正交基.md",
-    "110.代数作用/2.模形式/2.同态/1.模同态与其性质.md",
-    "110.代数作用/2.模形式/2.同态/2.交换环模的同态.md",
-    "110.代数作用/2.模形式/1.对象/2.对偶模.md",
-    "110.代数作用/3.线性空间/1.对象/3.对偶空间和对偶基.md",
-    "110.代数作用/3.线性空间/1.对象/1.线性空间与基.md",
-    "110.代数作用/2.模形式/1.对象/1.模与其性质.md",
-    "110.代数作用/3.线性空间/1.对象/2.子空间和商空间.md",
-    "102.二元运算×2/1.对象/4.域/1.域与其基本性质.md",
-    "100.二元关系/4.序数/2.集合的势.md"
+    "210.几何,微分方程/1.对象/1.流形和微分形式/2.切空间和余切空间.md",
+    "210.几何,微分方程/1.对象/1.流形和微分形式/1.单纯形与其运算.md",
+    "203.极值,连续优化/1.对象/1.凸集和凸函数/1.凸集与其性质.md",
+    "111.对象间运算/1.运算/2.线性空间/1.张量和张量积.md",
+    "111.对象间运算/1.运算/2.线性空间/3.张量和多线性代数.md",
+    "111.对象间运算/1.运算/2.线性空间/2.对称,反对称和外积.md",
+    "100.二元关系/1.二元谓词的性质/2.非对称性质.md",
+    "100.二元关系/1.二元谓词的性质/1.对称性质.md",
+    "100.二元关系/2.对象/2.等价/1.等价关系.md",
+    "100.二元关系/3.同态/2.等价/1.商映射.md"
   ]
 }

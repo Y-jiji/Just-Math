@@ -104,9 +104,18 @@
 \newcommand{\lrarrow}{\leftrightarrow}
 
 %-- injection, surjection --%
-\newcommand{\into}{\mathop{\overset{\scriptsize \sf inj}{\longrightarrow}}}
-\newcommand{\onto}{\mathop{\overset{\scriptsize \sf sur}\longrightarrow}}
-\newcommand{\bito}{\mathop{\overset{\scriptsize \sf bij}{\longrightarrow}}}
+\newcommand{\into}{\mathop{\xrightarrow{\,\tt inj}}}
+\newcommand{\onto}{\mathop{\xrightarrow{\,\tt sur}}}
+\newcommand{\bito}{\mathop{\xleftrightarrow{\,\tt bij}}}
+
+
+%--------------------------------------------------------------------------------%
+%                                binary relation                                 %
+%--------------------------------------------------------------------------------%
+
+%-- cardinal --%
+\newcommand{\cardinal}{{\tt cardinal}}
+\newcommand{\enum}{{\tt enum}}
 
 %--------------------------------------------------------------------------------%
 %                              binary operation * 1                              %
@@ -130,6 +139,7 @@
 \newcommand{\integer}{{\tt integer}}
 \newcommand{\rational}{{\tt rational}}
 \newcommand{\real}{{\tt real}}
+\newcommand{\complex}{{\tt complex}}
 \newcommand{\fract}{{\tt fract}}          % a constructive method
 
 %-- standard notations --%
@@ -144,18 +154,27 @@
 %--------------------------------------------------------------------------------%
 
 %-- objects --%
-\newcommand{\linsp}{{\tt linsp}}
+%% modular form
 \newcommand{\mod}{{\tt mod}}
 \newcommand{\lmod}{{\tt lmod}}
 \newcommand{\rmod}{{\tt rmod}}
-
+\newcommand{\aslmod}{{\tt as(lmod)}}
+\newcommand{\asrmod}{{\tt as(rmod)}}
+\newcommand{\dim}{{\tt dim}}   % dimension (in cardinal number)
+\newcommand{\dimn}{{\tt dimn}} % finite dimension (in cardinal number)
+%% linear space
+\newcommand{\linsp}{{\tt linsp}}
 \newcommand{\lindep}{{\tt lindep}}
 \newcommand{\linindep}{{\tt linindep}}
 \newcommand{\dotprodsp}{{\tt dotprodsp}}
 
 %-- morphisms --%
+%% modular morphism
 \newcommand{\modto}{\xrightarrow{\mod}}
 \newcommand{\modtoto}{\xtwoheadrightarrow{\mod}}
+%% linear maps
+\newcommand{\linto}{\xrightarrow{\tt lin}}
+\newcommand{\lintoto}{\xtwoheadrightarrow{\tt lin}}
 
 %--------------------------------------------------------------------------------%
 %                                 tensor algebra                                 %
@@ -170,6 +189,6 @@
 %--------------------------------------------------------------------------------%
 
 %-- kernel and image --%
-\newcommand{\img}{\mathop{\rm img}}
-\newcommand{\ker}{\mathop{\rm ker}}
+\newcommand{\img}{\mathop{\tt img}}
+\newcommand{\ker}{\mathop{\tt ker}}
 

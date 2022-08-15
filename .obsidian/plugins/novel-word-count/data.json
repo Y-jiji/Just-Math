@@ -6,6 +6,41 @@
     "debugMode": false
   },
   "cachedCounts": {
+    "211.概率论,统计/3.随机过程,序列/1.离散随机过程.md": {
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "createdDate": 1659087536434,
+      "modifiedDate": 1659087536434
+    },
+    "203.极值,连续优化/1.对象/1.凸集和凸函数/4.Laglange乘数法.md": {
+      "wordCount": 5,
+      "pageCount": 1,
+      "characterCount": 34,
+      "createdDate": 1659247609350,
+      "modifiedDate": 1659249754973
+    },
+    "203.极值,连续优化/1.对象/1.凸集和凸函数/3.最大最小定理.md": {
+      "wordCount": 13,
+      "pageCount": 1,
+      "characterCount": 78,
+      "createdDate": 1659247350802,
+      "modifiedDate": 1659249754973
+    },
+    "203.极值,连续优化/1.对象/1.凸集和凸函数/2.凸函数和拟凸函数.md": {
+      "wordCount": 13,
+      "pageCount": 1,
+      "characterCount": 72,
+      "createdDate": 1659247275009,
+      "modifiedDate": 1660443898993
+    },
+    "203.极值,连续优化/1.对象/1.凸集和凸函数/1.凸集与其性质.md": {
+      "wordCount": 15,
+      "pageCount": 1,
+      "characterCount": 111,
+      "createdDate": 1659246967259,
+      "modifiedDate": 1660575233235
+    },
     "templates/-YAML-.md": {
       "wordCount": 5,
       "pageCount": 1,
@@ -83,84 +118,49 @@
       "createdDate": 1659087761968,
       "modifiedDate": 1659087761968
     },
-    "211.概率/3.随机过程,序列/1.离散随机过程.md": {
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "createdDate": 1659087536434,
-      "modifiedDate": 1659087536434
-    },
-    "210.几何,微分方程/3.拓扑流形和微分流形.md": {
+    "210.几何,微分方程/1.对象/1.流形和微分形式/3.拓扑流形和微分流形.md": {
       "wordCount": 7,
       "pageCount": 1,
       "characterCount": 47,
       "createdDate": 1658558021240,
       "modifiedDate": 1659249754973
     },
-    "210.几何,微分方程/2.切空间和余切空间.md": {
+    "210.几何,微分方程/1.对象/1.流形和微分形式/2.切空间和余切空间.md": {
       "wordCount": 14,
       "pageCount": 1,
-      "characterCount": 152,
+      "characterCount": 150,
       "createdDate": 1658557971695,
-      "modifiedDate": 1659249754973
+      "modifiedDate": 1660578127197
     },
-    "210.几何,微分方程/1.单纯形与其运算.md": {
+    "210.几何,微分方程/1.对象/1.流形和微分形式/1.单纯形与其运算.md": {
       "wordCount": 14,
       "pageCount": 1,
-      "characterCount": 116,
+      "characterCount": 113,
       "createdDate": 1658558126271,
-      "modifiedDate": 1659249754977
+      "modifiedDate": 1660578008305
     },
-    "203.极值,优化/1.凸优化/4.Laglange乘数法.md": {
-      "wordCount": 5,
-      "pageCount": 1,
-      "characterCount": 34,
-      "createdDate": 1659247609350,
-      "modifiedDate": 1659249754973
-    },
-    "203.极值,优化/1.凸优化/3.最大最小定理.md": {
-      "wordCount": 13,
-      "pageCount": 1,
-      "characterCount": 78,
-      "createdDate": 1659247350802,
-      "modifiedDate": 1659249754973
-    },
-    "203.极值,优化/1.凸优化/2.凸函数和拟凸函数.md": {
-      "wordCount": 13,
-      "pageCount": 1,
-      "characterCount": 72,
-      "createdDate": 1659247275009,
-      "modifiedDate": 1660443898993
-    },
-    "203.极值,优化/1.凸优化/1.凸集与其性质.md": {
-      "wordCount": 18,
-      "pageCount": 1,
-      "characterCount": 117,
-      "createdDate": 1659246967259,
-      "modifiedDate": 1660443921546
-    },
-    "201.测度,积分/2.测度/2.符号测度和Hahn分解.md": {
+    "201.测度,积分/1.对象/2.测度空间/2.符号测度和Hahn分解.md": {
       "wordCount": 0,
       "pageCount": 0,
       "characterCount": 0,
       "createdDate": 1656693573341,
       "modifiedDate": 1656693573341
     },
-    "201.测度,积分/2.测度/1.正测度和Caratheodory条件.md": {
+    "201.测度,积分/1.对象/2.测度空间/1.正测度和Caratheodory条件.md": {
       "wordCount": 0,
       "pageCount": 0,
       "characterCount": 0,
       "createdDate": 1656693423465,
       "modifiedDate": 1656693423465
     },
-    "201.测度,积分/1.集合代数/2.单调类定理.md": {
+    "201.测度,积分/1.对象/1.集合代数与可测集/2.单调类定理.md": {
       "wordCount": 0,
       "pageCount": 0,
       "characterCount": 0,
       "createdDate": 1656693327692,
       "modifiedDate": 1656693360656
     },
-    "201.测度,积分/1.集合代数/1.sigma代数.md": {
+    "201.测度,积分/1.对象/1.集合代数与可测集/1.sigma代数.md": {
       "wordCount": 0,
       "pageCount": 0,
       "characterCount": 0,
@@ -237,152 +237,152 @@
       "createdDate": 1656688262690,
       "modifiedDate": 1656688262690
     },
-    "111.对象间运算/2.线性空间的张量积/3.张量和多线性代数.md": {
+    "111.对象间运算/1.运算/2.线性空间/3.张量和多线性代数.md": {
       "wordCount": 9,
       "pageCount": 1,
-      "characterCount": 56,
+      "characterCount": 54,
       "createdDate": 1658534406274,
-      "modifiedDate": 1659249754980
+      "modifiedDate": 1660577613917
     },
-    "111.对象间运算/2.线性空间的张量积/2.对称,反对称和外积.md": {
+    "111.对象间运算/1.运算/2.线性空间/2.对称,反对称和外积.md": {
       "wordCount": 13,
       "pageCount": 1,
       "characterCount": 73,
       "createdDate": 1658563054814,
       "modifiedDate": 1659249754990
     },
-    "111.对象间运算/2.线性空间的张量积/1.张量和张量积.md": {
+    "111.对象间运算/1.运算/2.线性空间/1.张量和张量积.md": {
       "wordCount": 12,
       "pageCount": 1,
       "characterCount": 76,
       "createdDate": 1658534406274,
-      "modifiedDate": 1659401922522
+      "modifiedDate": 1660577622703
     },
-    "110.代数作用/4.群环/2.复数域.md": {
-      "wordCount": 11,
-      "pageCount": 1,
-      "characterCount": 67,
-      "createdDate": 1658364242117,
-      "modifiedDate": 1659249755004
-    },
-    "110.代数作用/4.群环/1.幺半群环与生成元.md": {
-      "wordCount": 11,
-      "pageCount": 1,
-      "characterCount": 104,
-      "createdDate": 1658631237249,
-      "modifiedDate": 1659249754980
-    },
-    "110.代数作用/3.线性空间/3.自同态/4.Jordan标准型.md": {
+    "110.代数作用/3.自同态/3.线性空间/4.Jordan标准型.md": {
       "wordCount": 66,
       "pageCount": 1,
       "characterCount": 481,
       "createdDate": 1658559660032,
-      "modifiedDate": 1659319083076
+      "modifiedDate": 1660575815973
     },
-    "110.代数作用/3.线性空间/3.自同态/1.线性变换与不变子空间.md": {
-      "wordCount": 33,
-      "pageCount": 1,
-      "characterCount": 251,
-      "createdDate": 1658559601847,
-      "modifiedDate": 1659319083072
-    },
-    "110.代数作用/3.线性空间/3.自同态/2.外积和行列式.md": {
-      "wordCount": 140,
-      "pageCount": 1,
-      "characterCount": 1033,
-      "createdDate": 1658560922844,
-      "modifiedDate": 1659319083072
-    },
-    "110.代数作用/3.线性空间/3.自同态/3.逆矩阵与其计算.md": {
+    "110.代数作用/3.自同态/3.线性空间/3.逆矩阵与其计算.md": {
       "wordCount": 27,
       "pageCount": 1,
       "characterCount": 156,
       "createdDate": 1658622292835,
       "modifiedDate": 1659249754980
     },
-    "110.代数作用/3.线性空间/2.同态/2.基和矩阵表示.md": {
-      "wordCount": 27,
+    "110.代数作用/3.自同态/3.线性空间/2.外积和行列式.md": {
+      "wordCount": 140,
       "pageCount": 1,
-      "characterCount": 133,
-      "createdDate": 1658559390052,
-      "modifiedDate": 1659249754986
+      "characterCount": 1022,
+      "createdDate": 1658560922844,
+      "modifiedDate": 1660564752107
     },
-    "110.代数作用/3.线性空间/2.同态/1.线性映射与其性质.md": {
-      "wordCount": 21,
+    "110.代数作用/3.自同态/3.线性空间/1.线性变换与不变子空间.md": {
+      "wordCount": 33,
       "pageCount": 1,
-      "characterCount": 104,
-      "createdDate": 1658559463982,
-      "modifiedDate": 1659249754986
+      "characterCount": 251,
+      "createdDate": 1658559601847,
+      "modifiedDate": 1659319083072
     },
-    "110.代数作用/3.线性空间/1.对象/4.内积空间与正交基.md": {
-      "wordCount": 21,
-      "pageCount": 1,
-      "characterCount": 226,
-      "createdDate": 1658560465939,
-      "modifiedDate": 1660548491144
-    },
-    "110.代数作用/3.线性空间/1.对象/3.对偶空间和对偶基.md": {
-      "wordCount": 25,
-      "pageCount": 1,
-      "characterCount": 180,
-      "createdDate": 1658532264475,
-      "modifiedDate": 1660550308630
-    },
-    "110.代数作用/3.线性空间/1.对象/2.子空间和商空间.md": {
-      "wordCount": 5,
-      "pageCount": 1,
-      "characterCount": 34,
-      "createdDate": 1658560465939,
-      "modifiedDate": 1659249754990
-    },
-    "110.代数作用/3.线性空间/1.对象/1.线性空间与基.md": {
-      "wordCount": 165,
-      "pageCount": 1,
-      "characterCount": 1773,
-      "createdDate": 1658301565203,
-      "modifiedDate": 1660551356863
-    },
-    "110.代数作用/2.模形式/2.同态/2.交换环模的同态.md": {
+    "110.代数作用/2.同态/2.模形式/2.交换环模的同态.md": {
       "wordCount": 13,
       "pageCount": 1,
       "characterCount": 120,
       "createdDate": 1658633068588,
       "modifiedDate": 1659319162803
     },
-    "110.代数作用/2.模形式/2.同态/1.模同态与其性质.md": {
+    "110.代数作用/2.同态/2.模形式/1.模同态与其性质.md": {
       "wordCount": 166,
       "pageCount": 1,
       "characterCount": 2112,
       "createdDate": 1660550495748,
       "modifiedDate": 1660553774337
     },
-    "110.代数作用/2.模形式/1.对象/2.对偶模.md": {
+    "110.代数作用/2.同态/3.线性空间/4.线性映射的QR分解.md": {
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "createdDate": 1660564569542,
+      "modifiedDate": 1660564569542
+    },
+    "110.代数作用/2.同态/3.线性空间/3.初等变换与LU分解.md": {
+      "wordCount": 38,
+      "pageCount": 1,
+      "characterCount": 231,
+      "createdDate": 1660564569542,
+      "modifiedDate": 1660565679625
+    },
+    "110.代数作用/2.同态/3.线性空间/2.基和矩阵表示.md": {
+      "wordCount": 27,
+      "pageCount": 1,
+      "characterCount": 133,
+      "createdDate": 1658559390052,
+      "modifiedDate": 1659249754986
+    },
+    "110.代数作用/2.同态/3.线性空间/1.线性映射与其性质.md": {
+      "wordCount": 21,
+      "pageCount": 1,
+      "characterCount": 104,
+      "createdDate": 1658559463982,
+      "modifiedDate": 1659249754986
+    },
+    "110.代数作用/1.对象/4.群环/1.幺半群环与生成元.md": {
+      "wordCount": 11,
+      "pageCount": 1,
+      "characterCount": 103,
+      "createdDate": 1658631237249,
+      "modifiedDate": 1660567673606
+    },
+    "110.代数作用/1.对象/3.线性空间/4.内积空间与正交基.md": {
+      "wordCount": 26,
+      "pageCount": 1,
+      "characterCount": 266,
+      "createdDate": 1658560465939,
+      "modifiedDate": 1660556289903
+    },
+    "110.代数作用/1.对象/3.线性空间/3.对偶空间和对偶基.md": {
+      "wordCount": 114,
+      "pageCount": 1,
+      "characterCount": 1225,
+      "createdDate": 1658532264475,
+      "modifiedDate": 1660556963153
+    },
+    "110.代数作用/1.对象/3.线性空间/2.子空间和商空间.md": {
+      "wordCount": 5,
+      "pageCount": 1,
+      "characterCount": 34,
+      "createdDate": 1658560465939,
+      "modifiedDate": 1659249754990
+    },
+    "110.代数作用/1.对象/3.线性空间/1.线性空间与基.md": {
+      "wordCount": 165,
+      "pageCount": 1,
+      "characterCount": 1758,
+      "createdDate": 1658301565203,
+      "modifiedDate": 1660575683914
+    },
+    "110.代数作用/1.对象/2.模形式/2.对偶模.md": {
       "wordCount": 30,
       "pageCount": 1,
       "characterCount": 295,
       "createdDate": 1660550477198,
       "modifiedDate": 1660551621272
     },
-    "110.代数作用/2.模形式/1.对象/1.模与其性质.md": {
+    "110.代数作用/1.对象/2.模形式/1.模与其性质.md": {
       "wordCount": 238,
       "pageCount": 1,
       "characterCount": 2840,
       "createdDate": 1658633068588,
       "modifiedDate": 1660551356863
     },
-    "110.代数作用/1.群作用/1.对象/1.群作用.md": {
+    "110.代数作用/1.对象/1.群作用/1.群作用.md": {
       "wordCount": 7,
       "pageCount": 1,
       "characterCount": 41,
       "createdDate": 1659060917183,
       "modifiedDate": 1659249754980
-    },
-    "103.有序算术/2.同态/1.有序环/1.序环同态与同构.md": {
-      "wordCount": 67,
-      "pageCount": 1,
-      "characterCount": 979,
-      "createdDate": 1660311550047,
-      "modifiedDate": 1660312499287
     },
     "103.有序算术/2.同态/1.有序环/2.序环唯一性.md": {
       "wordCount": 155,
@@ -390,6 +390,13 @@
       "characterCount": 1911,
       "createdDate": 1660312500534,
       "modifiedDate": 1660377720621
+    },
+    "103.有序算术/2.同态/1.有序环/1.序环同态与同构.md": {
+      "wordCount": 67,
+      "pageCount": 1,
+      "characterCount": 979,
+      "createdDate": 1660311550047,
+      "modifiedDate": 1660312499287
     },
     "103.有序算术/1.对象/2.有序域/2.实数域.md": {
       "wordCount": 0,
@@ -419,12 +426,12 @@
       "createdDate": 1659087126630,
       "modifiedDate": 1659087126630
     },
-    "102.二元运算×2/1.对象/3.交换环/1.交换环与其性质.md": {
-      "wordCount": 59,
+    "102.二元运算×2/1.对象/4.域/4.复数域与其性质.md": {
+      "wordCount": 28,
       "pageCount": 1,
-      "characterCount": 647,
-      "createdDate": 1659426489032,
-      "modifiedDate": 1660377775913
+      "characterCount": 214,
+      "createdDate": 1658364242117,
+      "modifiedDate": 1660568661932
     },
     "102.二元运算×2/1.对象/4.域/1.域与其基本性质.md": {
       "wordCount": 68,
@@ -432,6 +439,13 @@
       "characterCount": 755,
       "createdDate": 1659198655854,
       "modifiedDate": 1660481203778
+    },
+    "102.二元运算×2/1.对象/3.交换环/1.交换环与其性质.md": {
+      "wordCount": 59,
+      "pageCount": 1,
+      "characterCount": 647,
+      "createdDate": 1659426489032,
+      "modifiedDate": 1660377775913
     },
     "102.二元运算×2/1.对象/2.幺环/3.环的特征数.md": {
       "wordCount": 56,
@@ -496,89 +510,96 @@
       "createdDate": 1656692756347,
       "modifiedDate": 1659597125858
     },
-    "100.二元关系/4.序数/3.Aleph数.md": {
-      "wordCount": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "createdDate": 1656692916166,
-      "modifiedDate": 1656693133314
-    },
-    "100.二元关系/4.序数/2.集合的势.md": {
-      "wordCount": 9,
+    "100.二元关系/1.二元谓词的性质/2.非对称性质.md": {
+      "wordCount": 142,
       "pageCount": 1,
-      "characterCount": 53,
-      "createdDate": 1656693177025,
-      "modifiedDate": 1660480469918
+      "characterCount": 1202,
+      "createdDate": 1660576799714,
+      "modifiedDate": 1660577134931
     },
-    "100.二元关系/3.自同态/1.良序与前段.md": {
+    "100.二元关系/1.二元谓词的性质/1.对称性质.md": {
+      "wordCount": 154,
+      "pageCount": 1,
+      "characterCount": 1258,
+      "createdDate": 1659062573437,
+      "modifiedDate": 1660577117130
+    },
+    "100.二元关系/4.自同态/1.序集/1.良序与前段.md": {
       "wordCount": 7,
       "pageCount": 1,
       "characterCount": 42,
       "createdDate": 1656692916166,
       "modifiedDate": 1660448899711
     },
-    "100.二元关系/2.同态/3.良序同态与良序型.md": {
+    "100.二元关系/3.同态/2.等价/1.商映射.md": {
+      "wordCount": 50,
+      "pageCount": 1,
+      "characterCount": 490,
+      "createdDate": 1659062734616,
+      "modifiedDate": 1660577385165
+    },
+    "100.二元关系/3.同态/1.序集/3.良序同态与良序型.md": {
       "wordCount": 25,
       "pageCount": 1,
       "characterCount": 141,
       "createdDate": 1660480033029,
       "modifiedDate": 1660480234375
     },
-    "100.二元关系/2.同态/1.商映射.md": {
-      "wordCount": 50,
-      "pageCount": 1,
-      "characterCount": 485,
-      "createdDate": 1659062734616,
-      "modifiedDate": 1660463046109
-    },
-    "100.二元关系/2.同态/2.单调映射.md": {
+    "100.二元关系/3.同态/1.序集/2.单调映射.md": {
       "wordCount": 0,
       "pageCount": 0,
       "characterCount": 0,
       "createdDate": 1659062763818,
       "modifiedDate": 1659062763818
     },
-    "100.二元关系/1.对象/6.超穷递归和序数运算.md": {
+    "100.二元关系/2.对象/3.序数/4.Aleph数.md": {
+      "wordCount": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "createdDate": 1656692916166,
+      "modifiedDate": 1656693133314
+    },
+    "100.二元关系/2.对象/3.序数/3.集合的势.md": {
+      "wordCount": 9,
+      "pageCount": 1,
+      "characterCount": 53,
+      "createdDate": 1656693177025,
+      "modifiedDate": 1660480469918
+    },
+    "100.二元关系/2.对象/3.序数/2.超穷递归和序数运算.md": {
       "wordCount": 7,
       "pageCount": 1,
       "characterCount": 46,
       "createdDate": 1660479978713,
       "modifiedDate": 1660480014582
     },
-    "100.二元关系/1.对象/5.序数与其性质.md": {
-      "wordCount": 633,
+    "100.二元关系/2.对象/3.序数/1.序数与其性质.md": {
+      "wordCount": 658,
       "pageCount": 3,
-      "characterCount": 5051,
+      "characterCount": 5287,
       "createdDate": 1656692916166,
-      "modifiedDate": 1660479962900
+      "modifiedDate": 1660577409647
     },
-    "100.二元关系/1.对象/4.全序关系和良序关系.md": {
+    "100.二元关系/2.对象/2.等价/1.等价关系.md": {
+      "wordCount": 49,
+      "pageCount": 1,
+      "characterCount": 550,
+      "createdDate": 1656692382046,
+      "modifiedDate": 1660577369091
+    },
+    "100.二元关系/2.对象/1.序集/2.全序关系和良序关系.md": {
       "wordCount": 64,
       "pageCount": 1,
       "characterCount": 700,
       "createdDate": 1656693646075,
       "modifiedDate": 1660449103630
     },
-    "100.二元关系/1.对象/3.预序集和偏序集.md": {
-      "wordCount": 79,
+    "100.二元关系/2.对象/1.序集/1.预序集和偏序集.md": {
+      "wordCount": 80,
       "pageCount": 1,
-      "characterCount": 832,
+      "characterCount": 864,
       "createdDate": 1659062612477,
-      "modifiedDate": 1660462397715
-    },
-    "100.二元关系/1.对象/2.等价关系.md": {
-      "wordCount": 49,
-      "pageCount": 1,
-      "characterCount": 542,
-      "createdDate": 1656692382046,
-      "modifiedDate": 1660463014348
-    },
-    "100.二元关系/1.对象/1.二元谓词与其性质.md": {
-      "wordCount": 256,
-      "pageCount": 1,
-      "characterCount": 2138,
-      "createdDate": 1659062573437,
-      "modifiedDate": 1660462962487
+      "modifiedDate": 1660577369086
     },
     "002.集合/2.同态/3.Schröder-Bernstein定理.md": {
       "wordCount": 216,
@@ -636,19 +657,19 @@
       "createdDate": 1656679651897,
       "modifiedDate": 1660448547007
     },
-    "001.逻辑/1.真值与真值演算.md": {
-      "wordCount": 150,
-      "pageCount": 1,
-      "characterCount": 1557,
-      "createdDate": 1656601756113,
-      "modifiedDate": 1659597794338
-    },
     "001.逻辑/2.量词和谓词.md": {
       "wordCount": 156,
       "pageCount": 1,
       "characterCount": 1275,
       "createdDate": 1656601756113,
       "modifiedDate": 1660447883766
+    },
+    "001.逻辑/1.真值与真值演算.md": {
+      "wordCount": 150,
+      "pageCount": 1,
+      "characterCount": 1557,
+      "createdDate": 1656601756113,
+      "modifiedDate": 1659597794338
     },
     "000.词法/3.LaTeX参考/1.LaTeX符号表.md": {
       "wordCount": 4,
@@ -664,19 +685,19 @@
       "createdDate": 1659586315215,
       "modifiedDate": 1659597075055
     },
-    "000.词法/2.衍生词法/1.算符词法.md": {
-      "wordCount": 189,
-      "pageCount": 1,
-      "characterCount": 1574,
-      "createdDate": 1659323871642,
-      "modifiedDate": 1659598026382
-    },
     "000.词法/2.衍生词法/2.列表.md": {
       "wordCount": 118,
       "pageCount": 1,
       "characterCount": 1040,
       "createdDate": 1656601977229,
       "modifiedDate": 1659586527459
+    },
+    "000.词法/2.衍生词法/1.算符词法.md": {
+      "wordCount": 189,
+      "pageCount": 1,
+      "characterCount": 1574,
+      "createdDate": 1659323871642,
+      "modifiedDate": 1659598026382
     },
     "000.词法/1.规则/5.符号卫生.md": {
       "wordCount": 13,
@@ -685,19 +706,19 @@
       "createdDate": 1659084626878,
       "modifiedDate": 1659927813219
     },
-    "000.词法/1.规则/4.宏和模式.md": {
-      "wordCount": 101,
-      "pageCount": 1,
-      "characterCount": 600,
-      "createdDate": 1648214302963,
-      "modifiedDate": 1659401849528
-    },
     "000.词法/1.规则/3.语义函数.md": {
       "wordCount": 83,
       "pageCount": 1,
       "characterCount": 692,
       "createdDate": 1656659058935,
       "modifiedDate": 1659539185282
+    },
+    "000.词法/1.规则/4.宏和模式.md": {
+      "wordCount": 101,
+      "pageCount": 1,
+      "characterCount": 600,
+      "createdDate": 1648214302963,
+      "modifiedDate": 1659401849528
     },
     "000.词法/1.规则/2.代数类型.md": {
       "wordCount": 420,
