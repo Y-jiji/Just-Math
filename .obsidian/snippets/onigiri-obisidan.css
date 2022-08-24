@@ -430,3 +430,13 @@ div.mermaid svg {
 mark {
     color: var(--text-normal) !important;
 }
+
+/* config local graph */
+.graph-view.color-fill-focused {
+    color: transparent;
+}
+
+/* config ccard */
+.cute-card-view .thumb-color-folder {
+    background-color: var(--interactive-accent) !important;
+}

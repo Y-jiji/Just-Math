@@ -108,6 +108,8 @@
 \newcommand{\onto}{\mathop{\xrightarrow{\,\tt sur}}}
 \newcommand{\bito}{\mathop{\xleftrightarrow{\,\tt bij}}}
 
+%-- domain --%
+\newcommand{\dom}{\mathop{\tt dom}}
 
 %--------------------------------------------------------------------------------%
 %                                binary relation                                 %
@@ -150,6 +152,14 @@
 \newcommand{\Q}{{\mathbb Q}}
 
 %--------------------------------------------------------------------------------%
+%                               ordered arithmetic                               %
+%--------------------------------------------------------------------------------%
+
+%-- objects --%
+\newcommand{\ordring}{{\tt ordring}}
+\newcommand{\ordfield}{{\tt ordfield}}
+
+%--------------------------------------------------------------------------------%
 %                               algebraic actions                                %
 %--------------------------------------------------------------------------------%
 
@@ -166,7 +176,7 @@
 \newcommand{\linsp}{{\tt linsp}}
 \newcommand{\lindep}{{\tt lindep}}
 \newcommand{\linindep}{{\tt linindep}}
-\newcommand{\dotprodsp}{{\tt dotprodsp}}
+\newcommand{\dotsp}{{\tt dotsp}}
 
 %-- morphisms --%
 %% modular morphism
@@ -177,12 +187,26 @@
 \newcommand{\lintoto}{\xtwoheadrightarrow{\tt lin}}
 
 %--------------------------------------------------------------------------------%
+%                                category theory                                 %
+%--------------------------------------------------------------------------------%
+
+%-- elements of a category --%
+\newcommand{\cat}{{\tt cat}}
+\newcommand{\ob}{{\tt ob}}
+\newcommand{\mor}{{\tt mor}}
+\newcommand{\hom}{{\tt hom}}
+\newcommand{\id}{{\tt id}}
+\newcommand{\circop}{\mathop{\circ}}
+
+%--------------------------------------------------------------------------------%
 %                                 tensor algebra                                 %
 %--------------------------------------------------------------------------------%
 
 %-- exterior product --%
 \newcommand{\exprod}{\mathop{\dot\wedge}}
 \newcommand{\bigexprod}{\mathop{\dot\bigwedge}}
+\newcommand{\tensorprod}[1]{\mathop{\otimes}^{#1}}
+
 
 %--------------------------------------------------------------------------------%
 %                                   morphisms                                    %
@@ -192,3 +216,25 @@
 \newcommand{\img}{\mathop{\tt img}}
 \newcommand{\ker}{\mathop{\tt ker}}
 
+%--------------------------------------------------------------------------------%
+%                          continuity, differentiation                           %
+%--------------------------------------------------------------------------------%
+
+%-- topology --%
+
+%-- topology on linsp --%
+\newcommand{\norm}{{\tt norm}}
+\newcommand{\normsp}{{\tt normsp}}
+
+%--------------------------------------------------------------------------------%
+%                                 measure theory                                 %
+%--------------------------------------------------------------------------------%
+
+%-- set algebra --%
+\newcommand{\sigajbr}{{\tt sigajbr}} % sigma algebra
+\newcommand{\sigex}{{\tt sigex}}     % sigma extension
+\newcommand{\setajbr}{{\tt setajbr}} % set algebra
+\newcommand{\semajbr}{{\tt semajbr}} % semi set algebra
+\newcommand{\lamsys}{{\tt lamsys}}   % lambda system
+\newcommand{\lamex}{{\tt lamex}}     % lambda extension
+\newcommand{\pisys}{{\tt pisys}}     % pi system

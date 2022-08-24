@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6e7a7af3d366d848",
+        "id": "c25297c0705529f2",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "200.连续,微分/1.对象/4.赋范线性空间/1.向量,范数.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -39,8 +43,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "macro",
-                "matchingCase": false,
+                "query": "\\R",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -61,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.0083885192871
+    "width": 375.0083885192871,
+    "collapsed": true
   },
   "right": {
     "id": "0b50c83e6cafecf4",
@@ -70,22 +75,25 @@
       {
         "id": "062fa175788ff391",
         "type": "tabs",
-        "dimension": 48.08429118773947,
+        "dimension": 34.00383141762452,
         "children": [
           {
             "id": "f4af301fc76b09ea",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "200.连续,微分/1.对象/4.赋范线性空间/1.向量,范数.md"
+              }
             }
           },
           {
-            "id": "fda3bccd8471a1f0",
+            "id": "571ccde4f58ca9cd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200.连续,微分/1.对象/4.赋范线性空间/1.向量,范数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,23 +105,23 @@
             }
           },
           {
-            "id": "a325cd17af288c71",
+            "id": "3652b02efa09438d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "file": "200.连续,微分/1.对象/4.赋范线性空间/1.向量,范数.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c42a9a81a3f54c69",
         "type": "tabs",
-        "dimension": 51.91570881226054,
+        "dimension": 65.99616858237547,
         "children": [
           {
             "id": "8ec63d63329a5694",
@@ -121,6 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "200.连续,微分/1.对象/4.赋范线性空间/1.向量,范数.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -131,7 +140,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": true,
                   "showArrow": true,
@@ -143,7 +152,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.9999999999999994,
                   "close": false
                 }
               }
@@ -153,19 +162,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.3333435058594
+    "width": 304.3333435058594,
+    "collapsed": true
   },
-  "active": "8ec63d63329a5694",
+  "active": "c25297c0705529f2",
   "lastOpenFiles": [
-    "210.几何,微分方程/1.对象/1.流形和微分形式/2.切空间和余切空间.md",
-    "210.几何,微分方程/1.对象/1.流形和微分形式/1.单纯形与其运算.md",
-    "203.极值,连续优化/1.对象/1.凸集和凸函数/1.凸集与其性质.md",
-    "111.对象间运算/1.运算/2.线性空间/1.张量和张量积.md",
-    "111.对象间运算/1.运算/2.线性空间/3.张量和多线性代数.md",
-    "111.对象间运算/1.运算/2.线性空间/2.对称,反对称和外积.md",
-    "100.二元关系/1.二元谓词的性质/2.非对称性质.md",
-    "100.二元关系/1.二元谓词的性质/1.对称性质.md",
-    "100.二元关系/2.对象/2.等价/1.等价关系.md",
-    "100.二元关系/3.同态/2.等价/1.商映射.md"
+    "200.连续,微分/1.对象/4.赋范线性空间/2.线性映射,极大范数.md",
+    "200.连续,微分/1.对象/4.赋范线性空间/1.向量,范数.md",
+    "000.词法/2.衍生词法/3.对象词法.md",
+    "000.词法/2.衍生词法/1.算符词法.md",
+    "000.词法/2.衍生词法/2.列表.md",
+    "200.连续,微分/2.同态/4.赋范线性空间/1.可导函数和微分算符.md",
+    "200.连续,微分/1.对象/5.实数集/2.实数的度量.md",
+    "200.连续,微分/1.对象/5.实数集/1.实数的拓扑.md",
+    "100.二元关系/2.对象/3.序数/1.序数与其性质.md",
+    "100.二元关系/2.对象/2.等价/1.等价关系.md"
   ]
 }

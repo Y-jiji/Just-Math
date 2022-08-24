@@ -18,35 +18,35 @@
       "query": "path:/^10.*/",
       "color": {
         "a": 1,
-        "rgb": 12458336
+        "rgb": 16758220
       }
     },
     {
       "query": "path:/(^11.*)|(^12.*)/",
       "color": {
         "a": 1,
-        "rgb": 13592764
+        "rgb": 14440009
       }
     },
     {
       "query": "path:/^20.*/",
       "color": {
         "a": 1,
-        "rgb": 5976271
+        "rgb": 7898170
       }
     },
     {
       "query": "path:/^21.*/",
       "color": {
         "a": 1,
-        "rgb": 6184150
+        "rgb": 11453276
       }
     },
     {
       "query": "path:/^3.*/",
       "color": {
         "a": 1,
-        "rgb": 2978119
+        "rgb": 12756108
       }
     }
   ],
@@ -60,6 +60,6 @@
   "repelStrength": 7.17948717948718,
   "linkStrength": 1,
   "linkDistance": 89,
-  "scale": 0.6346285676930479,
+  "scale": 1.0534979423868103,
   "close": false
 }
