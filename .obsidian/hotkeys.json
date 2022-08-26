@@ -140,8 +140,7 @@
   "obsidian-hotkeys-for-templates:-Math-Block-.md": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
       "key": "M"
     }

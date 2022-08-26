@@ -52,6 +52,21 @@
 \newcommand{\Tok}{{\sf Tok}}
 
 %--------------------------------------------------------------------------------%
+%                                 derived syntax                                 %
+%--------------------------------------------------------------------------------%
+
+%-- the 'at' marked ops --%
+\newcommand{\astat}[1]{\mathop{\ast}^{@ #1}}
+\newcommand{\plusat}[1]{\mathop{+}^{@ #1}}
+\newcommand{\subat}[1]{\mathop{-}^{@ #1}}
+\newcommand{\cdotat}[1]{\mathop{\cdot}^{@ #1}}
+\newcommand{\divat}[1]{\mathop{/}^{@ #1}}
+\newcommand{\leat}[1]{\mathop{\le}^{@ #1}}
+\newcommand{\geat}[1]{\mathop{\ge}^{@ #1}}
+\newcommand{\ltat}[1]{\mathop{<}^{@ #1}}
+\newcommand{\gtat}[1]{\mathop{>}^{@ #1}}
+
+%--------------------------------------------------------------------------------%
 %                                     logic                                      %
 %--------------------------------------------------------------------------------%
 
@@ -142,7 +157,7 @@
 \newcommand{\rational}{{\tt rational}}
 \newcommand{\real}{{\tt real}}
 \newcommand{\complex}{{\tt complex}}
-\newcommand{\fract}{{\tt fract}}          % a constructive method
+\newcommand{\fracring}{{\tt fracring}}          % a constructive method
 
 %-- standard notations --%
 \newcommand{\N}{{\mathbb N}}
@@ -158,6 +173,13 @@
 %-- objects --%
 \newcommand{\ordring}{{\tt ordring}}
 \newcommand{\ordfield}{{\tt ordfield}}
+
+%-- morphisms --%
+\newcommand{\embreal}{{\tt embreal}}
+\newcommand{\embrational}{{\tt embrational}}
+
+%-- constructions --%
+\newcommand{\orderize}{{\tt orderize}}
 
 %--------------------------------------------------------------------------------%
 %                               algebraic actions                                %

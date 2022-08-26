@@ -1,7 +1,8 @@
 {
   "files": [
     "-YAML-.md",
-    "-Line-Break-.md"
+    "-Line-Break-.md",
+    "-Math-Block-.md"
   ],
   "templaterFiles": [],
   "newFileTemplates": [],
