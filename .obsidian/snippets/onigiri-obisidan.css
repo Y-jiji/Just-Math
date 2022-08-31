@@ -128,11 +128,15 @@
 
 .HyperMD-quote {
     border-left: 1px solid var(--text-faint) !important;
+    padding-top: 0.01rem !important;
+    padding-bottom: 0.01rem !important;
 }
 
 blockquote {
     border: 0 !important;
     border-left: 1px solid var(--text-faint) !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 /* config viewer title */
