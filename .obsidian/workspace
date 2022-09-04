@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "203.极值,优化/3.方法/2.对偶问题/3.Kurash-Kuhn-Tucker条件.md",
+            "file": "001.逻辑/4.多元谓词演算示例.md",
             "mode": "source",
             "source": false
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "203.极值,优化/3.方法/2.对偶问题/3.Kurash-Kuhn-Tucker条件.md"
+                "file": "001.逻辑/4.多元谓词演算示例.md"
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "203.极值,优化/3.方法/2.对偶问题/3.Kurash-Kuhn-Tucker条件.md",
+                "file": "001.逻辑/4.多元谓词演算示例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "203.极值,优化/3.方法/2.对偶问题/3.Kurash-Kuhn-Tucker条件.md",
+                "file": "001.逻辑/4.多元谓词演算示例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "203.极值,优化/3.方法/2.对偶问题/3.Kurash-Kuhn-Tucker条件.md",
+                "file": "001.逻辑/4.多元谓词演算示例.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,15 +167,15 @@
   },
   "active": "2e878954ca4e3406",
   "lastOpenFiles": [
+    "203.极值,优化/1.对象/1.凸集/1.凸集与其性质.md",
+    "203.极值,优化/1.对象/2.线性偏序/1.线性偏序与其性质.md",
+    "203.极值,优化/1.对象/1.凸集/2.分离和支持超平面.md",
+    "211.概率,统计/1.对象/1.概率空间/1.概率测度.md",
+    "203.极值,优化/2.同态/2.凸函数/1.凸函数与次梯度.md",
+    "203.极值,优化/3.方法/2.对偶问题/3.Kurash-Kuhn-Tucker条件.md",
     "203.极值,优化/3.方法/2.对偶问题/2.Slater条件.md",
     "203.极值,优化/3.方法/1.约束条件转化/Untitled.md",
     "200.连续,微分/1.对象/1.拓扑/4.拓扑子空间.md",
-    "200.连续,微分/1.对象/1.拓扑/3.拓扑基,下拓扑基.md",
-    "200.连续,微分/1.对象/1.拓扑/2.拓扑空间与紧集.md",
-    "200.连续,微分/1.对象/1.拓扑/1.拓扑空间与开集.md",
-    "200.连续,微分/1.对象/2.度量/1.度量空间与开集.md",
-    "200.连续,微分/1.对象/2.度量/2.度量空间与紧集.md",
-    "200.连续,微分/1.对象/3.拓扑线性空间/1.线性拓扑.md",
-    "200.连续,微分/1.对象/4.赋范线性空间/2.线性映射,极大范数.md"
+    "200.连续,微分/1.对象/1.拓扑/3.拓扑基,下拓扑基.md"
   ]
 }
