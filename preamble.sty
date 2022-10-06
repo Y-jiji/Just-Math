@@ -100,6 +100,7 @@ e
 
 %-- set type --%
 \newcommand{\Set}[1]{{\sf Set}\type{#1}}
+\newcommand{\SetOf}[1]{{\sf SetOf}\type{#1}}
 
 %-- set ops --%
 \newcommand{\sube}{\subseteq}
@@ -134,6 +135,8 @@ e
 \newcommand{\cardinal}{{\tt cardinal}}
 \newcommand{\enum}{{\tt enum}}
 \newcommand{\card}{\mathop{\tt card}}  % cardinality of a set
+\newcommand{\limsup}{\mathop{\varlimsup}}
+\renewcommand{\liminf}{\mathop{\varliminf}}
 
 %-- ordering --%
 \newcommand{\partord}{{\tt partord}}
@@ -152,7 +155,10 @@ e
 \newcommand{\comgrp}{{\tt comgrp}}
 
 %-- ordered objects --%
-\newcommand{\ordcomgrp}{{\tt ordcomgrp}}
+\newcommand{\pordgrp}{{\tt pordgrp}}         % partially ordered group
+\newcommand{\ordgrp}{{\tt ordgrp}}           % ordered group
+\newcommand{\pordcomgrp}{{\tt pordcomgrp}}   % partially ordered commutative group
+\newcommand{\ordcomgrp}{{\tt ordcomgrp}}     % ordered commutative group
 
 %--------------------------------------------------------------------------------%
 %                              binary operation * 2                              %
@@ -183,6 +189,8 @@ e
 %-- objects --%
 \newcommand{\ordring}{{\tt ordring}}
 \newcommand{\ordfield}{{\tt ordfield}}
+\newcommand{\ordcomring}{{\tt ordcomring}}
+\newcommand{\pordcomring}{{\tt pordcomring}}       % partially ordered commuting ring
 
 %-- morphisms --%
 \newcommand{\embreal}{{\tt embreal}}
@@ -253,8 +261,8 @@ e
 %--------------------------------------------------------------------------------%
 
 %-- topology --%
-\newcommand{\topo}{{\tt topo}}
-\newcommand{\topsp}{{\tt topsp}}
+\newcommand{\topo}{{\tt topo}}                  % topology
+\newcommand{\haussp}{{\tt haus}}                % hausdoff topology
 \newcommand{\topbasis}{{\tt topbasis}}
 \newcommand{\topsubbasis}{{\tt topsubbasis}}
 
@@ -286,17 +294,16 @@ e
 \newcommand{\lamex}{{\tt lamex}}     % lambda extension
 \newcommand{\pisys}{{\tt pisys}}     % pi system
 
-%-- measure space --%
-\newcommand{\msrsp}{{\tt msrsp}}       % general(abstract) measure space
-\newcommand{\exmsrsp}{{\tt exmsrsp}}   % exterior measure space
-\newcommand{\pmsrsp}{{\tt pmsrsp}}     % positive measure space
-\newcommand{\rmsrsp}{{\tt rmsrsp}}     % real(signed) measure space
-\newcommand{\cmsrsp}{{\tt cmsrsp}}     % complex values measure space
-\newcommand{\borelsp}{{\tt borelsp}}   % borel measure space
+%-- measure --%
+\newcommand{\msrto}{\xrightarrow{\tt msr}}              % measure to an ordered commutative group
+\newcommand{\sigfinite}{\xrightarrow{\tt sigfinite}}    % sigma finite measure
+\newcommand{\exmsrto}{\xrightarrow{\tt exmsr}}          % exterior measure to an ordered commutative group
+\newcommand{\msrtoto}{\xtwoheadrightarrow{\tt msr}}     % a space of measures to an ordered commutative group
+\newcommand{\hahn}{{\tt hahn}}                          % hahn decomposition
 
-%-- measurable maps --%
-\newcommand{\msrto}{\xrightarrow{\tt msr}}
-\newcommand{\msrtoto}{\xtwoheadrightarrow{\tt msr}}
+%-- measurable function / sigma function --%
+\newcommand{\sigto}{\xrightarrow{\tt sig}}
+
 
 %--------------------------------------------------------------------------------%
 %                               probability theory                               %
