@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1ed65e72dbe96abe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001.逻辑/1.真值与真值演算 (SYSTEM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3c79035bc654cf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "001.逻辑/2.量词和谓词(SYSTEM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md"
+                "file": "001.逻辑/2.量词和谓词(SYSTEM).md"
               }
             }
           },
@@ -101,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+                "file": "001.逻辑/2.量词和谓词(SYSTEM).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+                "file": "001.逻辑/2.量词和谓词(SYSTEM).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+                "file": "001.逻辑/2.量词和谓词(SYSTEM).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,17 +202,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "adecf2a56e0e8057",
+  "active": "d3c79035bc654cf8",
   "lastOpenFiles": [
-    "001.逻辑/2.量词和谓词.md",
-    "001.逻辑/1.真值与真值演算.md",
+    "001.逻辑/1.真值与真值演算 (SYSTEM).md",
+    "001.逻辑/2.量词和谓词(SYSTEM).md",
     "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
-    "002.集合/1.对象/2.元组和Cartesian积.md",
-    "002.集合/1.对象/1.朴素集合与其运算.md",
-    "002.集合/2.同态/3.Schröder-Bernstein定理.md",
-    "002.集合/2.同态/2.特殊性质的映射.md",
-    "002.集合/2.同态/1.映射与其运算.md",
+    "001.逻辑/3.真值演算的块记法.md",
+    "000.词法/1.规则/6.等号.md",
+    "000.词法/1.规则/5.符号卫生.md",
+    "000.词法/1.规则/4.宏和模式.md",
     "000.词法/1.规则/3.语义函数.md",
-    "000.词法/1.规则/2.代数类型.md"
+    "000.词法/1.规则/2.代数类型.md",
+    "000.词法/3.常用宏和类型/1.常用宏(SYSTEM).md"
   ]
 }
