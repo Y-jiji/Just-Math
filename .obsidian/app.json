@@ -6,7 +6,7 @@
   "readableLineLength": false,
   "legacyEditor": false,
   "showFrontmatter": false,
-  "defaultViewMode": "source",
+  "defaultViewMode": "preview",
   "livePreview": true,
   "autoPairBrackets": true,
   "autoPairMarkdown": false,
@@ -27,5 +27,6 @@
   },
   "newFileLocation": "current",
   "newLinkFormat": "absolute",
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": false
 }

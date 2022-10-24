@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "translucency": true,
   "theme": "system",
   "enabledCssSnippets": [
@@ -7,5 +7,7 @@
     "onigiri-obisidan"
   ],
   "cssTheme": "",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "accentColor": "",
+  "showViewHeader": true
 }

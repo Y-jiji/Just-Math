@@ -16,18 +16,14 @@
 %                                    keywords                                    %
 %--------------------------------------------------------------------------------%
 
-\newcommand{\data}{{\rm data}}
-\newcommand{\cons}{{\rm cons}}
-\newcommand{\atom}{{\rm atom}}
+\newcommand{\type}[2]{{\rm type: \mathtt{#1}:=\mathtt{#2}}} % define type
+\newcommand{\inst}{{\rm inst}} % define instance
+\newcommand{\macr}{{\rm macr}} % define macro
 
-\newcommand{\macro}{{\rm macro}}
-
-\newcommand{\meta}{{\rm meta}}
-\newcommand{\fn}{{\rm fn}}
-\newcommand{\cls}{{\rm cls}}
+\newcommand{\=}{\mathop{\rm =}}
 
 \newcommand{\param}{\sharp}
-\newcommand{\type}[1]{\text<{#1}\text>}
+\newcommand{\oftype}[1]{\text<\mathtt{#1}\text>}
 
 %--------------------------------------------------------------------------------%
 %                                 literal types                                  %
@@ -43,7 +39,7 @@
 %--------------------------------------------------------------------------------%
 
 %-- list type --%
-\newcommand{\List}[1]{{\sf List}\type{#1}}
+\newcommand{\List}[1]{{\sf List}\oftype{#1}}
 \newcommand{\Cons}{{\tt Cons}}
 \newcommand{\Nil}{{\tt Nil}}
 \newcommand{\ls}{{\tt ls}}
@@ -71,12 +67,9 @@ e
 %--------------------------------------------------------------------------------%
 
 %-- boolean type --%
-\newcommand{\Bool}{{\sf Bool}}
+\newcommand{\Bool}{{\tt Bool}}
 \newcommand{\True}{{\tt True}}
 \newcommand{\False}{{\tt False}}
-
-%-- proposition type --%
-\newcommand{\Proposition}{{\sf Proposition}}
 
 %-- arrow short hands --%
 \newcommand{\Larrow}{\Leftarrow}
@@ -92,24 +85,22 @@ e
 \newcommand{\or}{\vee}
 
 %-- quantifier --%
-\newcommand{\exist}{\exists}
+\newcommand{\unique}{\mathtt{\exists!}}
 
 %--------------------------------------------------------------------------------%
 %                                      set                                       %
 %--------------------------------------------------------------------------------%
 
 %-- set type --%
-\newcommand{\Set}[1]{{\sf Set}\type{#1}}
-\newcommand{\SetOf}[1]{{\sf SetOf}\type{#1}}
+\newcommand{\Set}{{\tt Set}}
+\newcommand{\SetOf}{{\tt SetOf}}
 
 %-- set ops --%
 \newcommand{\sube}{\subseteq}
 \newcommand{\sub}{\subset}
 \newcommand{\supe}{\supseteq}
 \newcommand{\pow}{\wp}
-\newcommand{\zfc}{{\tt zfc}}
-
-
+\newcommand{\ZFC}{{\tt ZFC}}
 %--------------------------------------------------------------------------------%
 %                                      map                                       %
 %--------------------------------------------------------------------------------%
@@ -125,7 +116,11 @@ e
 \newcommand{\bito}{\mathop{\xleftrightarrow{\,\tt bij}}}
 
 %-- domain --%
-\newcommand{\dom}{\mathop{\tt dom}}
+\newcommand{\dom}{{\tt dom}}
+\newcommand{\push}{{\tt push}}
+\newcommand{\pull}{{\tt pull}}
+\newcommand{\mapcut}{{\tt mapcut}}
+
 
 %--------------------------------------------------------------------------------%
 %                                binary relation                                 %

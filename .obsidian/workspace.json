@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "5839d1894b863ee1",
+    "type": "split",
+    "children": [
+      {
+        "id": "65cc1f5cda0a79b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adecf2a56e0e8057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "81e4f3b30f3b2c4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "19106cf0ed77d8d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbbce80780e73c0c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bb3fffbdc482e729",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "偏序",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4272f3442ed99be7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.0083885192871,
+    "collapsed": true
+  },
+  "right": {
+    "id": "0b50c83e6cafecf4",
+    "type": "split",
+    "children": [
+      {
+        "id": "062fa175788ff391",
+        "type": "tabs",
+        "dimension": 39.493433395872415,
+        "children": [
+          {
+            "id": "f4af301fc76b09ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md"
+              }
+            }
+          },
+          {
+            "id": "571ccde4f58ca9cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3652b02efa09438d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "c42a9a81a3f54c69",
+        "type": "tabs",
+        "dimension": 60.50656660412758,
+        "children": [
+          {
+            "id": "8ec63d63329a5694",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.9999999999999994,
+                  "close": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.3333435058594,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "adecf2a56e0e8057",
+  "lastOpenFiles": [
+    "002.集合/1.对象/2.元组和Cartesian积.md",
+    "002.集合/1.对象/1.ZFC公理系统(SYSTEM).md",
+    "002.集合/1.对象/1.朴素集合与其运算.md",
+    "002.集合/2.同态/3.Schröder-Bernstein定理.md",
+    "002.集合/2.同态/2.特殊性质的映射.md",
+    "002.集合/2.同态/1.映射与其运算.md",
+    "001.逻辑/1.真值与真值演算.md",
+    "000.词法/1.规则/3.语义函数.md",
+    "000.词法/1.规则/2.代数类型.md",
+    "000.词法/1.规则/5.符号卫生.md"
+  ]
+}

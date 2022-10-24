@@ -3,7 +3,7 @@
 }
 
 .theme-light {
-    --background-primary: rgb(253, 253, 253);
+    --background-primary: rgba(255, 255, 255, 0.5) !important;
     --background-primary-alt: rgb(253, 253, 253);
     --background-secondary: rgb(253, 253, 253);
     --background-secondary-alt: rgb(253, 253, 253);
@@ -45,6 +45,8 @@
 }
 
 .theme-dark {
+    --background-primary: rgba(70, 70, 70, 0.275
+    );
     --text-normal: rgb(255, 255, 255);
     --custom-graph-component-color: rgb(120, 120, 120);
     --custom-graph-component-color-highlight: rgba(111, 86, 148, 0.719);
@@ -118,12 +120,16 @@
 
 /* padding markdown file, for both preview and live preview */
 
+.markdown-preview-sizer, 
+.cm-sizer {
+    min-width: 60vw;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .cm-contentContainer,
 .markdown-preview-sizer.markdown-preview-section {
-    max-width: 1024px;
     text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .HyperMD-quote {
@@ -443,4 +449,20 @@ mark {
 /* config ccard */
 .cute-card-view .thumb-color-folder {
     background-color: var(--interactive-accent) !important;
+}
+
+.workspace-tab-header-container {
+    display: none;
+}
+
+.horizontal-tab-content, .vertical-tab-content, .vertical-tab-content-container {
+    background-color: rgb(60, 60, 60) !important;
+}
+
+.workspace-leaf-content {
+    background-color: var(--background-primary);
+}
+
+.titlebar {
+    display: none;
 }
