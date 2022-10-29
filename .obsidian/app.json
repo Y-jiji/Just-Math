@@ -27,6 +27,6 @@
   },
   "newFileLocation": "current",
   "newLinkFormat": "absolute",
-  "promptDelete": false,
-  "showInlineTitle": false
+  "promptDelete": true,
+  "showInlineTitle": true
 }

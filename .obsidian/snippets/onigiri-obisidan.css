@@ -1,5 +1,11 @@
 :root {
     --default-font: 'Mplus 1p Light';
+    --bold-font: 'Mplus 1p Regular';
+}
+
+.inline-title {
+    font-family: var(--default-font);
+    font-weight: lighter;
 }
 
 .theme-light {
